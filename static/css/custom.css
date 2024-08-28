@@ -41,6 +41,13 @@ article {
 	padding: var(--default-padding);
 }
 
+a {
+	color: mediumseagreen;
+}
+a:visited {
+	color: forestgreen;
+}
+
 nav#nextprev ul {
 	justify-content: space-between;
 }
