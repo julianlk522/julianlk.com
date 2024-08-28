@@ -1,0 +1,35 @@
+baseURL = 'https://example.com'
+languageCode = 'en-us'
+title = 'JLK site'
+theme = 'lugo'
+
+[params]
+description = "JLK Personal website"
+listDataFormat = '2 Jan 2006'
+
+homeIntroContent = """
+Thank you for visiting the personal website of Julian Lindsay-Kaufman. Here you will find writings and compilations of various kinds.
+"""
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/julian-lindsay-kaufman-b73292303/"
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[menus]
+    [[menus.main]]
+        name = 'Home'
+        pageRef = '/'
+        weight = '10'
+    [[menus.main]]
+        name = 'About'
+        pageRef = '/about'
+        weight = '20'
+    [[menus.main]]
+        name = 'Contact'
+        pageRef = '/contact'
+        weight = '30'
+    

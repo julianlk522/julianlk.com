@@ -1,0 +1,49 @@
+html {
+	--default-padding: 1rem 0;
+}
+
+body {
+	font-family: sans-serif;
+	background: black;
+	color: #eee;
+}
+
+main {
+	max-width: 800px;
+	margin: auto;
+	padding: var(--default-padding);
+}
+
+nav ul {
+	display: flex;
+	gap: 5px;
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+
+h1,
+footer,
+.taglist {
+	text-align: center;
+}
+
+article {
+	padding: var(--default-padding);
+}
+
+nav#nextprev ul {
+	justify-content: space-between;
+}
+#nextprev #next {
+	text-align: right;
+}

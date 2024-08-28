@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+<h2>Rankings</h2>
+{{ $rankings := sort (sort .Site.Data.megatier.rankings "name" "asc") "score"
+"desc" }}
+<ul>
+	{{ range $rankings }}
+	<li>{{ .name }} - {{ .score }}/10</li>
+	{{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,61 @@
+rankings:
+    - name: 'Bahama Mama Gfuel'
+      score: 9.5
+    - name: 'Tim Ferriss'
+      score: 9.3
+    - name: 'Wikipedia'
+      score: 9
+    - name: 'PG'
+      score: 8.8
+    - name: 'Google'
+      score: 5
+    - name: 'TD Ameritrade'
+      score: 6.5
+    - name: 'Venetian Snares'
+      score: 8.5
+    - name: 'Water'
+      score: 10
+    - name: 'UMvC3'
+      score: 9.9
+    - name: 'Sneha'
+      score: 10
+    - name: 'Dogs'
+      score: 9
+    - name: 'Cats'
+      score: 7.9
+    - name: 'Cookout'
+      score: 6.9
+    - name: 'Popeyes'
+      score: 7.7
+    - name: 'HIIT sprints'
+      score: 6.5
+    - name: 'Golang'
+      score: 7.3
+    - name: 'NextJS'
+      score: 5
+    - name: 'AstroJS'
+      score: 8.5
+    - name: 'Poop'
+      score: 7
+    - name: 'Reaction videos'
+      score: 0
+    - name: 'Python'
+      score: 8.7
+    - name: 'JavaScript'
+      score: 5.9
+    - name: 'TypeScript'
+      score: 6.8
+    - name: 'YouTube'
+      score: 9.2
+    - name: 'Necrophagist'
+      score: 8.9
+    - name: 'Meshuggah'
+      score: 7.5
+    - name: 'New York City'
+      score: 4
+    - name: 'Chapel Hill'
+      score: 6.5
+    - name: 'Gratitude'
+      score: 9.7
+    - name: 'Rage'
+      score: 3
