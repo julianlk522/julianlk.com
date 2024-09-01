@@ -2,7 +2,7 @@
 title = 'Megatier'
 layout = 'megatier'
 date = 2024-08-15T04:48:14-04:00
-draft = true
+draft = false
 +++
 
 #### or... a lot of things, at least

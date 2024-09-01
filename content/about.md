@@ -1,7 +1,7 @@
 +++
 title = 'About'
 date = 2024-08-09T14:54:20-04:00
-draft = true
+draft = false
 +++
 
 <img

@@ -1,7 +1,7 @@
 +++
 title = 'Heroes'
 date = 2024-08-09T16:06:20-04:00
-draft = true
+draft = false
 +++
 
 This page is an open letter of gratitude to some of my favorite people ever. For a handful of reasons, I really admire everyone here and they have significantly influenced my hopes and dreams.

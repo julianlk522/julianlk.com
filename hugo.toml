@@ -1,4 +1,4 @@
-baseURL = 'https://julianlk.com'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'JLK site'
 theme = 'lugo'
@@ -13,10 +13,6 @@ listDataFormat = '2 Jan 2006'
 homeIntroContent = """
 Thank you for visiting the personal website of Julian Lindsay-Kaufman. Here you will find writings and compilations of various kinds.
 """
-
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/julian-lindsay-kaufman-b73292303/"
 
 [[params.menu]]
 name = "home"

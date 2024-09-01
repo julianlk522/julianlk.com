@@ -1,7 +1,7 @@
 +++
 title = 'Tech'
 date = 2024-08-31T23:34:03-04:00
-draft = true
+draft = false
 +++
 
 ## Learning / Practicing Now

@@ -1,3 +1,6 @@
 _*
+!/content/
+!/themes/lugo/layouts/_default
 /public/
+/resources/
 .hugo_build.lock

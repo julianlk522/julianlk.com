@@ -1,7 +1,7 @@
 +++
 title = 'Contact'
 date = 2024-08-28T13:53:18-04:00
-draft = true
+draft = false
 +++
 
 -   [Email](mailto:jxl1729@miami.edu)
