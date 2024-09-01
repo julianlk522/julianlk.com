@@ -1,10 +1,10 @@
 rankings:
-    - name: 'Bahama Mama Gfuel'
+    - name: 'bahama mama Gfuel'
       score: 9.5
     - name: 'Tim Ferriss'
       score: 9.3
     - name: 'Wikipedia'
-      score: 9
+      score: 9.5
     - name: 'PG'
       score: 8.8
     - name: 'Google'
@@ -13,16 +13,16 @@ rankings:
       score: 6.5
     - name: 'Venetian Snares'
       score: 8.5
-    - name: 'Water'
+    - name: 'water'
       score: 10
     - name: 'UMvC3'
       score: 9.9
     - name: 'Sneha'
       score: 10
-    - name: 'Dogs'
+    - name: 'dogs'
       score: 9
-    - name: 'Cats'
-      score: 7.9
+    - name: 'cats'
+      score: 8.1
     - name: 'Cookout'
       score: 6.9
     - name: 'Popeyes'
@@ -32,12 +32,12 @@ rankings:
     - name: 'Golang'
       score: 7.3
     - name: 'NextJS'
-      score: 5
+      score: 6
     - name: 'AstroJS'
-      score: 8.5
-    - name: 'Poop'
-      score: 7
-    - name: 'Reaction videos'
+      score: 8.4
+    # - name: 'Poop'
+    #   score: 7
+    - name: 'reaction videos'
       score: 0
     - name: 'Python'
       score: 8.7
@@ -48,14 +48,106 @@ rankings:
     - name: 'YouTube'
       score: 9.2
     - name: 'Necrophagist'
-      score: 8.9
+      score: 9
     - name: 'Meshuggah'
       score: 7.5
     - name: 'New York City'
       score: 4
     - name: 'Chapel Hill'
       score: 6.5
-    - name: 'Gratitude'
-      score: 9.7
-    - name: 'Rage'
+    - name: 'gratitude'
+      score: 9.8
+    - name: 'rage'
       score: 3
+    - name: 'telescope.nvim'
+      score: 9.4
+    - name: 'Clean Code by Robert Martin'
+      score: 5.9
+    - name: 'Anki'
+      score: 8
+    - name: 'Obsidian (markdown editor)'
+      score: 8.3
+    - name: 'VS Code'
+      score: 8.2
+    - name: 'LG Gram 15.6" Intel i7 16GB 512GB laptop'
+      score: 8.8
+    - name: 'Figma'
+      score: 9
+    - name: 'AutoHotkey'
+      score: 7.9
+    - name: 'airports'
+      score: 1
+    - name: 'Vim'
+      score: 8.5
+    - name: 'Neovim'
+      score: 8.9
+    - name: 'photography'
+      score: 6
+    - name: 'Austin Powers trilogy'
+      score: 9.6
+    - name: 'Greek yogurt'
+      score: 9.4
+    - name: 'RSS'
+      score: 8
+    - name: 'Notion (note-taking app)'
+      score: 7
+    - name: 'bookmarklets'
+      score: 6.8
+    - name: 'Netlify'
+      score: 9
+    - name: 'Railway.app'
+      score: 8
+    - name: 'Linode (Akamai)'
+      score: 8.8
+    - name: 'the Olympics'
+      score: 7.5
+    - name: 'bucket hats'
+      score: 8.4
+    - name: 'TailwindCSS'
+      score: 7.5
+    - name: 'HackerNews'
+      score: 9.7
+    - name: 'trading (speculative investment)'
+      score: 7
+    - name: 'October'
+      score: 3
+    - name: 'November'
+      score: 2
+    - name: 'April'
+      score: 8
+    - name: 'May (month)'
+      score: 9
+    - name: 'James Brown'
+      score: 9
+    - name: 'pickled onions'
+      score: 8
+    - name: 'Ron Jarzombek'
+      score: 9.2
+    - name: 'waking up early'
+      score: 2
+    - name: 'late night coding'
+      score: 8.5
+    - name: 'Jaco Pastorius'
+      score: 8.4
+    - name: 'Discord'
+      score: 7.5
+    - name: 'IFC Yipes commentary'
+      score: 9.6
+    - name: 'An Endless Sporadic'
+      score: 8.3
+    - name: 'Chrome DevTools'
+      score: 8
+    - name: 'MIT Open CourseWare'
+      score: 7.7
+    - name: 'ragdoll physics'
+      score: 9.1
+    - name: 'Mark Lettieri'
+      score: 8.8
+    - name: 'TED Talks'
+      score: 7.2
+    - name: 'hayd3nplz combos'
+      score: 9.8
+    - name: 'shader art'
+      score: 9.1
+    - name: 'Khan Academy'
+      score: 8.2

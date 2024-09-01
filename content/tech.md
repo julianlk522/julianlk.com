@@ -1,12 +1,30 @@
 +++
-title = 'Thoughts on Tech That I Have Used'
+title = 'Tech'
 date = 2024-08-31T23:34:03-04:00
 draft = true
 +++
 
+## Learning / Practicing Now
+
+-   [Bruno API debugger](https://www.usebruno.com/) (minimal open-source Postman alternative)
+-   Neovim (and Vim commands)
+-   intermediate / advanced Git
+    -   rebase, cherry-pick, bisect, submodule, etc.
+-   Go
+-   [Hugo](https://gohugo.io/) SSG
+-   SQLite
+
+## To Learn Soon
+
+-   Redis
+-   a purely functional programming language
+    -   tentative considerations: Elixir, Haskell, Lisp
+
+## Thoughts on Tech That I Have Used
+
 There is still a lot I don't know about these. If I get something wrong, please [let me know](../contact/)!
 
-## Programming Languages
+### Programming Languages
 
 #### Go
 
@@ -42,6 +60,17 @@ Cons:
 -   `if err != nil {}` everywhere
     -   but `try/catch` blocks aren't great either and they lead to more nesting, so not sure how I feel about this
 
+#### Lua
+
+Pros:
+
+-   simple types
+-   not many (21) keywords
+
+Cons:
+
+-   1-indexed (¬_¬")
+
 #### Python
 
 Pros:
@@ -53,15 +82,16 @@ Pros:
 Cons:
 
 -   no pointer variables limits low-level operations
--   lil bit slow
 -   dynamic typing
-    -   less safety / poor DX developing your own codebase
+    -   less safety / poorer DX developing in a non-typed codebase
+-   indentation slightly harder to read / debug than `{}` blocks
+-   lil bit slow
 
 #### JavaScript
 
 Pros:
 
--   there's a package for everything
+-   a package for everything
 -   DOM API is intuitive
 
 Cons:
@@ -74,7 +104,7 @@ Cons:
     -   `{}+[] // 0`
     -   etc.
 
-## Other Software
+### Other Software
 
 #### Wezterm (terminal emulator)
 
@@ -90,11 +120,11 @@ Pros:
 Cons:
 
 -   error messages are not always helpful
--   steep learning curve, I think
+-   steep learning curve, in my opinion
     -   subtle nuances that can be hard to debug
-        -   `_index.md` vs `index.md`
+        -   `_index.md` list page vs `index.md` regular page
         -   template lookup order
-    -   many terms to understand
+    -   jargon-heavy
         -   template
         -   layout
         -   partial
@@ -105,4 +135,4 @@ Cons:
 
 -   actually amazing. I would love to use this more for real network engineering.
 -   intimidating UI at first glance
--   download page is somewhat hidden
+-   download page is somewhat hidden away

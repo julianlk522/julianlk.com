@@ -1,14 +1,14 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1>Mega Tier List of Everything I Can Think Of</h1>
 
 {{ .Content }}
 
 <h2>Rankings</h2>
 {{ $rankings := sort (sort .Site.Data.megatier.rankings "name" "asc") "score"
 "desc" }}
-<ul>
+<ol>
 	{{ range $rankings }}
 	<li>{{ .name }} - {{ .score }}/10</li>
 	{{ end }}
-</ul>
+</ol>
 {{ end }}
