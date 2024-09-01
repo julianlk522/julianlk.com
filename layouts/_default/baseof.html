@@ -36,20 +36,6 @@
 				{{ block "main" . }} {{ .Content }} {{ end }} {{ if .Param
 				"taglist" }}{{ partial "taglist.html" . }}{{ end -}}
 			</article>
-			{{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
 		</main>
-		{{ block "footer" . }}
-		<footer>
-			{{- if .Param "showrss" }}
-			<a href="/index.xml">
-				<img
-					src="/rss.svg"
-					title="Subscribe via RSS"
-					alt="RSS Feed"
-					style="height: 24px"
-				/> </a
-			>{{ end }}
-		</footer>
-		{{ end }}
 	</body>
 </html>

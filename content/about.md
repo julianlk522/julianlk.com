@@ -4,13 +4,21 @@ date = 2024-08-09T14:54:20-04:00
 draft = true
 +++
 
-My name is Julian Lindsay-Kaufman.
+<img
+	src="../lil_jlk.JPG"
+	height="250"
+    alt='Julian baby pic'
+/>
 
-I am interested in many things. Right now mostly:
+I'm Julian Lindsay-Kaufman. Nice to meet you!
 
--   Launching FITM
--   Decking out this website
+I have many interests. Right now mostly:
 
-My goal with these projects is to help people find amazing sources online and to help myself and others connect over shared interests.
+-   Launching [FITM](https://fitm.online) and filling it with Internet treasure that everyone should be able to easily find.
+-   Decking out this website, particularly:
+    -   [Heroes](../heroes/)
+    -   [Tech Ratings](../tech/)
+
+My goal with current projects has been to help people find amazing sources online and to help myself and others connect over mutual fascinations.
 
 For fun, I play a lot of UMvC3. I also like listening to podcasts, struggling with the guitar, reading nonfiction, cooking worldly foods, and spending quality time with my girlfriend, Sneha, and our 2 wonderful cats, Kulfi and Jamun.

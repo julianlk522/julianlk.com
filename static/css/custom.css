@@ -48,9 +48,6 @@ a:visited {
 	color: forestgreen;
 }
 
-nav#nextprev ul {
-	justify-content: space-between;
-}
-#nextprev #next {
-	text-align: right;
+code {
+	background-color: midnightblue;
 }

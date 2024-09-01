@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'JLK site'
 theme = 'lugo'
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
 [params]
 description = "JLK Personal website"
 listDataFormat = '2 Jan 2006'

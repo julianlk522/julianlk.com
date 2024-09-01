@@ -1,0 +1,27 @@
+{{ define "title" }}{{ "Home" }}{{ end }} {{ define "main" }} {{ .Content }}
+
+<h2>Pages</h2>
+<ul>
+	{{- $mainMenuPageLinks := slice }} {{- range .Site.Menus.main }} {{-
+	$mainMenuPageLinks = $mainMenuPageLinks | append .URL }} {{- end }} {{-
+	range .Site.RegularPages }} {{- if not (in $mainMenuPageLinks .RelPermalink)
+	}}
+	<li>
+		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+		{{- if .Param "authorsinlist" }} {{ with .Params.authors }} by {{
+		delimit . ", " " and " }} {{end}} {{ end -}}
+	</li>
+	{{- end }} {{- end }}
+</ul>
+
+<footer>
+	<a href="/index.xml">
+		<img
+			src="/rss.svg"
+			title="Subscribe via RSS"
+			alt="RSS Feed"
+			style="height: 24px"
+		/>
+	</a>
+</footer>
+{{ end }}
