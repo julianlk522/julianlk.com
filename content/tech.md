@@ -11,7 +11,7 @@ draft = true
 -   intermediate / advanced Git
     -   rebase, cherry-pick, bisect, submodule, etc.
 -   Go
--   [Hugo](https://gohugo.io/) SSG
+-   Hugo SSG (powering this website)
 -   SQLite
 
 ## To Learn Soon
@@ -81,7 +81,7 @@ Pros:
 
 Cons:
 
--   no pointer variables limits low-level operations
+-   no pointer variables limits control of memory allocation
 -   dynamic typing
     -   less safety / poorer DX developing in a non-typed codebase
 -   indentation slightly harder to read / debug than `{}` blocks
@@ -106,11 +106,6 @@ Cons:
 
 ### Other Software
 
-#### Wezterm (terminal emulator)
-
--   great documentation
--   built-in multiplexing is sweet
-
 #### Hugo
 
 Pros:
@@ -130,6 +125,11 @@ Cons:
         -   partial
         -   taxonomy
         -   etc.
+
+#### Wezterm (terminal emulator)
+
+-   great documentation
+-   built-in multiplexing is sweet
 
 #### Cisco PacketTracer
 

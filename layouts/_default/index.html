@@ -4,8 +4,8 @@
 <ul>
 	{{- $mainMenuPageLinks := slice }} {{- range .Site.Menus.main }} {{-
 	$mainMenuPageLinks = $mainMenuPageLinks | append .URL }} {{- end }} {{-
-	range .Site.RegularPages }} {{- if not (in $mainMenuPageLinks .RelPermalink)
-	}}
+	range sort .Site.RegularPages "Title" }} {{- if not (in $mainMenuPageLinks
+	.RelPermalink) }}
 	<li>
 		<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 		{{- if .Param "authorsinlist" }} {{ with .Params.authors }} by {{
