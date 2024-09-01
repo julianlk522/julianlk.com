@@ -114,7 +114,6 @@ Pros:
 
 Cons:
 
--   error messages are not always helpful
 -   steep learning curve, in my opinion
     -   subtle nuances that can be hard to debug
         -   `_index.md` list page vs `index.md` regular page
@@ -125,6 +124,8 @@ Cons:
         -   partial
         -   taxonomy
         -   etc.
+-   error messages are not always helpful or explicit
+    -   . e.g., when I accidentally .gitignore'd `themes/lugo/layouts/_default` and ran the build, Hugo gave a subtle one-line `WARN` log but proceeded to build the site with one working page out of six (because that page had a dedicated layout living outside the theme's `_default` folder)
 
 #### Wezterm (terminal emulator)
 
