@@ -4,11 +4,7 @@ date = 2024-08-09T14:54:20-04:00
 draft = false
 +++
 
-<img
-	src="../lil_jlk.JPG"
-	height="250"
-    alt='Julian baby pic'
-/>
+<img src="/lil_jlk.JPG" title="Julian baby pic" alt="Julian baby pic" height='250' />
 
 I'm Julian Lindsay-Kaufman. Nice to meet you!
 
