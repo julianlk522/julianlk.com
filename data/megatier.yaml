@@ -28,15 +28,13 @@ rankings:
     - name: 'Popeyes'
       score: 7.7
     - name: 'HIIT sprints'
-      score: 6.5
+      score: 6.6
     - name: 'Golang'
       score: 7.3
     - name: 'NextJS'
-      score: 6
+      score: 5.8
     - name: 'AstroJS'
-      score: 8.4
-    # - name: 'Poop'
-    #   score: 7
+      score: 8.1
     - name: 'reaction videos'
       score: 0
     - name: 'Python'
@@ -64,9 +62,9 @@ rankings:
     - name: 'Clean Code by Robert Martin'
       score: 5.9
     - name: 'Anki'
-      score: 8
+      score: 7.3
     - name: 'Obsidian (markdown editor)'
-      score: 8.3
+      score: 8
     - name: 'VS Code'
       score: 8.2
     - name: 'LG Gram 15.6" Intel i7 16GB 512GB laptop'
@@ -74,9 +72,9 @@ rankings:
     - name: 'Figma'
       score: 9
     - name: 'AutoHotkey'
-      score: 7.9
+      score: 7.4
     - name: 'airports'
-      score: 1
+      score: 0
     - name: 'Vim'
       score: 8.5
     - name: 'Neovim'
@@ -90,7 +88,7 @@ rankings:
     - name: 'RSS'
       score: 8
     - name: 'Notion (note-taking app)'
-      score: 7
+      score: 6.9
     - name: 'bookmarklets'
       score: 6.8
     - name: 'Netlify'
@@ -130,7 +128,7 @@ rankings:
     - name: 'Jaco Pastorius'
       score: 8.4
     - name: 'Discord'
-      score: 7.5
+      score: 7.4
     - name: 'IFC Yipes commentary'
       score: 9.6
     - name: 'An Endless Sporadic'
@@ -140,7 +138,7 @@ rankings:
     - name: 'MIT Open CourseWare'
       score: 7.7
     - name: 'ragdoll physics'
-      score: 9.1
+      score: 8.2
     - name: 'Mark Lettieri'
       score: 8.8
     - name: 'TED Talks'
@@ -148,6 +146,24 @@ rankings:
     - name: 'hayd3nplz combos'
       score: 9.8
     - name: 'shader art'
-      score: 9.1
+      score: 7.8
     - name: 'Khan Academy'
       score: 8.2
+    - name: 'allergies'
+      score: 0
+    - name: 'Scooby Doo'
+      score: 8.7
+    - name: 'rain'
+      score: 9.3
+    - name: 'ants'
+      score: 8.3
+    - name: 'NC beaches'
+      score: 7
+    - name: 'bhākarwadi'
+      score: 8.8
+    - name: 'Pendulum'
+      score: 8.5
+    - name: 'DnB that is\'nt Pendulum'
+      score: 7.5
+    - name: 'small talk'
+      score: 2

@@ -20,4 +20,4 @@ My goals with current projects are primarily to :
 -   help people find amazing sources online
 -   help connect people (myself included) over mutual fascinations
 
-For fun, I play a lot of UMvC3. I also like listening to podcasts, struggling with the guitar, reading nonfiction, cooking worldly foods, and spending quality time with my girlfriend, Sneha, and our 2 wonderful cats, Kulfi and Jamun.
+For fun, I play a lot of UMvC3. I also like listening to podcasts, struggling with the guitar, reading nonfiction, cooking different foods from around the world, and spending quality time with my girlfriend, Sneha, and our 2 wonderful cats, Kulfi and Jamun.

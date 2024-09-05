@@ -7,12 +7,15 @@ draft = false
 ## Learning / Practicing Now
 
 -   [Bruno API debugger](https://www.usebruno.com/) (minimal open-source Postman alternative)
--   Neovim (and Vim commands)
--   intermediate / advanced Git
+-   more Git
     -   rebase, cherry-pick, bisect, submodule, etc.
 -   Go
 -   Hugo SSG (powering this website)
--   SQLite
+-   Vim commands
+-   Neovim plugin ecosystem
+-   more SQL(ite)
+    -   [virtual tables](https://www.sqlite.org/fts5.html)
+    -   indexes
 
 ## To Learn Soon
 
@@ -22,7 +25,7 @@ draft = false
 
 ## Thoughts on Tech That I Have Used
 
-There is still a lot I don't know about these. If I get something wrong, please [let me know](../contact/)!
+There is still a lot I don't know about these. If I get something wrong, please [let me know](mailto:jxl1729@miami.edu)!
 
 ### Programming Languages
 
@@ -125,7 +128,7 @@ Cons:
         -   taxonomy
         -   etc.
 -   error messages are not always helpful or explicit
-    -   . e.g., when I accidentally .gitignore'd `themes/lugo/layouts/_default` and ran the build, Hugo gave a subtle one-line `WARN` log but proceeded to build the site with one working page out of six (because that page had a dedicated layout living outside the theme's `_default` folder)
+    -   . e.g., when I accidentally .gitignore'd `themes/lugo/layouts/_default` and ran the build, Hugo gave a subtle one-line `WARN` log and proceeded to build the site with 1/6 working pages (because that page had a dedicated layout living outside the theme's `_default` folder)
 
 #### Wezterm (terminal emulator)
 
