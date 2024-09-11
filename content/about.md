@@ -15,7 +15,7 @@ I have many interests. Right now mostly:
     -   [Heroes](../heroes/)
     -   [Tech](../tech/)
 
-My goals with current projects are primarily to :
+My goals for current projects are mainly to:
 
 -   help people find amazing sources online
 -   help connect people (myself included) over mutual fascinations

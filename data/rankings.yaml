@@ -74,7 +74,7 @@ rankings:
     - name: 'AutoHotkey'
       score: 7.4
     - name: 'airports'
-      score: 0
+      score: 0.5
     - name: 'Vim'
       score: 8.5
     - name: 'Neovim'
@@ -92,7 +92,7 @@ rankings:
     - name: 'bookmarklets'
       score: 6.8
     - name: 'Netlify'
-      score: 9
+      score: 8.7
     - name: 'Railway.app'
       score: 7.7
     - name: 'Linode (Akamai)'
@@ -180,15 +180,15 @@ rankings:
     - name: 'smooth press rolls'
       score: 8.9
     - name: 'sweatpants'
-      score: 9
+      score: 8
     - name: 'ThinkOrSwim'
-      score: 8.1
+      score: 8.4
     - name: 'claude.ai'
       score: 9.5
     - name: 'ultimate frisbee'
       score: 7.8
     - name: '90s rap'
-      score: 8.2
+      score: 8.1
     - name: 'post-90s rap'
       score: 6.4
     - name: 'January'
@@ -219,12 +219,8 @@ rankings:
       score: 7.9
     - name: 'confusion'
       score: 4
-    - name: 'astonishment'
-      score: 6.5
     - name: 'anxiety'
       score: 2.5
-    - name: 'excitement'
-      score: 8.8
     - name: 'pride'
       score: 5.5
     - name: 'humility'
@@ -234,8 +230,10 @@ rankings:
     - name: 'dry humor'
       score: 8
     - name: 'SQL'
-      score: 9.2
+      score: 9
     - name: 'kettlebell swings'
       score: 8.3
     - name: 'tennis'
       score: 6
+    - name: 'a fully passing test suite'
+      score: 9.4

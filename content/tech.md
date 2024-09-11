@@ -15,7 +15,6 @@ draft = false
 -   Neovim plugin ecosystem
 -   more SQL(ite)
     -   [virtual tables](https://www.sqlite.org/fts5.html)
-    -   indexes
 
 ## To Learn Soon
 

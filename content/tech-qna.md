@@ -4,7 +4,7 @@ date = 2024-09-04T23:29:32-04:00
 draft = true
 +++
 
-This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self, to help it make sense.
+This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self, to help it make sense. Topics are mostly ones which I found especially confusing or not suitable to be answered by a quick Google search.
 
 As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check my statements but am not perfect.
 
@@ -28,6 +28,12 @@ to answer.
 
 No I/O operations for storage or [serialization](https://en.wikipedia.org/wiki/Serialization) for transmission required, so reads / writes are fast.
 Not preferred when storage capacity is a concern and RAM is in shorter supply than disk storage, or when persistent changes required.
+
+#### What is RSS all about? Should I care about it?
+
+That depends on whether you follow a lot of blogs or other (relatively simple) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which looks for an XML _sitemap_ file on the sites you specify. The sitemap can indicate any changed content, and your aggregator (or _reader_) will report those updates back to you in a _syndicated_ (the 2nd 's' in 'RSS') location.
+
+You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like getting changes to the Figma engine for example.
 
 ## SQLite
 
