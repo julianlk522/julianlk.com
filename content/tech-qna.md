@@ -8,6 +8,14 @@ This page is a collection of questions that I had about various tech and the bes
 
 As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check my statements but am not perfect.
 
+## Tech Ecosystem
+
+#### What is RSS all about? Should I care about it?
+
+That depends on whether you follow a lot of blogs or other (relatively simple) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which looks for an XML _sitemap_ file on the sites you specify. The sitemap can indicate any changed content, and your aggregator (or _reader_) will report those updates back to you in a _syndicated_ (the 2nd 's' in 'RSS') location.
+
+You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
+
 ## General-Purpose Programming
 
 #### What is the point of closures? Why not simply combine the inner and outer functions into one?
@@ -27,18 +35,12 @@ You might also use generator functions to build [iterators](https://en.wikipedia
 1. Classes provide distinct namespaces (functions do not)
     - no mixing up `foo.bar()` with `baz.bar()`
 2. (opinion) Classes make it intuitive to link / separate appropriate data
-    - see [https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx]
+    - see [https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx](https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx)
 
 #### Why is an in-memory database sometimes preferred to a disk-based database?
 
 No I/O operations for storage or [serialization](https://en.wikipedia.org/wiki/Serialization) for transmission required, so reads / writes are fast.
 Not preferred when storage capacity is a concern and RAM is in shorter supply than disk storage, or when persistent changes required.
-
-#### What is RSS all about? Should I care about it?
-
-That depends on whether you follow a lot of blogs or other (relatively simple) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which looks for an XML _sitemap_ file on the sites you specify. The sitemap can indicate any changed content, and your aggregator (or _reader_) will report those updates back to you in a _syndicated_ (the 2nd 's' in 'RSS') location.
-
-You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like getting updates on changes to the [Figma](https://www.figma.com/) engine, for example.
 
 ## SQLite
 
@@ -61,9 +63,9 @@ You basically can check a single feed to get automatic updates from multiple, ma
 
 #### Why _does_ creating a table index improve read performance? Is the primary key not already an index in the traditional sense?
 
-Primary keys are sufficient as unique identifiers for each row, but they are _not alphabetically sorted_ by default. Indexing sorts the queryable data so that a full table scan is not needed to locate a particular row. A one-by-one search can replaced with a [binary search](https://en.wikipedia.org/wiki/Binary_search), bringing time complexity down to O(log n) from O(n). If searching a one-million-row table, the greatest number of searches to find a target drops from `1,000,000` to `20`.
+Primary keys are sufficient as unique identifiers for each row, but they are _not alphabetically sorted_. Indexing sorts the queryable data so that a full table scan is not needed to locate a particular row. A one-by-one search can replaced with a [binary search](https://en.wikipedia.org/wiki/Binary_search), bringing time complexity down to O(log n) from O(n). If searching a one-million-row table, the greatest number of searches to find a target drops from `1,000,000` to `20`.
 
-see [https://www.atlassian.com/data/sql/how-indexing-works]
+see [https://www.atlassian.com/data/sql/how-indexing-works](https://www.atlassian.com/data/sql/how-indexing-works)
 
 ## Linux
 
@@ -73,7 +75,7 @@ see [https://www.atlassian.com/data/sql/how-indexing-works]
 
 `apt` has a few noteworthy features that `apt-get` does not, such as automatically removing obsolete package versions with `apt upgrade` or recommending suggested package installs to fix dependency issues.
 
-see [https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/]
+see [https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/](https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/)
 
 #### How do `sh` and `bash` differ? How might `#!/bin/bash` vs. `#!/bin/sh` shebangs differ in their effects on subsequent code?
 
@@ -87,6 +89,6 @@ However, in Linux distributions such as Ubuntu or Linux Mint, `#!/bin/sh` is a [
 
 CPUs excel at processing different instruction sets rapidly, GPUs are better suited for a small number of very complex instructions involving parallel math, like updating graphics displays in real time or executing machine learning.
 
-Strictly speaking, both a CPU and GPU are not needed simultaneously for a computer to function. A CPU could (eventually) process what the GPU does, and vice-versa, but it would be frustratingly slow.
+Strictly speaking, both a CPU and GPU are not needed simultaneously for a computer to function. A CPU could (eventually) process what the GPU does, and vice-versa, but it would be real slow.
 
-see [https://aws.amazon.com/compare/the-difference-between-gpus-cpus]
+see [https://aws.amazon.com/compare/the-difference-between-gpus-cpus](https://aws.amazon.com/compare/the-difference-between-gpus-cpus)

@@ -39,7 +39,7 @@ Pros:
         -   fuzz with `testing.F` and `go test -fuzz {fuzz test func}`
         -   benchmark reports with `testing.B` and `go test -bench={dir}`
         -   coverage reports with `go test -cover`
-            -   see (https://tip.golang.org/doc/go1.2#cover)
+            -   see [https://tip.golang.org/doc/go1.2#cover](https://tip.golang.org/doc/go1.2#cover)
 -   useful / intuitive CLI
     -   `go fmt`
     -   `go test`
@@ -60,7 +60,7 @@ Cons:
         -   Strictly matching JSON shape to struct shape can require a lot boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
 -   no convenient way (that I have yet found) to use shared data across package test suites
     -   `TestMain` works well within one package for multi-test setup / teardown but not between packages. If you want a shared database connection for integration tests, you'll need to duplicate some code to run in the `TestMain` of each related package.
-    -   [https://stackoverflow.com/a/70385157]
+    -   [https://stackoverflow.com/a/70385157](https://stackoverflow.com/a/70385157)
 -   not easy to rename your package
     -   Well, it's easy enough to replace the imports / package declarations / go.mod with a script. But I think that would be a good feature for the Go CLI.
 -   `if err != nil {}` everywhere
@@ -123,7 +123,7 @@ There are just a few things I come back to VS Code for still:
 -   easy project-wide find and replace
     -   though can be achieved in nvim with `:cfdo %s /old/new/g | update | bd`
 -   integrated testing UI
-    -   though [https://github.com/nvim-neotest/neotest] seems promising
+    -   though [https://github.com/nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) seems promising
 -   familiarity
 
 #### Hugo
