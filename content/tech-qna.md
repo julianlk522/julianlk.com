@@ -1,10 +1,10 @@
 +++
 title = 'Tech Q&A'
 date = 2024-09-04T23:29:32-04:00
-draft = true
+draft = false
 +++
 
-This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self, to help it make sense. Topics are mostly ones which I found especially confusing or not suitable to be answered by a quick Google search.
+This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self, to help it make sense. Topics are ones which I found especially confusing or not suitable to be answered by a quick Google search.
 
 As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check my statements but am not perfect.
 
@@ -12,17 +12,22 @@ As always, please [let me know](mailto:jxl1729@miami.edu) if you see something f
 
 #### What is the point of closures? Why not simply combine the inner and outer functions into one?
 
-I _think_ the answer is that closures allow creating hidden state inside the outer function's lexical scope which is accessible in the inner function but safely sequestered from the rest of your code (which could possibly abuse it if you are not careful). But, importantly, the private state can be dynamically generated with each call to the outer function.
+Closures allow creating hidden state inside the outer function's lexical scope which is accessible in the inner function but safely sequestered from the rest of your code (which could possibly abuse it if you are not careful). But, importantly, the private state can be dynamically generated with each call to the outer function.
 
 A function containing no other functions _could_ contain its own state, isolated from the rest of the program, but the difference is that it _cannot_ be invoked `n` times to produce `n` different unique states, it is limited to the state declared in its definition. Closures, however, _do_ make it possible to regenerate self-contained state dynamically by calling the outer function, which declares the inner function anew.
 
 #### What is the point of generator functions? In which cases are they preferable to ordinary synchronous functions?
 
-to answer.
+One use case: breaking up resource requirements for expensive tasks. Maybe you want to read lines from a 2GB file without loading the entire 2GB into memory, so you create a generator function to stream line by line of the file.
+
+You might also use generator functions to build [iterators](https://en.wikipedia.org/wiki/Iterator). Iterators don't _require_ generators, but it is intuitive to simply `yield` their possible values and invoke them with `.next()`. For example, you might create a generator function for website infinite scroll functionality, where new data can be fetched on demand ad infinitum by just calling `genfunc*.next()`.
 
 #### Are there _exclusive_ use cases for classes compared to functions? Is there a strong reason to use them, aside from just preference or matching some existing code's design themes?
 
-to answer.
+1. Classes provide distinct namespaces (functions do not)
+    - no mixing up `foo.bar()` with `baz.bar()`
+2. (opinion) Classes make it intuitive to link / separate appropriate data
+    - see [https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx]
 
 #### Why is an in-memory database sometimes preferred to a disk-based database?
 
@@ -33,15 +38,17 @@ Not preferred when storage capacity is a concern and RAM is in shorter supply th
 
 That depends on whether you follow a lot of blogs or other (relatively simple) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which looks for an XML _sitemap_ file on the sites you specify. The sitemap can indicate any changed content, and your aggregator (or _reader_) will report those updates back to you in a _syndicated_ (the 2nd 's' in 'RSS') location.
 
-You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like getting changes to the Figma engine for example.
+You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like getting updates on changes to the [Figma](https://www.figma.com/) engine, for example.
 
 ## SQLite
+
+(and some non-specific SQL)
 
 #### If WAL mode is faster than using a rollback journal, involves less latency from disk I/O operations, and handles concurrent reads/writes better than other modes, why is it not always used and set by default?
 
 [Per the creators of Django and litestream.io/](https://www.reddit.com/r/sqlite/comments/wll1nu/comment/ijx15md/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button), the main reason is to ensure backwards compatibility with older SQLite versions.
 
-[Other disadvantages](https://sqlite.org/wal.html), namely:
+[A few other catches](https://sqlite.org/wal.html):
 
 1. WAL does not support network filesystems; the database must be accessed only from a single host computer
 2. WAL cannot ensure [atomicity](<https://en.wikipedia.org/wiki/Atomicity_(database_systems)>) for transactions involving multiple attached databases
@@ -49,13 +56,37 @@ You basically can check a single feed to get automatic updates from multiple, ma
 
 #### If creating table indexes speeds up reads, why not always create an index for every column?
 
-1. Consumes more RAM. Exceeding RAM limit of your computer or virtual machine means frequently swapping to / from disk storage, which is slow and more expensive when using a cloud provider.
-2. Slows write / delete times. Each index needs to be updated along with its associated columns to stay synced. Waiting longer is no fun.
+1. Consumes more RAM. Exceeding RAM limit of your computer or virtual machine means frequently swapping to / from disk storage, which is slow and possibly expensive (certainly when using a cloud provider).
+2. Slows write / delete times. Each index needs to be updated along with its associated columns to stay synced.
 
 #### Why _does_ creating a table index improve read performance? Is the primary key not already an index in the traditional sense?
 
-to answer.
+Primary keys are sufficient as unique identifiers for each row, but they are _not alphabetically sorted_ by default. Indexing sorts the queryable data so that a full table scan is not needed to locate a particular row. A one-by-one search can replaced with a [binary search](https://en.wikipedia.org/wiki/Binary_search), bringing time complexity down to O(log n) from O(n). If searching a one-million-row table, the greatest number of searches to find a target drops from `1,000,000` to `20`.
+
+see [https://www.atlassian.com/data/sql/how-indexing-works]
 
 ## Linux
 
-#### What is the point of having both `apt` and `apt-get` in Debian?
+#### Why does Debian have both `apt` and `apt-get` commands for package management?
+
+`apt` is newer and offers a more high-level, user-friendly interface than `apt-get`.
+
+`apt` has a few noteworthy features that `apt-get` does not, such as automatically removing obsolete package versions with `apt upgrade` or recommending suggested package installs to fix dependency issues.
+
+see [https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/]
+
+#### How do `sh` and `bash` differ? How might `#!/bin/bash` vs. `#!/bin/sh` shebangs differ in their effects on subsequent code?
+
+`sh` (Shell Command Language or Bourne Shell) is defined in the [POSIX](https://stackoverflow.com/a/1780614) standard and is the foundation for multiple derived implementations, such as `bash`. Bash is a [superset](https://www.hackterms.com/superset) of `sh` that includes other commands like `history` and other features like [process substitution](https://www.linkedin.com/pulse/difference-between-sh-bash-linux-alok-mishra-soogc/#:~:text=Process%20Substitution).
+
+However, in Linux distributions such as Ubuntu or Linux Mint, `#!/bin/sh` is a [symlink](https://www.hackterms.com/symlink) to `#!/bin/dash` ([like bash but faster](https://lwn.net/Articles/343924/#:~:text=The%20major,dash)), so in practice there may be little to no difference in how the two shebang lines affect script behavior.
+
+## Hardware
+
+#### Why do computers need a CPU and a GPU? What types of tasks are better fitted for one processor or the other?
+
+CPUs excel at processing different instruction sets rapidly, GPUs are better suited for a small number of very complex instructions involving parallel math, like updating graphics displays in real time or executing machine learning.
+
+Strictly speaking, both a CPU and GPU are not needed simultaneously for a computer to function. A CPU could (eventually) process what the GPU does, and vice-versa, but it would be frustratingly slow.
+
+see [https://aws.amazon.com/compare/the-difference-between-gpus-cpus]

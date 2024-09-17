@@ -6,21 +6,23 @@ draft = false
 
 ## Learning / Practicing Now
 
--   [Bruno API debugger](https://www.usebruno.com/) (minimal open-source Postman alternative)
 -   more Git
     -   rebase, cherry-pick, bisect, submodule, etc.
--   Go
--   Hugo SSG (powering this website)
 -   Vim commands
--   Neovim plugin ecosystem
 -   more SQL(ite)
     -   [virtual tables](https://www.sqlite.org/fts5.html)
+    -   [extensions](https://sqlite.org/spellfix1.html)
+-   Hugo SSG (powering this website)
+-   Neovim plugin ecosystem
+-   tmux
+-   more bash
 
 ## To Learn Soon
 
--   Redis
--   a purely functional programming language
+-   [direnv](https://direnv.net/)
+-   a functional programming language
     -   tentative considerations: Elixir, Haskell, Lisp
+-   Redis
 
 ## Thoughts on Tech That I Have Used
 
@@ -32,7 +34,6 @@ There is still a lot I don't know about these. If I get something wrong, please 
 
 Pros:
 
--   `defer`ing funcs is handy for cleanup
 -   strong stlib
     -   `testing` lib is simple and powerful
         -   fuzz with `testing.F` and `go test -fuzz {fuzz test func}`
@@ -47,20 +48,23 @@ Pros:
     -   goroutines
     -   channels
 -   context useful as more organized and elegant alternative to global state
+-   `defer`ing funcs is handy for cleanup
 -   feels like a good balance of high-level/readable and low-level/powerful
 
 Cons:
 
 -   drawbacks of static typing that I imagine other languages suffer from too:
     -   no union (`foo | bar`) type means either code duplication or casting to `interface{}`s which leads to other problems
-        -   `interface{}` loses type-safety unless you perform runtime type assertion / reflection or if the member structs of the union type share methods that can be declared on a narrower interface, which they have not at all in my FITM use cases
+        -   `interface{}` loses type-safety unless you perform runtime type assertion / reflection or if the member structs of the union type share methods that can be declared on a narrower interface.
     -   unmarshaling JSON is annoying
-        -   requires lots of nested struct boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
-        -   easy to mess up due to strictness on matching JSON shape to struct shape(s)
+        -   Strictly matching JSON shape to struct shape can require a lot boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
+-   no convenient way (that I have yet found) to use shared data across package test suites
+    -   `TestMain` works well within one package for multi-test setup / teardown but not between packages. If you want a shared database connection for integration tests, you'll need to duplicate some code to run in the `TestMain` of each related package.
+    -   [https://stackoverflow.com/a/70385157]
 -   not easy to rename your package
-    -   good excuse to ~~write a bash script~~ swipe a bash script from StackOverflow to find and replace the package name across your imports and module files
+    -   Well, it's easy enough to replace the imports / package declarations / go.mod with a script. But I think that would be a good feature for the Go CLI.
 -   `if err != nil {}` everywhere
-    -   but `try/catch` blocks aren't great either and they lead to more nesting, so not sure how I feel about this
+    -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating the source of an error. Overall, I think I prefer Go's error handling.
 
 #### Lua
 
@@ -107,6 +111,20 @@ Cons:
     -   etc.
 
 ### Other Software
+
+#### Neovim
+
+Love it.
+
+Configuration is intimidating until you find [kickstart](https://github.com/nvim-lua/kickstart.nvim), then it's really easy.
+
+There are just a few things I come back to VS Code for still:
+
+-   easy project-wide find and replace
+    -   though can be achieved in nvim with `:cfdo %s /old/new/g | update | bd`
+-   integrated testing UI
+    -   though [https://github.com/nvim-neotest/neotest] seems promising
+-   familiarity
 
 #### Hugo
 
