@@ -5,10 +5,10 @@ rankings:
       score: 9.3
     - name: 'Wikipedia'
       score: 9.5
-    - name: 'PG'
+    - name: 'Paul Graham'
       score: 8.8
     - name: 'Google'
-      score: 5.5
+      score: 6
     - name: 'TD Ameritrade'
       score: 6.5
     - name: 'Venetian Snares'
@@ -42,7 +42,7 @@ rankings:
     - name: 'JavaScript'
       score: 5.9
     - name: 'TypeScript'
-      score: 6.8
+      score: 7.3
     - name: 'YouTube'
       score: 9.2
     - name: 'Necrophagist'
@@ -55,8 +55,6 @@ rankings:
       score: 6.5
     - name: 'gratitude'
       score: 9.8
-    - name: 'rage'
-      score: 3
     - name: 'telescope.nvim'
       score: 9.4
     - name: 'Clean Code by Robert Martin'
@@ -64,13 +62,13 @@ rankings:
     - name: 'Anki'
       score: 7.3
     - name: 'Obsidian (markdown editor)'
-      score: 8
+      score: 8.1
     - name: 'VS Code'
       score: 8.2
     - name: 'LG Gram 16" Intel i7 16GB LPDDR4X 512GB laptop'
       score: 8.8
     - name: 'Figma'
-      score: 9
+      score: 8.7
     - name: 'AutoHotkey'
       score: 7.4
     - name: 'airports'
@@ -92,9 +90,9 @@ rankings:
     - name: 'bookmarklets'
       score: 6.8
     - name: 'Netlify'
-      score: 8.7
+      score: 7.9
     - name: 'Railway.app'
-      score: 7.7
+      score: 7.1
     - name: 'Linode (Akamai)'
       score: 8.8
     - name: 'the Olympics'
@@ -132,7 +130,7 @@ rankings:
     - name: 'IFC Yipes commentary'
       score: 9.6
     - name: 'An Endless Sporadic'
-      score: 8.3
+      score: 8.4
     - name: 'Chrome DevTools'
       score: 8
     - name: 'MIT Open CourseWare'
@@ -160,7 +158,7 @@ rankings:
     - name: 'NC beaches'
       score: 7
     - name: 'bhākarwadi'
-      score: 8.8
+      score: 8.9
     - name: 'Pendulum'
       score: 8.5
     - name: "DnB that isn't Pendulum"
@@ -240,11 +238,11 @@ rankings:
     - name: 'Bluetooth'
       score: 8
     - name: 'SSH'
-      score: 8
+      score: 7.8
     - name: 'Hugo SSG'
       score: 5.2
     - name: 'Metallica'
-      score: 8.4
+      score: 8.2
     - name: 'MS Word'
       score: 4.9
     - name: 'Twitter (post-takeover)'
@@ -256,4 +254,4 @@ rankings:
     - name: 'Chapel Hill Public Library'
       score: 8.8
     - name: 'wordreference.com'
-      score: 8.3
+      score: 7.5

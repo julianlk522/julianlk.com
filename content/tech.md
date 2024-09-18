@@ -10,7 +10,7 @@ draft = false
     -   rebase, cherry-pick, bisect, submodule, etc.
 -   Vim commands
 -   more SQL(ite)
-    -   [virtual tables](https://www.sqlite.org/fts5.html)
+    -   [virtual tables](https://sqlite.org/fts5.html)
     -   [extensions](https://sqlite.org/spellfix1.html)
 -   Hugo SSG (powering this website)
 -   Neovim plugin ecosystem
@@ -26,7 +26,7 @@ draft = false
 
 ## Thoughts on Tech That I Have Used
 
-There is still a lot I don't know about these. If I get something wrong, please [let me know](mailto:jxl1729@miami.edu)!
+There is still a lot I don't know about these. If you see something incorrect, please [let me know](mailto:jxl1729@miami.edu).
 
 ### Programming Languages
 
@@ -64,18 +64,7 @@ Cons:
 -   not easy to rename your package
     -   Well, it's easy enough to replace the imports / package declarations / go.mod with a script. But I think that would be a good feature for the Go CLI.
 -   `if err != nil {}` everywhere
-    -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating the source of an error. Overall, I think I prefer Go's error handling.
-
-#### Lua
-
-Pros:
-
--   simple types
--   not many (21) keywords
-
-Cons:
-
--   1-indexed (¬_¬")
+    -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating error sources. Overall, I think I prefer Go's error handling.
 
 #### Python
 
@@ -98,7 +87,8 @@ Cons:
 Pros:
 
 -   a package for everything
--   DOM API is intuitive
+-   run natively in web browsers via JS engine
+-   intuitive [DOM APIs](https://en.wikipedia.org/wiki/Document_Object_Model#Manipulating_the_DOM_tree)
 
 Cons:
 
@@ -110,13 +100,24 @@ Cons:
     -   `{}+[] // 0`
     -   etc.
 
+#### Lua
+
+Pros:
+
+-   simple types
+-   not many (21) keywords
+
+Cons:
+
+-   1-indexed (¬_¬")
+
 ### Other Software
 
 #### Neovim
 
 Love it.
 
-Configuration is intimidating until you find [kickstart](https://github.com/nvim-lua/kickstart.nvim), then it's really easy.
+Configuration is intimidating until you find [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), then it's really easy.
 
 There are just a few things I come back to VS Code for still:
 
@@ -131,6 +132,7 @@ There are just a few things I come back to VS Code for still:
 Pros:
 
 -   very customizable
+-   very fast builds
 
 Cons:
 
@@ -150,7 +152,7 @@ Cons:
 #### Wezterm (terminal emulator)
 
 -   great documentation
--   built-in multiplexing is sweet
+-   out-of-the-box multiplexing is nice
 
 #### Cisco PacketTracer
 

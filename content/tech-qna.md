@@ -10,7 +10,7 @@ As always, please [let me know](mailto:jxl1729@miami.edu) if you see something f
 
 ## Tech Ecosystem
 
-#### What is RSS all about? Should I care about it?
+#### What is RSS all about? Should you care about it?
 
 That depends on whether you follow a lot of blogs or other (relatively simple) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which looks for an XML _sitemap_ file on the sites you specify. The sitemap can indicate any changed content, and your aggregator (or _reader_) will report those updates back to you in a _syndicated_ (the 2nd 's' in 'RSS') location.
 
@@ -33,18 +33,33 @@ You might also use generator functions to build [iterators](https://en.wikipedia
 #### Are there _exclusive_ use cases for classes compared to functions? Is there a strong reason to use them, aside from just preference or matching some existing code's design themes?
 
 1. Classes provide distinct namespaces (functions do not)
-    - no mixing up `foo.bar()` with `baz.bar()`
-2. (opinion) Classes make it intuitive to link / separate appropriate data
+    - no mixing up `foo()` and `foo()` if they are `bar.foo()` and `baz.foo()`
+2. (opinion) Classes intuitively group related data and separate unrelated data
     - see [https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx](https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx)
 
 #### Why is an in-memory database sometimes preferred to a disk-based database?
 
 No I/O operations for storage or [serialization](https://en.wikipedia.org/wiki/Serialization) for transmission required, so reads / writes are fast.
-Not preferred when storage capacity is a concern and RAM is in shorter supply than disk storage, or when persistent changes required.
 
-## SQLite
+Not preferred when:
 
-(and some non-specific SQL)
+-   storage capacity is a concern and RAM is in shorter supply than disk storage
+-   persistent changes required
+
+## SQL
+
+#### If creating table indexes speeds up reads, why not always create an index for every column?
+
+1. Consumes more RAM. Exceeding RAM limit of your computer or virtual machine means frequently swapping to / from disk storage, which is slow and possibly expensive (certainly when using a cloud provider).
+2. Slows write / delete times. Each index needs to be updated along with its associated columns to stay synced.
+
+#### Why _does_ creating a table index improve read performance? Is the table's primary key not already an index in the traditional sense?
+
+Primary keys are sufficient as unique identifiers for each row, but they are _not alphabetically sorted_. Indexing sorts the queryable data so that a full table scan is not needed to locate a particular row. A [linear search](https://en.wikipedia.org/wiki/Linear_search) (one-by-one) can replaced with a [binary search](https://en.wikipedia.org/wiki/Binary_search), bringing time complexity from **O(n)** down to **O(log n)**. If searching a one-million-row table, the max number of searches to find a target drops from **1,000,000** to **20**.
+
+see [https://www.atlassian.com/data/sql/how-indexing-works#:~:text=Let's,table:](https://www.atlassian.com/data/sql/how-indexing-works#:~:text=Let's,table:)
+
+### SQLite
 
 #### If WAL mode is faster than using a rollback journal, involves less latency from disk I/O operations, and handles concurrent reads/writes better than other modes, why is it not always used and set by default?
 
@@ -55,17 +70,6 @@ Not preferred when storage capacity is a concern and RAM is in shorter supply th
 1. WAL does not support network filesystems; the database must be accessed only from a single host computer
 2. WAL cannot ensure [atomicity](<https://en.wikipedia.org/wiki/Atomicity_(database_systems)>) for transactions involving multiple attached databases
 3. WAL is not optimized for systems requiring mostly reads and few writes
-
-#### If creating table indexes speeds up reads, why not always create an index for every column?
-
-1. Consumes more RAM. Exceeding RAM limit of your computer or virtual machine means frequently swapping to / from disk storage, which is slow and possibly expensive (certainly when using a cloud provider).
-2. Slows write / delete times. Each index needs to be updated along with its associated columns to stay synced.
-
-#### Why _does_ creating a table index improve read performance? Is the primary key not already an index in the traditional sense?
-
-Primary keys are sufficient as unique identifiers for each row, but they are _not alphabetically sorted_. Indexing sorts the queryable data so that a full table scan is not needed to locate a particular row. A one-by-one search can replaced with a [binary search](https://en.wikipedia.org/wiki/Binary_search), bringing time complexity down to O(log n) from O(n). If searching a one-million-row table, the greatest number of searches to find a target drops from `1,000,000` to `20`.
-
-see [https://www.atlassian.com/data/sql/how-indexing-works](https://www.atlassian.com/data/sql/how-indexing-works)
 
 ## Linux
 
@@ -79,16 +83,16 @@ see [https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/](htt
 
 #### How do `sh` and `bash` differ? How might `#!/bin/bash` vs. `#!/bin/sh` shebangs differ in their effects on subsequent code?
 
-`sh` (Shell Command Language or Bourne Shell) is defined in the [POSIX](https://stackoverflow.com/a/1780614) standard and is the foundation for multiple derived implementations, such as `bash`. Bash is a [superset](https://www.hackterms.com/superset) of `sh` that includes other commands like `history` and other features like [process substitution](https://www.linkedin.com/pulse/difference-between-sh-bash-linux-alok-mishra-soogc/#:~:text=Process%20Substitution).
+`sh` (Shell Command Language or Bourne Shell) is defined in the [POSIX](https://stackoverflow.com/a/1780614) standard and is the foundation for multiple derived implementations, including `bash`. `bash` is a [superset](https://www.hackterms.com/superset) of `sh` that includes other commands like `history` and other features like [process substitution](https://www.linkedin.com/pulse/difference-between-sh-bash-linux-alok-mishra-soogc/#:~:text=Process%20Substitution). Scripts that use these features _may\*_ fail when told to run with `sh`.
 
-However, in Linux distributions such as Ubuntu or Linux Mint, `#!/bin/sh` is a [symlink](https://www.hackterms.com/symlink) to `#!/bin/dash` ([like bash but faster](https://lwn.net/Articles/343924/#:~:text=The%20major,dash)), so in practice there may be little to no difference in how the two shebang lines affect script behavior.
+\*In Linux distributions such as Ubuntu or Linux Mint, however, `#!/bin/sh` is a [symlink](https://www.hackterms.com/symlink) to `#!/bin/dash` ([like bash but faster](https://lwn.net/Articles/343924/#:~:text=The%20major,dash)), so in practice there may be little to no difference in how the two shebang lines affect script behavior.
 
 ## Hardware
 
 #### Why do computers need a CPU and a GPU? What types of tasks are better fitted for one processor or the other?
 
-CPUs excel at processing different instruction sets rapidly, GPUs are better suited for a small number of very complex instructions involving parallel math, like updating graphics displays in real time or executing machine learning.
+CPUs excel at processing many varied instruction sets rapidly. GPUs are better suited for a small number of similar but complex instructions involving massively parallel math, like updating graphics displays in real time or executing machine learning.
 
-Strictly speaking, both a CPU and GPU are not needed simultaneously for a computer to function. A CPU could (eventually) process what the GPU does, and vice-versa, but it would be real slow.
+Strictly speaking, both a CPU and GPU are not needed simultaneously for a computer to function. A CPU could (eventually) process what the GPU does, and vice-versa, but it would be _very_ slow.
 
 see [https://aws.amazon.com/compare/the-difference-between-gpus-cpus](https://aws.amazon.com/compare/the-difference-between-gpus-cpus)
