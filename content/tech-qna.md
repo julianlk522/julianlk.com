@@ -6,6 +6,8 @@ draft = false
 
 This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self, to help it make sense. Topics are ones which I found especially confusing or not suitable to be answered by a quick Google search.
 
+These writings also serve as notes to help me learn and for future reference.
+
 As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check my statements but am not perfect.
 
 ## Tech Ecosystem
@@ -16,23 +18,41 @@ That depends on whether you follow a lot of blogs or other (relatively simple) s
 
 You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
 
+### What is LSP? What problem(s) does it solve?
+
+Language Server Protocol is an [open standard](https://github.com/microsoft/language-server-protocol) providing a uniform communication format for code editors and [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to request and receive language-specific guidance from remote, language-specific intelligence servers. Guidance might be:
+
+-   auto complete suggestions
+-   syntax highlighting
+-   error checking
+-   documentation on hover
+-   etc.
+
+LSP solves the problem of providing development support features for a range of languages, across a range of editors or editing environments, without duplicating implementation.
+
+Without a common protocol, each editor would need to independently configure support for each language's unique APIs, which is wasteful and tedious in cases where such tooling already exists elsewhere. It allows conveniently "hooking into" existing language tooling on an ad hoc basis.
+
+see [https://microsoft.github.io/language-server-protocol/](https://microsoft.github.io/language-server-protocol/)
+
 ## General-Purpose Programming
 
 #### What is the point of closures? Why not simply combine the inner and outer functions into one?
 
-Closures allow creating hidden state inside the outer function's lexical scope which is accessible in the inner function but safely sequestered from the rest of your code (which could possibly abuse it if you are not careful). But, importantly, the private state can be dynamically generated with each call to the outer function.
+Closures allow creating hidden state inside the outer function's lexical scope (the _enclosing_ scope) which is accessible (i.e., can be referenced or _closed over_) in the inner function but safely sequestered from the rest of your code. But, importantly, each call to the outer function spawns a new, distinct instance of the encapsulated state.
 
-A function containing no other functions _could_ contain its own state, isolated from the rest of the program, but the difference is that it _cannot_ be invoked `n` times to produce `n` different unique states, it is limited to the state declared in its definition. Closures, however, _do_ make it possible to regenerate self-contained state dynamically by calling the outer function, which declares the inner function anew.
+A function containing no other functions _could_ contain its own state, isolated from the rest of the program, but the difference is that it cannot be invoked `n` times to produce `n` autonomous copies; it is limited to the single instance of state declared in its definition. Closures make dynamic regeneratation of self-contained state possible.
+
+The same effect can be achieved with a class. The private state could be represented as a property of the class and the inner function could be a method. Calling a class constuctor (e.g., `new Thing(...)`) would be equivalent to calling the outer function in a closure. Both the OOP implementation (classes) and FP implementation (closures) are valid, depending on the programming language and existing design patterns in the codebase.
 
 #### What is the point of generator functions? In which cases are they preferable to ordinary synchronous functions?
 
 One use case: breaking up resource requirements for expensive tasks. Maybe you want to read lines from a 2GB file without loading the entire 2GB into memory, so you create a generator function to stream line by line of the file.
 
-You might also use generator functions to build [iterators](https://en.wikipedia.org/wiki/Iterator). Iterators don't _require_ generators, but it is intuitive to simply `yield` their possible values and invoke them with `.next()`. For example, you might create a generator function for website infinite scroll functionality, where new data can be fetched on demand ad infinitum by just calling `genfunc*.next()`.
+You might also use generator functions to build [iterators](https://en.wikipedia.org/wiki/Iterator). Iterators don't _require_ generators, but it is intuitive to simply `yield` their possible values and invoke them with `.next()`. For example, you might create a generator function, `gen*,` for website infinite scroll functionality, where new data can be fetched on demand, ad infinitum, by just calling `gen*.next()`.
 
 #### Are there _exclusive_ use cases for classes compared to functions? Is there a strong reason to use them, aside from just preference or matching some existing code's design themes?
 
-1. Classes provide distinct namespaces (functions do not)
+1. Classes provide distinct namespaces, functions do not
     - no mixing up `foo()` and `foo()` if they are `bar.foo()` and `baz.foo()`
 2. (opinion) Classes intuitively group related data and separate unrelated data
     - see [https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx](https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx)
@@ -50,7 +70,7 @@ Not preferred when:
 
 #### If creating table indexes speeds up reads, why not always create an index for every column?
 
-1. Consumes more RAM. Exceeding RAM limit of your computer or virtual machine means frequently swapping to / from disk storage, which is slow and possibly expensive (certainly when using a cloud provider).
+1. Consumes more RAM. Exceeding RAM limit of your computer or virtual machine means frequently swapping to / from disk storage, which is slow and possibly expensive.
 2. Slows write / delete times. Each index needs to be updated along with its associated columns to stay synced.
 
 #### Why _does_ creating a table index improve read performance? Is the table's primary key not already an index in the traditional sense?
@@ -81,7 +101,7 @@ see [https://www.atlassian.com/data/sql/how-indexing-works#:~:text=Let's,table:]
 
 see [https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/](https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/)
 
-#### How do `sh` and `bash` differ? How might `#!/bin/bash` vs. `#!/bin/sh` shebangs differ in their effects on subsequent code?
+#### How do `sh` and `bash` differ? How might `#!/bin/bash` vs. `#!/bin/sh` [shebangs](<https://en.wikipedia.org/wiki/Shebang_(Unix)>) differ in their effects on subsequent code?
 
 `sh` (Shell Command Language or Bourne Shell) is defined in the [POSIX](https://stackoverflow.com/a/1780614) standard and is the foundation for multiple derived implementations, including `bash`. `bash` is a [superset](https://www.hackterms.com/superset) of `sh` that includes other commands like `history` and other features like [process substitution](https://www.linkedin.com/pulse/difference-between-sh-bash-linux-alok-mishra-soogc/#:~:text=Process%20Substitution). Scripts that use these features _may\*_ fail when told to run with `sh`.
 

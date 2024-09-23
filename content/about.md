@@ -8,16 +8,28 @@ draft = false
 
 I'm Julian Lindsay-Kaufman. Nice to meet you!
 
-I have many interests. Right now mostly:
+I have many interests, but the bulk tends to converge around the topics of education and technology.
 
--   Launching [FITM](https://fitm.online) and filling it with Internet treasure that everyone should be able to easily find.
+When it comes to programming, I am most experienced with:
+
+-   Python (3 YoE)
+-   JavaScript / TypeScript (2.5 YoE)
+-   CSS (2.5 YoE)
+-   SQL (2 YoE)
+-   Go (~1 YoE)
+-   Bash (-lt 1 YoE)
+
+Right now I'm working on:
+
+-   Launching [FITM](https://fitm.online) and helping to fill it with Internet treasure that everyone should be able to easily find
 -   Decking out this website, particularly:
+    -   [Tech](../tech/) and [Tech QnA](../tech-qna/)
     -   [Heroes](../heroes/)
-    -   [Tech](../tech/)
 
 My goals for current projects are mainly to:
 
--   help people find amazing sources online
--   help connect people (myself included) over mutual fascinations
+-   help people find all of the best online sources
+    -   utilities, guides, references, readings, videos, ...
+-   help connect people (myself included) over mutual appreciations
 
-For fun, I play a lot of UMvC3. I also like listening to podcasts, struggling with the guitar, reading nonfiction, cooking different foods from around the world, and spending quality time with my girlfriend, Sneha, and our 2 wonderful cats, Kulfi and Jamun.
+For fun, I like listening to podcasts, reading nonfiction, struggling with the guitar, cooking different foods from around the world, and spending quality time with my girlfriend, Sneha, and our 2 wonderful cats, Kulfi and Jamun. I am also a _huge_ fan of UMvC3.

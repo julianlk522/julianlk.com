@@ -115,23 +115,29 @@ Cons:
 
 #### Neovim
 
-Love it.
+Pros:
 
-Configuration is intimidating until you find [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim), then it's really easy.
+-   very configurable
+-   base IDE is very lightweight compared to, e.g., VS Code
+-   everything Vim offers and more
+    -   [LSP](../tech-qna#what-is-lsp-what-problems-does-it-solve) client
+    -   robust extension potential with Lua plugins
 
-There are just a few things I come back to VS Code for still:
+Cons:
 
--   easy project-wide find and replace
-    -   though can be achieved in nvim with `:cfdo %s /old/new/g | update | bd`
--   integrated testing UI
-    -   though [https://github.com/nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) seems promising
--   familiarity
+-   initial configuration is intimidating (though [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) helps immensely)
+-   some helpful features are not built-in or not as intuitive to configure / use as with other IDEs
+    -   project-wide find and replace
+        -   can be achieved with `:cfdo %s /old/new/g | update | bd` after loading files into the quickfix list, e.g., with <c-Q> from telescope.nvim grep search
+    -   integrated testing UI
+        -   [https://github.com/nvim-neotest/neotest](https://github.com/nvim-neotest/neotest)
+-   steep learning curve
 
 #### Hugo
 
 Pros:
 
--   very customizable
+-   very configurable
 -   very fast builds
 
 Cons:
@@ -156,6 +162,5 @@ Cons:
 
 #### Cisco PacketTracer
 
--   actually amazing. I would love to use this more for real network engineering.
--   intimidating UI at first glance
+-   actually amazing
 -   download page is somewhat hidden away
