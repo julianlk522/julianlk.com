@@ -8,19 +8,23 @@ This page is a collection of questions that I had about various tech and the bes
 
 These writings also serve as notes to help me learn and for future reference.
 
-As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check my statements but am not perfect.
+As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check everything but am not perfect.
 
 ## Tech Ecosystem
 
 #### What is RSS all about? Should you care about it?
 
-That depends on whether you follow a lot of blogs or other (relatively simple) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which looks for an XML _sitemap_ file on the sites you specify. The sitemap can indicate any changed content, and your aggregator (or _reader_) will report those updates back to you in a _syndicated_ (the 2nd 's' in 'RSS') location.
+**RSS**: _Really Simple Syndication_
+
+That depends on whether you follow a lot of blogs or other (relatively basic) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which fetches an XML _sitemap_ file from the sites you specify. The sitemap overviews site content, and your aggregator (or _reader_) will detect and report any updates back to you in a _syndicated_ (hence the 2nd "S") location.
 
 You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
 
-### What is LSP? What problem(s) does it solve?
+#### What is LSP? What problem(s) does it solve?
 
-Language Server Protocol is an [open standard](https://github.com/microsoft/language-server-protocol) providing a uniform communication format for code editors and [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to request and receive language-specific guidance from remote, language-specific intelligence servers. Guidance might be:
+**_LSP_**: _Language Server Protocol_
+
+LSP is an [open standard](https://github.com/microsoft/language-server-protocol) providing a uniform communication format for code editors and [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to request and receive language-specific tooling from selected dedicated intelligence servers over [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC). Guidance might be:
 
 -   auto complete suggestions
 -   syntax highlighting
@@ -28,11 +32,20 @@ Language Server Protocol is an [open standard](https://github.com/microsoft/lang
 -   documentation on hover
 -   etc.
 
-LSP solves the problem of providing development support features for a range of languages, across a range of editors or editing environments, without duplicating implementation.
+LSP solves the problem of providing development support features for a range of languages, across a range of editors and IDEs, without duplicating implementation.
 
-Without a common protocol, each editor would need to independently configure support for each language's unique APIs, which is wasteful and tedious in cases where such tooling already exists elsewhere. It allows conveniently "hooking into" existing language tooling on an ad hoc basis.
+Without a common protocol, each editor would need to independently configure support for each language's unique APIs, which would be reinventing the wheel if such tooling already exists elsewhere. It allows convenient access to existing, standardized language support on an ad hoc basis.
 
-see [https://microsoft.github.io/language-server-protocol/](https://microsoft.github.io/language-server-protocol/)
+see:
+
+-   [https://microsoft.github.io/language-server-protocol/](https://microsoft.github.io/language-server-protocol/)
+-   [https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ](https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ)
+
+#### Who maintains LSP servers and their networking needs?
+
+Code upkeep: that varies, though [Microsoft maintains many core implementations](https://microsoft.github.io/language-server-protocol/implementors/servers/).
+
+Server hosting: servers generally run locally in a background process spawned by your editor / IDE, so no there is no remote networking involved. No, the maintainers are not collecting and selling your keystrokes to the NSA.
 
 ## General-Purpose Programming
 
