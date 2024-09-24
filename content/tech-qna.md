@@ -8,6 +8,8 @@ This page is a collection of questions that I had about various tech and the bes
 
 These writings also serve as notes to help me learn and for future reference.
 
+This is not an exhaustive list; more topics will be added over time.
+
 As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check everything but am not perfect.
 
 ## Tech Ecosystem
@@ -43,7 +45,7 @@ see:
 
 #### Who maintains LSP servers and their networking needs?
 
-Code upkeep: that varies, though [Microsoft maintains many core implementations](https://microsoft.github.io/language-server-protocol/implementors/servers/).
+Code upkeep: that varies, though [Microsoft maintains a handful of core implementations](https://microsoft.github.io/language-server-protocol/implementors/servers/).
 
 Server hosting: servers generally run locally in a background process spawned by your editor / IDE, so no there is no remote networking involved. No, the maintainers are not collecting and selling your keystrokes to the NSA.
 

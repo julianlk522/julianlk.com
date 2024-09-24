@@ -64,7 +64,7 @@ Cons:
 -   not easy to rename your package
     -   Well, it's easy enough to replace the imports / package declarations / go.mod with a script. But I think that would be a good feature for the Go CLI.
 -   `if err != nil {}` everywhere
-    -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating error sources. Overall, I think I prefer Go's error handling.
+    -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating error sources. Overall, I think I prefer Go's errors-as-values system.
 
 #### Python
 
@@ -105,7 +105,6 @@ Cons:
 Pros:
 
 -   simple types
--   not many (21) keywords
 
 Cons:
 
@@ -131,6 +130,7 @@ Cons:
         -   can be achieved with `:cfdo %s /old/new/g | update | bd` after loading files into the quickfix list, e.g., with <c-Q> from telescope.nvim grep search
     -   integrated testing UI
         -   [https://github.com/nvim-neotest/neotest](https://github.com/nvim-neotest/neotest)
+-   unlike vi or Vim(.tiny), not included by default in many Linux distibutions, so not readily available after SSHing into some unconfigured remote server
 -   steep learning curve
 
 #### Hugo

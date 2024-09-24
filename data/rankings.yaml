@@ -1,5 +1,5 @@
 rankings:
-    - name: 'Bahama Mama Gfuel'
+    - name: 'Bahama Mama GFuel'
       score: 9.5
     - name: 'Tim Ferriss'
       score: 9.3
@@ -38,7 +38,7 @@ rankings:
     - name: 'reaction videos'
       score: 0
     - name: 'Python'
-      score: 8.7
+      score: 8.8
     - name: 'JavaScript'
       score: 5.9
     - name: 'TypeScript'
@@ -56,7 +56,7 @@ rankings:
     - name: 'gratitude'
       score: 9.8
     - name: 'telescope.nvim'
-      score: 9.4
+      score: 9.3
     - name: 'Clean Code by Robert Martin'
       score: 5.9
     - name: 'Anki'
@@ -84,7 +84,7 @@ rankings:
     - name: 'Greek yogurt'
       score: 9.4
     - name: 'RSS'
-      score: 8
+      score: 7.6
     - name: 'Notion (note-taking app)'
       score: 6.9
     - name: 'bookmarklets'
@@ -116,7 +116,7 @@ rankings:
     - name: 'James Brown'
       score: 9
     - name: 'pickled onions'
-      score: 8
+      score: 7.7
     - name: 'Ron Jarzombek'
       score: 9.2
     - name: 'early mornings'
@@ -150,7 +150,7 @@ rankings:
     - name: 'allergies'
       score: 0
     - name: 'Scooby Doo'
-      score: 8.3
+      score: 8.1
     - name: 'rain'
       score: 9.3
     - name: 'ants'
@@ -258,7 +258,7 @@ rankings:
     - name: 'boba'
       score: 8
     - name: 'big band'
-      score: 9.1
+      score: 8.9
     - name: 'grapefruit'
       score: 7.4
     - name: 'mango'
