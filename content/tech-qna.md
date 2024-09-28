@@ -4,7 +4,7 @@ date = 2024-09-04T23:29:32-04:00
 draft = false
 +++
 
-This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self, to help it make sense. Topics are ones which I found especially confusing or not suitable to be answered by a quick Google search.
+This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self and to any other curious readers, to help it make sense. Topics are ones which I found especially confusing or not suitable to be answered by a quick Google search.
 
 These writings also serve as notes to help me learn and for future reference.
 
@@ -18,7 +18,7 @@ As always, please [let me know](mailto:jxl1729@miami.edu) if you see something f
 
 **RSS**: _Really Simple Syndication_
 
-That depends on whether you follow a lot of blogs or other (relatively basic) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which fetches an XML _sitemap_ file from the sites you specify. The sitemap overviews site content, and your aggregator (or _reader_) will detect and report any updates back to you in a _syndicated_ (hence the 2nd "S") location.
+That depends on whether you follow a lot of blogs or other (relatively basic) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which fetches an XML _sitemap_ file from the sites you specify. The sitemap overviews site content, and your aggregator (or _reader_) will detect and report any updates back to you in a _syndicated_ location (hence the 2nd "S").
 
 You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
 
@@ -34,7 +34,7 @@ LSP is an [open standard](https://github.com/microsoft/language-server-protocol)
 -   documentation on hover
 -   etc.
 
-LSP solves the problem of providing development support features for a range of languages, across a range of editors and IDEs, without duplicating implementation.
+LSP solves the problem of providing development support features for a range of languages, across a range of editors and IDEs, without duplicating implementation and without loading any such features that you don't need.
 
 Without a common protocol, each editor would need to independently configure support for each language's unique APIs, which would be reinventing the wheel if such tooling already exists elsewhere. It allows convenient access to existing, standardized language support on an ad hoc basis.
 
@@ -61,9 +61,89 @@ The same effect can be achieved with a class. The private state could be represe
 
 #### What is the point of generator functions? In which cases are they preferable to ordinary synchronous functions?
 
-One use case: breaking up resource requirements for expensive tasks. Maybe you want to read lines from a 2GB file without loading the entire 2GB into memory, so you create a generator function to stream line by line of the file.
+1.  Breaking up resource requirements for expensive tasks (i.e., [_lazy evaluation_](https://www.tutorialspoint.com/functional_programming/functional_programming_lazy_evaluation.htm)). Maybe you want to read lines from a 4GB file without loading the entire 4GB into memory, or read data coming from an infinite stream, so you create a generator function to stream line by line of the file. Unused lines are never consumed and their memory requirements can be avoided.
 
-You might also use generator functions to build [iterators](https://en.wikipedia.org/wiki/Iterator). Iterators don't _require_ generators, but it is intuitive to simply `yield` their possible values and invoke them with `.next()`. For example, you might create a generator function, `gen*,` for website infinite scroll functionality, where new data can be fetched on demand, ad infinitum, by just calling `gen*.next()`.
+    You'll need to keep track of how much of the file / stream has already been read as you continue. Managing state between calls like this is possible with closures but generators do it inherently.
+
+With closure:
+
+```
+function lazy_sequence() {
+    let i = 0;
+    return function() {
+        return i++
+    }
+}
+
+const sequence = lazy_sequence()
+console.log(sequence()) // 0
+console.log(sequence()) // 1
+console.log(sequence()) // 2
+```
+
+With generator:
+
+```
+function* lazy_sequence() {
+    let i = 0;
+    while (true) {
+        yield i++
+    }
+}
+
+const sequence = lazy_sequence()
+console.log(sequence.next().value) // 0
+console.log(sequence.next().value) // 1
+console.log(sequence.next().value) // 2
+```
+
+2. Generators also integrate nicely into [iterators](https://en.wikipedia.org/wiki/Iterator) and allow usage of `for-of` loops and other constructs that can simplify readability where alternative solutions may not make this so easy.
+
+```
+async function asynchronous_task() {
+    await new Promise(...)
+    ...
+}
+```
+
+With callback:
+
+```
+async function stream_task_results(callback, stop_condition) {
+    while (true) {
+        const task_results = await asynchronous_task()
+        await callback(task_results)
+        if (stop_condition(task_results)) {
+            break
+        }
+    }
+}
+
+stream_task_results(
+    task_results => do_something(task_results), // callback
+    task_results => is_depleted(task_results) // stop_condition
+)
+```
+
+With generator:
+
+```
+async function* stream_task_results() {
+    while (true) {
+        yield await asynchronous_task()
+    }
+}
+
+async function consume_stream() {
+    const stream = stream_task_results()
+    for await (const task_results of stream) { // convenient iterator syntax
+        do_something(task_results)
+        if (is_depleted(task_results)) break
+    }
+}
+
+consume_stream()
+```
 
 #### Are there _exclusive_ use cases for classes compared to functions? Is there a strong reason to use them, aside from just preference or matching some existing code's design themes?
 
@@ -74,7 +154,7 @@ You might also use generator functions to build [iterators](https://en.wikipedia
 
 #### Why is an in-memory database sometimes preferred to a disk-based database?
 
-No I/O operations for storage or [serialization](https://en.wikipedia.org/wiki/Serialization) for transmission required, so reads / writes are fast.
+No I/O operations required for storage and no [serialization](https://en.wikipedia.org/wiki/Serialization) required for transmission, so reads / writes are fast.
 
 Not preferred when:
 
@@ -85,12 +165,12 @@ Not preferred when:
 
 #### If creating table indexes speeds up reads, why not always create an index for every column?
 
-1. Consumes more RAM. Exceeding RAM limit of your computer or virtual machine means frequently swapping to / from disk storage, which is slow and possibly expensive.
+1. Consumes more RAM. Exceeding RAM limit of your computer / virtual machine means frequently swapping to / from disk storage, which is slow and possibly expensive.
 2. Slows write / delete times. Each index needs to be updated along with its associated columns to stay synced.
 
 #### Why _does_ creating a table index improve read performance? Is the table's primary key not already an index in the traditional sense?
 
-Primary keys are sufficient as unique identifiers for each row, but they are _not alphabetically sorted_. Indexing sorts the queryable data so that a full table scan is not needed to locate a particular row. A [linear search](https://en.wikipedia.org/wiki/Linear_search) (one-by-one) can replaced with a [binary search](https://en.wikipedia.org/wiki/Binary_search), bringing time complexity from **O(n)** down to **O(log n)**. If searching a one-million-row table, the max number of searches to find a target drops from **1,000,000** to **20**.
+Primary keys are sufficient as unique identifiers for each row, but they are _not alphabetically sorted_. Indexing sorts the queryable data so that a full table scan is not needed to locate a particular row. A [linear search](https://en.wikipedia.org/wiki/Linear_search) can replaced with a [binary search](https://en.wikipedia.org/wiki/Binary_search), bringing time complexity from **O(n)** down to **O(log n)**. If searching a one-million-row table, the max number of searches to find a target drops from **1,000,000** to **20**.
 
 see [https://www.atlassian.com/data/sql/how-indexing-works#:~:text=Let's,table:](https://www.atlassian.com/data/sql/how-indexing-works#:~:text=Let's,table:)
 
