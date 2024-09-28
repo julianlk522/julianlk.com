@@ -34,7 +34,7 @@ rankings:
     - name: 'NextJS'
       score: 5.8
     - name: 'AstroJS'
-      score: 8
+      score: 8.3
     - name: 'reaction videos'
       score: 0
     - name: 'Python'
@@ -90,11 +90,11 @@ rankings:
     - name: 'bookmarklets'
       score: 6.8
     - name: 'Netlify'
-      score: 7.9
+      score: 8.1
     - name: 'Railway.app'
-      score: 7.1
+      score: 7.4
     - name: 'Linode (Akamai)'
-      score: 8.8
+      score: 8.9
     - name: 'the Olympics'
       score: 7.5
     - name: 'bucket hats'
@@ -138,7 +138,7 @@ rankings:
     - name: 'ragdoll physics'
       score: 8.2
     - name: 'Mark Lettieri'
-      score: 8.8
+      score: 8.6
     - name: 'TED Talks'
       score: 6.9
     - name: 'hayd3nplz combos'
@@ -240,7 +240,7 @@ rankings:
     - name: 'SSH'
       score: 7.9
     - name: 'Hugo SSG'
-      score: 5.2
+      score: 5.7
     - name: 'Metallica'
       score: 8.2
     - name: 'MS Word'
@@ -273,3 +273,29 @@ rankings:
       score: 8.3
     - name: 'Snarky Puppy'
       score: 8.1
+    - name: 'draw.io'
+      score: 7
+    - name: 'podcasts'
+      score: 8.3
+    - name: 'Google Docs'
+      score: 7.2
+    - name: 'peanut butter and banana smoothies'
+      score: 8.1
+    - name: 'Depths of Wikipedia'
+      score: 9
+    - name: 'secret handshakes'
+      score: 8
+    - name: 'Darknet Diaries'
+      score: 8.5
+    - name: 'Stack Exchange'
+      score: 9.1
+    - name: 'Microsoft'
+      score: 8.6
+    - name: 'Reddit'
+      score: 9.3
+    - name: 'earplugs'
+      score: 6.9
+    - name: 'pizza'
+      score: 7.4
+    - name: '3Blue1Brown'
+      score: 8.9

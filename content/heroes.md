@@ -4,7 +4,7 @@ date = 2024-08-09T16:06:20-04:00
 draft = false
 +++
 
-This page is an open letter of gratitude to some of my favorite people ever. For a handful of reasons, I really admire everyone here and they have significantly influenced my hopes and dreams.
+This page is an open letter of gratitude to some of my favorite people ever. For a handful of reasons, I really admire everyone here and they have significantly influenced my dreams and core values.
 
 My goal is both to thank those listed and to share with any other readers what I find so remarkable about them.
 
@@ -78,7 +78,7 @@ Tim is the author of several great books and has recommended others (both direct
 
 Aside from incredible essays, PG is responsible for creating [Hacker News](https://news.ycombinator.com/), one of my favorite and most-visited Internet sites. (Fun fact: the HN backend is written in Arc, a dialect of the Lisp programming language which PG authored. It is possibly the only use of Arc used in production code today&mdash;I don't know of another, at least, but please [correct me](mailto:jxl1729@miami.edu) if you do.) He is also well known for his role at YCombinator, locating important startups and helping them to bring dreams to reality. I don't tend to glorify venture capital, but I really like some companies/nonprofits that YC has backed (Reddit and [80,000 Hours](https://80000hours.org/about/), for instance).
 
-Despite massive success, PG is humble, compassionate, and happy to see others succeed. Maybe being a father helps to cultivate that positivity. I respect and thank him a lot for his commitment to improving broad quality of life through startup advising, setting HN on a path to greatness, and openly sharing his thoughtful excerpts with the world.
+Despite huge success, PG is humble, compassionate, and happy to see others succeed. Maybe being a father helps to cultivate that positivity. I respect and thank him a lot for his commitment to improving broad quality of life through startup advising, setting HackerNews on a path to greatness, and openly sharing his thoughtful excerpts with the world.
 
 ### Terry Crews
 
@@ -86,13 +86,13 @@ Terry Crews hardly needs an introduction. What do I admire so much about him tha
 
 Admitting fault is difficult, especially at the core identity level. For Terry to voluntarily give up toughness, a key ingredient in his recipe for fame and success, in order to align with higher ideals and live happily, is a real show of character. I can't understate the importance, nor the difficulty, of such a choice.
 
-Terry, like most people on this list, is someone who had ample chances to sell out but never did. He could have found other partners after his affair was discovered, without internally reconciling the crime of infidelity. He could have continued to live violently, especially since it is arguably a virtue in competitive football. He has been offered an easier but less honorable life many times, and has instead chosen to become a role model for the community, particularly for men who battle the addiction of feeling tough.
+Terry, like most people on this list, is someone who had ample chances to sell out but never did. He could have found other partners after his affair was discovered, without internally reconciling the crime of infidelity. He could have continued to live violently, especially since it is arguably a virtue in competitive football. He has been offered an easier but less honorable life many times, but has instead chosen to become a role model for the community, particularly for men who battle the addiction of feeling tough.
 
 ### Joyce Kaufman
 
 Joyce Kaufman is my grandma, who is also the kindest and most selfless person I've ever known. She lives in Elma, NY in the same ramshackled farmhouse where she raised my dad and his 5 siblings. If I had to summarize her favorite things in approximate order, they would be 1) hugs, 2) making people laugh, and 3) telling you all about how much she loved my grandpa, Sol.
 
-Joyce has always done her best to provide for those around her, regardless of lineage or any other differences. She fostered many kids and pets throughout her adult life, both temporarily and indefinitely. My aunt Jessica and uncle Dan are two such kids, but I've only ever known them as family because that's how she treats everyone. She and grandpa would invite kids and teenagers over from Buffalo inner-city group homes during the summers, some of whom had committed horrific crimes, and they would enjoy picnics together, play in the lawn or by the pool, and just try to give everyone a great time.
+Joyce has always done her best to provide for those around her, regardless of lineage or any other differences. She fostered many kids and pets throughout her adult life, both temporarily and indefinitely. My aunt Jessica and uncle Dan are two such kids, but I've only ever known them as family because that's how she treats everyone. Years before I was born, she and grandpa would invite kids and teenagers over from Buffalo inner-city group homes during the summers, some of whom had committed horrific crimes, and they would enjoy picnics together, play in the lawn or by the pool, and just try to give everyone a great time.
 
 My grandpa suffered from pretty severe dementia toward the end of his life, and caring for him became a huge challenge for Joyce. She refused to ever send him away to assisted living. She wanted to be together, and devoting a decade of her life to keeping him safe until he passed was worth that.
 

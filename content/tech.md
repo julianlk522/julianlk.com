@@ -130,7 +130,7 @@ Cons:
         -   can be achieved with `:cfdo %s /old/new/g | update | bd` after loading files into the quickfix list, e.g., with <c-Q> from telescope.nvim grep search
     -   integrated testing UI
         -   [https://github.com/nvim-neotest/neotest](https://github.com/nvim-neotest/neotest)
--   unlike vi or Vim(.tiny), not included by default in many Linux distibutions, so not readily available after SSHing into some unconfigured remote server
+-   unlike vi or Vim(.tiny), not included by default in many Linux distributions, so not readily available after SSHing into some unconfigured remote server
 -   steep learning curve
 
 #### Hugo
