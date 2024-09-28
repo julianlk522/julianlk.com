@@ -4,64 +4,119 @@ date = 2024-09-04T23:29:32-04:00
 draft = false
 +++
 
-This page is a collection of questions that I had about various tech and the best answers that I could give now, to my earlier self and to any other curious readers, to help it make sense. Topics are ones which I found especially confusing or not suitable to be answered by a quick Google search.
+This page is a collection of questions that I had about various tech concepts and the best answers that I could give now, to my earlier self and to any other curious readers, to help it make sense. Topics are ones which I found especially confusing or not suitable to be answered by a quick Google search.
 
 These writings also serve as notes to help me learn and for future reference.
 
 This is not an exhaustive list; more topics will be added over time.
 
-As always, please [let me know](mailto:jxl1729@miami.edu) if you see something false. I try hard to fact-check everything but am not perfect.
-
-## Tech Ecosystem
-
-#### What is RSS all about? Should you care about it?
-
-**RSS**: _Really Simple Syndication_
-
-That depends on whether you follow a lot of blogs or other (relatively basic) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which fetches an XML _sitemap_ file from the sites you specify. The sitemap overviews site content, and your aggregator (or _reader_) will detect and report any updates back to you in a _syndicated_ location (hence the 2nd "S").
-
-You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
-
-#### What is LSP? What problem(s) does it solve?
-
-**_LSP_**: _Language Server Protocol_
-
-LSP is an [open standard](https://github.com/microsoft/language-server-protocol) providing a uniform communication format for code editors and [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to request and receive language-specific tooling from selected dedicated intelligence servers over [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC). Guidance might be:
-
--   auto complete suggestions
--   syntax highlighting
--   error checking
--   documentation on hover
--   etc.
-
-LSP solves the problem of providing development support features for a range of languages, across a range of editors and IDEs, without duplicating implementation and without loading any such features that you don't need.
-
-Without a common protocol, each editor would need to independently configure support for each language's unique APIs, which would be reinventing the wheel if such tooling already exists elsewhere. It allows convenient access to existing, standardized language support on an ad hoc basis.
-
-see:
-
--   [https://microsoft.github.io/language-server-protocol/](https://microsoft.github.io/language-server-protocol/)
--   [https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ](https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ)
-
-#### Who maintains LSP servers and their networking needs?
-
-Code upkeep: that varies, though [Microsoft maintains a handful of core implementations](https://microsoft.github.io/language-server-protocol/implementors/servers/).
-
-Server hosting: servers generally run locally in a background process spawned by your editor / IDE, so no there is no remote networking involved. No, the maintainers are not collecting and selling your keystrokes to the NSA.
+As always, if you see something false, please [let me know](mailto:jxl1729@miami.edu). I try hard to fact-check everything but am not perfect.
 
 ## General-Purpose Programming
 
 #### What is the point of closures? Why not simply combine the inner and outer functions into one?
 
-Closures allow creating hidden state inside the outer function's lexical scope (the _enclosing_ scope) which is accessible (i.e., can be referenced or _closed over_) in the inner function but safely sequestered from the rest of your code. But, importantly, each call to the outer function spawns a new, distinct instance of the encapsulated state.
+Closures allow creating hidden state inside the outer function's lexical scope (the _enclosing_ scope) which is preserved (_captured_) after the outer function finishes executing. The hidden state is accessible (i.e., can be referenced or _closed over_) in the inner function but safely separated from the rest of your code. And each call to the outer function spawns a new, distinct instance of the encapsulated state.
 
-A function containing no other functions _could_ contain its own state, isolated from the rest of the program, but the difference is that it cannot be invoked `n` times to produce `n` autonomous copies; it is limited to the single instance of state declared in its definition. Closures make dynamic regeneratation of self-contained state possible.
+```
+function create_counter() {
+    let count = 0
 
-The same effect can be achieved with a class. The private state could be represented as a property of the class and the inner function could be a method. Calling a class constuctor (e.g., `new Thing(...)`) would be equivalent to calling the outer function in a closure. Both the OOP implementation (classes) and FP implementation (closures) are valid, depending on the programming language and existing design patterns in the codebase.
+    // Inner function (closure)
+    function counter() {
+        console.log(++count)
+        return count
+  }
 
-#### What is the point of generator functions? In which cases are they preferable to ordinary synchronous functions?
+    return counter
+}
+```
 
-1.  Breaking up resource requirements for expensive tasks (i.e., [_lazy evaluation_](https://www.tutorialspoint.com/functional_programming/functional_programming_lazy_evaluation.htm)). Maybe you want to read lines from a 4GB file without loading the entire 4GB into memory, or read data coming from an infinite stream, so you create a generator function to stream line by line of the file. Unused lines are never consumed and their memory requirements can be avoided.
+Distinct instances of state encapsulation for each call:
+
+```
+const counter1 = create_counter()
+const counter2 = create_counter()
+
+counter1() // 1
+counter1() // 2
+counter1() // 3
+
+counter2() // 1
+counter2() // 2
+```
+
+State is "safe," not directly accessible:
+
+`console.log(counter1.count) // undefined`
+
+A function containing no other functions _could_ contain its own state, isolated from the rest of the program, but the difference is that it cannot be invoked `n` times to produce `n` autonomous instances; it is limited to the single instance of state declared in its definition, which also cannot persist between calls.
+
+Attempting to merge outer and inner functions...
+
+```
+function counter() {
+    let count = 0
+    console.log(++count)
+    return count
+}
+```
+
+...prevents isolated instances with preserved state:
+
+```
+const counter1 = () => counter()
+const counter2 = () => counter()
+
+counter1() // 1
+counter1() // 1
+counter2() // 1
+counter2() // 1
+```
+
+You could store the state outside the function scope, which would allow it to persist between calls, but that would also expose it to being manipulated by other parts of the program.
+
+Closures make possible the dynamic regeneratation of private, preserved state.
+
+The same effect can be achieved with a class. The private state could be represented as a property of the class and the inner function could be a method. Calling a class constuctor (e.g., `new Thing(...)`) would be equivalent to calling the outer function.
+
+Both the [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) implementation (classes) and [FP](https://en.wikipedia.org/wiki/Functional_programming) implementation (closures) are valid, depending on the programming language and existing design patterns in the codebase, though classes do not always guarantee separation of state from other parts of the codebase.
+
+Example with classes:
+
+```
+class Counter {
+  constructor() {
+    this._count = 0
+  }
+
+  increment() {
+    console.log(++this._count)
+    return this._count
+  }
+}
+
+const counter1 = new Counter()
+const counter2 = new Counter()
+
+counter1.increment() // 1
+counter1.increment() // 2
+counter1.increment() // 3
+
+counter2.increment() // 1
+counter2.increment() // 2
+```
+
+Property is _not_ private in JavaScript classes:
+
+`console.log(counter1._count) // 3`
+
+#### What is the point of generator functions? When are they preferable to ordinary functions?
+
+**TL;DR**:
+they aren't explicitly required for anything, but they may help with organization and readability.
+
+1.  Breaking up resource requirements for expensive tasks (i.e., [_lazy evaluation_](https://www.tutorialspoint.com/functional_programming/functional_programming_lazy_evaluation.htm)). Maybe you want to read lines from a 4GB file without loading the entire 4GB into memory, or read data coming from an infinite stream, so you create a generator function to stream line by line. Unused lines are never consumed and their memory requirements can be avoided.
 
     You'll need to keep track of how much of the file / stream has already been read as you continue. Managing state between calls like this is possible with closures but generators do it inherently.
 
@@ -97,7 +152,7 @@ console.log(sequence.next().value) // 1
 console.log(sequence.next().value) // 2
 ```
 
-2. Generators also integrate nicely into [iterators](https://en.wikipedia.org/wiki/Iterator) and allow usage of `for-of` loops and other constructs that can simplify readability where alternative solutions may not make this so easy.
+2. Generators also integrate nicely into [iterators](https://en.wikipedia.org/wiki/Iterator) and allow usage of `for-of` loops and other constructs that can simplify readability where alternative solutions may not make that so easy.
 
 ```
 async function asynchronous_task() {
@@ -160,6 +215,43 @@ Not preferred when:
 
 -   storage capacity is a concern and RAM is in shorter supply than disk storage
 -   persistent changes required
+
+## Tech Ecosystem
+
+#### What is RSS all about? Should you care about it?
+
+**RSS**: _Really Simple Syndication_
+
+That depends on whether you follow a lot of blogs or other (relatively basic) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which fetches an XML _sitemap_ file from the sites you specify. The sitemap overviews site content, and your aggregator (or _reader_) will detect and report any updates back to you in a _syndicated_ location (hence the 2nd "S").
+
+You basically can check a single feed to get automatic updates from multiple, maybe many, sites of your choosing. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
+
+#### What is LSP? What problem(s) does it solve?
+
+**_LSP_**: _Language Server Protocol_
+
+LSP is an [open standard](https://github.com/microsoft/language-server-protocol) providing a uniform communication format for code editors and [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to request and receive language-specific tooling from selected dedicated intelligence servers over [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC). Guidance might be:
+
+-   auto complete suggestions
+-   syntax highlighting
+-   error checking
+-   documentation on hover
+-   etc.
+
+LSP solves the problem of providing development support features for a range of languages, across a range of editors and IDEs, without duplicating implementation and without loading any such features that you don't need.
+
+Without a common protocol, each editor would need to independently configure support for each language's unique APIs, which would be reinventing the wheel if such tooling already exists elsewhere. It allows convenient access to existing, standardized language support on an ad hoc basis.
+
+see:
+
+-   [https://microsoft.github.io/language-server-protocol/](https://microsoft.github.io/language-server-protocol/)
+-   [https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ](https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ)
+
+#### Who maintains LSP servers and their networking needs?
+
+Code upkeep: that varies, though [Microsoft maintains a handful of core implementations](https://microsoft.github.io/language-server-protocol/implementors/servers/).
+
+Server hosting: servers generally run locally in a background process spawned by your editor / IDE, so no there is no remote networking involved. No, the maintainers are not collecting and selling your keystrokes to the NSA.
 
 ## SQL
 
