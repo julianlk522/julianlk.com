@@ -74,9 +74,9 @@ counter2() // 1
 counter2() // 1
 ```
 
-You could store the state outside the function scope, which would allow it to persist between calls, but that would also expose it to being manipulated by other parts of the program.
+You could store the state outside the function scope, which would allow it to persist between calls, but that would expose it outside manipulation and would require knowing the number of instances in advance.
 
-Closures make possible the dynamic regeneratation of private, preserved state.
+So, closures are a way to allow dynamic regeneratation of private, preserved state.
 
 The same effect can be achieved with a class. The private state could be represented as a property of the class and the inner function could be a method. Calling a class constuctor (e.g., `new Thing(...)`) would be equivalent to calling the outer function.
 
@@ -176,7 +176,7 @@ async function stream_task_results(callback, stop_condition) {
 
 stream_task_results(
     task_results => do_something(task_results), // callback
-    task_results => is_depleted(task_results) // stop_condition
+    task_results => is_time_to_stop(task_results) // stop_condition
 )
 ```
 
@@ -190,10 +190,10 @@ async function* stream_task_results() {
 }
 
 async function consume_stream() {
-    const stream = stream_task_results()
-    for await (const task_results of stream) { // convenient iterator syntax
-        do_something(task_results)
-        if (is_depleted(task_results)) break
+    const task_results = stream_task_results()
+    for await (const tr of task_results) { // convenient iterator syntax
+        do_something(tr)
+        if (is_time_to_stop(tr)) break
     }
 }
 

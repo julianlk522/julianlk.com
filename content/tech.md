@@ -7,11 +7,12 @@ draft = false
 ## Learning / Practicing Now
 
 -   more Git
-    -   rebase, cherry-pick, bisect, submodule, etc.
+    -   rebase, cherry-pick, bisect, etc.
 -   Vim commands
 -   more SQL(ite)
     -   [virtual tables](https://sqlite.org/fts5.html)
     -   [extensions](https://sqlite.org/spellfix1.html)
+    -   [window functions](https://www.sqlite.org/windowfunctions.html)
 -   Hugo SSG (powering this website)
 -   Neovim plugin ecosystem
 -   tmux
@@ -21,7 +22,7 @@ draft = false
 
 -   [direnv](https://direnv.net/)
 -   a functional programming language
-    -   tentative considerations: Elixir, Haskell, Lisp
+    -   tentative considerations: Elixir, Clojure, Haskell
 -   Redis
 
 ## Thoughts on Tech That I Have Used
@@ -86,6 +87,7 @@ Cons:
 
 Pros:
 
+-   destructuring is elegant and really handy
 -   a package for everything
 -   run natively in web browsers via JS engine
 -   intuitive [DOM APIs](https://en.wikipedia.org/wiki/Document_Object_Model#Manipulating_the_DOM_tree)
@@ -142,7 +144,7 @@ Pros:
 
 Cons:
 
--   steep learning curve, in my opinion
+-   fairly steep learning curve, in my opinion
     -   subtle nuances that can be hard to debug
         -   `_index.md` list page vs `index.md` regular page
         -   template lookup order
@@ -153,14 +155,17 @@ Cons:
         -   taxonomy
         -   etc.
 -   error messages are not always helpful or explicit
-    -   . e.g., when I accidentally .gitignore'd `themes/lugo/layouts/_default` and ran the build, Hugo gave a subtle one-line `WARN` log and proceeded to build the site with 1/6 working pages (because that page had a dedicated layout living outside the theme's `_default` folder)
-
-#### Wezterm (terminal emulator)
-
--   great documentation
--   out-of-the-box multiplexing is nice
+    -   . e.g., when I accidentally .gitignore'd `themes/lugo/layouts/_default` and ran the build, Hugo gave a subtle one-line `WARN` log and proceeded to spin up the 16.67% working site (1 page / 6 had a dedicated layout living outside the theme's `_default` folder, so it built correctly)
 
 #### Cisco PacketTracer
 
--   actually amazing
+-   amazing
 -   download page is somewhat hidden away
+
+### Others I have used that are just an absolute joy to work with. No notes.
+
+-   Astro.js
+-   tmux
+-   Wezterm
+-   Obsidian
+-   [Bruno](https://github.com/usebruno/bruno) (open source Postman alternative)
