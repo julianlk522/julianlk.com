@@ -64,6 +64,10 @@ Still, Justin often came out ahead, through incredible skill and some other myst
 
 Years later, I still occasionally replay Justin's old matches from that era. If he did that, what else might be possible that few believe in?
 
+By the way, in the decade-plus and _thousands_ of Marvel matches I have spectated and played, Justin Wong is the _only player I have ever seen_ to command the level of respect needed to hit that same-side overhead mixup. Nobody even _attempts_ that mixup because if your opponent isn't scared shitless then it's basically guaranteed to flop and leave your character for certain death.
+
+Justin also only did that mixup twice: once in 2013 in Evo Grand Finals against Flocker, and once more [here](https://youtu.be/ojYshX0FOBg?si=KqFPASucShQap0gn&t=95) in 2022, _nearly 10 years later_, against Chris G. Chris G is another Evo champion and multi-time Evo finalist who is renowned for his composure and defensive skill. Chris G blocks _everything_. But not the most simple mixup imaginable when dealt by a true master.
+
 ### Tim Ferriss
 
 [Tim Ferriss](https://tim.blog/) does a lot of things, but personally I am most grateful for the effort he has put into _The Tim Ferriss Show_. Like [Annie Rauwerda]({{< ref "/heroes#annie-rauwerda-depths-of-wikipedia">}}), Tim does a spectacular job of offering people fun ways to shed "unknown unknowns." His podcasts are typically interviews/conversations, and guests come from a range of backgrounds. Of the handful of podcasts I have tested, it is by far the one with the highest average episode quality.
