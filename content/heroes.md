@@ -60,7 +60,7 @@ In the early years of "Mahvel"'s life, Justin was a frequent finalist in tournam
 
 (You might be thinking, "that sounds like a bad game if it's so unfair," and you would be right. But it's also an amazing game for reasons I won't get into here.)
 
-Still, Justin often came out ahead, through incredible skill and some other mysterious force. A name was given to it: the "Wong Factor." The phenomenon which caused him to suddenly, in the most dire and hopeless moments, make the exact decisions and executions needed to clutch a game. Beholding the Wong Factor in the finals of Evolution 2013 and 2014 was like experiencing magic happen. I honestly consider it a defining moment of my life. It was an immaculate display of talent but, more importantly, it was a broadcast to the world that nothing is impossible.
+Still, Justin often came out ahead, through incredible skill and some other mysterious force. A name was given to it: the "Wong Factor." The phenomenon which caused him to suddenly, in the most dire and hopeless moments, make the exact decisions and executions needed to clutch a game. Beholding the Wong Factor in the finals of Evolution [2013](https://youtu.be/HkZXmPVSoOY?si=AittMnCG4klGqTxI&t=596) and [2014](https://youtu.be/H9-kPPCnNzY?si=omFpi29yhCzL2lP1&t=771) was like experiencing magic happen. I honestly consider it a defining moment of my life. It was an immaculate display of talent but, more importantly, it was a broadcast to the world that nothing is impossible.
 
 Years later, I still occasionally replay Justin's old matches from that era. If he did that, what else might be possible that few believe in?
 
