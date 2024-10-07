@@ -45,7 +45,7 @@ Pros:
     -   `go fmt`
     -   `go test`
     -   `go run` / `go build`
--   useful concurrency abstractions:
+-   useful concurrency primitives:
     -   goroutines
     -   channels
 -   context useful as more organized and elegant alternative to global state
@@ -54,11 +54,6 @@ Pros:
 
 Cons:
 
--   drawbacks of static typing that I imagine other languages suffer from too:
-    -   no union (`foo | bar`) type means either code duplication or casting to `interface{}`s which leads to other problems
-        -   `interface{}` loses type-safety unless you perform runtime type assertion / reflection or if the member structs of the union type share methods that can be declared on a narrower interface.
-    -   unmarshaling JSON is annoying
-        -   Strictly matching JSON shape to struct shape can require a lot boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
 -   no convenient way (that I have yet found) to use shared data across package test suites
     -   `TestMain` works well within one package for multi-test setup / teardown but not between packages. If you want a shared database connection for integration tests, you'll need to duplicate some code to run in the `TestMain` of each related package.
     -   [https://stackoverflow.com/a/70385157](https://stackoverflow.com/a/70385157)
@@ -66,6 +61,11 @@ Cons:
     -   Well, it's easy enough to replace the imports / package declarations / go.mod with a script. But I think that would be a good feature for the Go CLI.
 -   `if err != nil {}` everywhere
     -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating error sources. Overall, I think I prefer Go's errors-as-values system.
+-   drawbacks of static typing that I imagine other languages suffer from too:
+    -   no union (`foo | bar`) type means either code duplication or casting to `interface{}`s which leads to other problems
+        -   `interface{}` loses type-safety unless you perform runtime type assertion / reflection or if the member structs of the union type share methods that can be declared on a narrower interface.
+    -   unmarshaling JSON is annoying
+        -   Strictly matching JSON shape to struct shape can require a lot boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
 
 #### Python
 

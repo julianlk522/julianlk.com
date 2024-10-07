@@ -1,12 +1,10 @@
 rankings:
     - name: 'Bahama Mama GFuel'
       score: 9.5
-    - name: 'Tim Ferriss'
-      score: 9.3
     - name: 'Wikipedia'
       score: 9.5
     - name: 'Google'
-      score: 6
+      score: 6.5
     - name: 'TD Ameritrade'
       score: 6.5
     - name: 'Venetian Snares'
@@ -87,7 +85,7 @@ rankings:
       score: 9.2
     - name: 'RSS'
       score: 7.6
-    - name: 'Notion (note-taking app)'
+    - name: 'Notion'
       score: 6.9
     - name: 'bookmarklets'
       score: 6.8
@@ -106,7 +104,7 @@ rankings:
     - name: 'HackerNews'
       score: 9.7
     - name: 'trading (speculative investment)'
-      score: 7
+      score: 7.7
     - name: 'October'
       score: 3
     - name: 'November'
@@ -190,13 +188,13 @@ rankings:
     - name: '90s rap'
       score: 8.1
     - name: 'post-90s rap'
-      score: 6.4
+      score: 5.5
     - name: 'January'
       score: 5
     - name: 'February'
       score: 4
     - name: 'March'
-      score: 7
+      score: 7.3
     - name: 'June'
       score: 8
     - name: 'July'
@@ -313,3 +311,11 @@ rankings:
       score: 9.3
     - name: 'Packet Tracer'
       score: 9
+    - name: 'SVG'
+      score: 8.5
+    - name: 'The Flashbulb'
+      score: 8.6
+    - name: 'calisthenics'
+      score: 7.8
+    - name: 'boxing'
+      score: 7.1
