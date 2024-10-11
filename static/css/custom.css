@@ -30,6 +30,9 @@ h1 {
 h2 {
 	font-size: 1.5rem;
 }
+h6 {
+	font-size: 1rem;
+}
 
 h1,
 footer,
@@ -39,7 +42,7 @@ footer,
 
 h2,
 h3,
-:not(h2, h3) + h4 {
+:not(h2, h3) + :is(h4, h6) {
 	margin-top: 3rem;
 }
 
