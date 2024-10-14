@@ -44,6 +44,7 @@ h2,
 h3,
 :not(h2, h3) + :is(h4, h6) {
 	margin-top: 3rem;
+	margin-bottom: 1rem;
 }
 
 article {

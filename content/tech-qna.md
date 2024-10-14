@@ -257,7 +257,7 @@ Server hosting: servers generally run locally in a background process spawned by
 
 ## Web Development
 
-#### When architecting client-server web APIs, when might a developer choose REST, REST + GraphQL, or RPC? What are the unique benefits of each style?
+#### When designing client-server web APIs, when might you want to choose REST, REST + GraphQL, or RPC? What are the unique benefits of each style?
 
 ###### [TL;DR](#with-that-said)
 
@@ -309,19 +309,25 @@ First, an overview of each:
 
 ###### With that said...
 
-###### Which APIs might "REST" (or an approximation of it) be best suited for? In as simple a description as possible: ones prioritizing reliability and broad, long-term compatibility.
+###### Which APIs might "REST" (or an approximation of it) be best suited for?
+
+In as simple a description as possible: ones prioritizing reliability and broad, long-term compatibility.
 
 -   Confining possible interactions through specific URI definitions
 -   Clarifying availability of URIs via hypermedia links in returned responses
 -   Compatibility across varying client types, especially for World Wide Web access
 
-###### Which APIs might benefit most from GraphQL? In as simple a description as possible: the most complex, resource-intensive ones.
+###### Which APIs might benefit most from GraphQL?
+
+In as simple a description as possible: the most complex, resource-intensive ones.
 
 -   Sprawling APIs with complex consumption patterns where the requested data must come from combinations of endpoints
 -   APIs using many endpoints that are hard to keep track of
 -   APIs with heavy request loads where overfetching data is a significant expense
 
-###### Which APIs might prefer to use RPC? In as simple a description as possible: ones responsible for private, high-trust actions with a greater priority on performance over broad support. For example, [microservice](https://en.wikipedia.org/wiki/Microservices)-based backends.
+###### Which APIs might prefer to use RPC?
+
+In as simple a description as possible: ones responsible for private, high-trust actions with a greater priority on performance over broad support. e.g., [microservice](https://en.wikipedia.org/wiki/Microservices)-based backends.
 
 -   Freedom to execute server actions directly can be a security vulnerability. It is less of a concern if the RPC endpoint is kept private.
 -   Non-standardization has the benefit of optionally neglecting delivery of non-essential data, e.g., HTTP response status codes, which can improve processing efficiency at the expense of interoperability. This is a worthwhile trade-off if interoperability doesn't matter much.
