@@ -20,6 +20,17 @@ nav ul {
 	list-style-type: none;
 }
 
+nav#TableOfContents ul {
+	display: block;
+	list-style-type: disc;
+}
+
+// there is probably a more elegant way to exclude "Table of Contents" from
+// the Table of Contents... but this works for now
+nav#TableOfContents ul li:first-of-type {
+	display: none;
+}
+
 img {
 	max-width: 100%;
 }

@@ -12,6 +12,10 @@ More topics will be added over time.
 
 As always, if you see something false, please [let me know](mailto:jxl1729@miami.edu). I try hard to fact-check everything but am not perfect.
 
+## Table of Contents
+
+{{< toc >}}
+
 ## General-Purpose Programming
 
 #### What is the point of closures? Why not simply combine the inner and outer functions into one?

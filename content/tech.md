@@ -63,7 +63,7 @@ Cons:
     -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating error sources. Overall, I think I prefer Go's errors-as-values system.
 -   drawbacks of static typing that I imagine other languages suffer from too:
     -   no union (`foo | bar`) type means either code duplication or casting to `interface{}`s which leads to other problems
-        -   `interface{}` loses type-safety unless you perform runtime type assertion / reflection or if the member structs of the union type share methods that can be declared on a narrower interface.
+        -   `interface{}` loses type-safety unless you perform runtime type assertion / type switching / reflection or if the member structs of the union type share methods that can be declared on a narrower interface.
     -   unmarshaling JSON is annoying
         -   Strictly matching JSON shape to struct shape can require a lot boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
 
