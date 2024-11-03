@@ -87,7 +87,9 @@ Cons:
 
 Pros:
 
--   destructuring is elegant and really handy
+-   some convenience features that are really elegant and handy:
+    -   destructuring
+    -   optional chaining
 -   a package for everything
 -   run natively in web browsers via JS engine
 -   intuitive [DOM APIs](https://en.wikipedia.org/wiki/Document_Object_Model#Manipulating_the_DOM_tree)
