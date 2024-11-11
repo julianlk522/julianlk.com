@@ -4,26 +4,26 @@ date = 2024-08-31T23:34:03-04:00
 draft = false
 +++
 
-## Learning / Practicing Now
+## Learning / Practicing / Testing Now
 
+-   [fzf](https://junegunn.github.io/fzf/)
+-   [direnv](https://direnv.net/)
+-   more bash
+-   more vi/Vim
+-   more SQL(ite)
+    -   [window functions](https://www.sqlite.org/windowfunctions.html)
 -   more Git
     -   rebase, cherry-pick, bisect, etc.
--   Vim commands
--   more SQL(ite)
-    -   [virtual tables](https://sqlite.org/fts5.html)
-    -   [extensions](https://sqlite.org/spellfix1.html)
-    -   [window functions](https://www.sqlite.org/windowfunctions.html)
--   Hugo SSG (powering this website)
 -   Neovim plugin ecosystem
 -   tmux
--   more bash
+-   Hugo SSG (powering this website)
 
-## To Learn Soon
+## Considering
 
--   [direnv](https://direnv.net/)
+-   Redis
 -   a functional programming language
     -   tentative considerations: Elixir, Clojure, Haskell
--   Redis
+-   [Bun](https://bun.sh/)
 
 ## Thoughts on Tech That I Have Used
 
@@ -62,10 +62,11 @@ Cons:
 -   `if err != nil {}` everywhere
     -   But `try/catch` blocks lead to more nesting and possibly more difficulty locating error sources. Overall, I think I prefer Go's errors-as-values system.
 -   drawbacks of static typing that I imagine other languages suffer from too:
-    -   no union (`foo | bar`) type means either code duplication or casting to `interface{}`s which leads to other problems
-        -   `interface{}` loses type-safety unless you perform runtime type assertion / type switching / reflection or if the member structs of the union type share methods that can be declared on a narrower interface.
-    -   unmarshaling JSON is annoying
-        -   Strictly matching JSON shape to struct shape can require a lot boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
+    -   no sum type (`foo | bar`) makes things hard sometimes
+        -   code duplication, incomplete type safety, poor ergonomics, or a combination are difficult to avoid
+            -   https://zackoverflow.dev/writing/hacking-go-to-give-it-sumtypes/
+        -   you can cast any type to `interface{}` and then perform runtime type assertion / type switching / reflection, but it's a bit of a rigmarole
+    -   Strictly matching JSON shape to struct shape when unmarshaling can require a lot boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
 
 #### Python
 
@@ -81,17 +82,17 @@ Cons:
 -   dynamic typing
     -   less safety / poorer DX developing in a non-typed codebase
 -   indentation slightly harder to read / debug than `{}` blocks
--   lil bit slow
+-   a bit slow
 
 #### JavaScript
 
 Pros:
 
 -   some convenience features that are really elegant and handy:
-    -   destructuring
-    -   optional chaining
+    -   [destructuring](https://javascript.info/destructuring-assignment)
+    -   [optional chaining](https://github.com/tc39/proposal-optional-chaining)
 -   a package for everything
--   run natively in web browsers via JS engine
+-   run natively in web browsers
 -   intuitive [DOM APIs](https://en.wikipedia.org/wiki/Document_Object_Model#Manipulating_the_DOM_tree)
 
 Cons:
@@ -108,7 +109,7 @@ Cons:
 
 Pros:
 
--   simple types
+-   simple type system
 
 Cons:
 
@@ -124,7 +125,7 @@ Pros:
 -   base IDE is very lightweight compared to, e.g., VS Code
 -   everything Vim offers and more
     -   [LSP](../tech-qna#what-is-lsp-what-problems-does-it-solve) client
-    -   robust extension potential with Lua plugins
+    -   lenient extension potential with Lua
 
 Cons:
 
@@ -166,8 +167,8 @@ Cons:
 
 ### Others I have used that are just an absolute joy to work with. No notes.
 
--   Astro.js
--   tmux
--   Wezterm
--   Obsidian
--   [Bruno](https://github.com/usebruno/bruno) (open source Postman alternative)
+-   **Astro.js** (frontend framework allowing fine blending of server-side rendering and pockets of isolated interactivity)
+-   **tmux** (terminal multiplexer / macro enabler / persistent session)
+-   **Wezterm** (highly customizable terminal emulator with great documentation)
+-   **Obsidian** (easily navigable Markdown notes)
+-   [**Bruno**](https://github.com/usebruno/bruno) (open source, lightweight Postman alternative)
