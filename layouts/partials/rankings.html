@@ -1,6 +1,0 @@
-{{ $rankings := sort .Site.Data.rankings.rankings "score" "desc" }}
-<ul>
-	{{ range $rankings }}
-	<li>{{ .name }} - {{ .score }}/10</li>
-	{{ end }}
-</ul>

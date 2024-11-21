@@ -8,7 +8,7 @@ rankings:
     - name: 'TD Ameritrade'
       score: 6.5
     - name: 'Venetian Snares'
-      score: 8.5
+      score: 7.8
     - name: 'water'
       score: 10
     - name: 'UMvC3'
@@ -30,7 +30,7 @@ rankings:
     - name: 'HIIT sprints'
       score: 6.6
     - name: 'Go(lang)'
-      score: 7.9
+      score: 8.2
     - name: 'NextJS'
       score: 5.8
     - name: 'AstroJS'
@@ -38,7 +38,7 @@ rankings:
     - name: 'reaction videos'
       score: 0
     - name: 'Python'
-      score: 8.8
+      score: 8.1
     - name: 'JavaScript'
       score: 5.9
     - name: 'TypeScript'
@@ -245,9 +245,9 @@ rankings:
       score: 8.2
     - name: 'MS Word'
       score: 4.9
-    - name: 'Twitter (post-takeover)'
+    - name: 'Twitter after 2022'
       score: 1
-    - name: 'Twitter (pre-takeover)'
+    - name: 'Twitter before 2022'
       score: 8
     - name: 'spicy vocabulary'
       score: 8.2
@@ -361,3 +361,33 @@ rankings:
       score: 4
     - name: 'LEGOs'
       score: 7.6
+    - name: 'cht.sh'
+      score: 9.2
+    - name: 'spearmint'
+      score: 8.1
+    - name: 'interviews'
+      score: 5.9
+    - name: 'Planet Fitness'
+      score: 7
+    - name: 'LC-dolida bluetooth headband'
+      score: 8.7
+    - name: 'trampolines'
+      score: 6.8
+    - name: 'insomnia'
+      score: 3.3
+    - name: 'mega extroverts'
+      score: 1.5
+    - name: 'whiteboards'
+      score: 8.5
+    - name: 'cable TV'
+      score: 3.2
+    - name: 'Qtile'
+      score: 8
+    - name: 'git'
+      score: 9.3
+    - name: 'designing UIs'
+      score: 4
+    - name: 'ReactJS'
+      score: 6.7
+    - name: 'crazy drivers'
+      score: 1.8
