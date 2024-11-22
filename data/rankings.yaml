@@ -240,7 +240,7 @@ rankings:
     - name: 'SSH'
       score: 8
     - name: 'Hugo SSG'
-      score: 5.7
+      score: 4.8
     - name: 'Metallica'
       score: 8.2
     - name: 'MS Word'

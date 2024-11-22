@@ -1,1 +1,5 @@
-{{ .Page.TableOfContents }}
+<ul>
+	{{ range where .Site.RegularPages "Section" "qna" }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
