@@ -27,7 +27,7 @@ draft = false
 
 ## Thoughts on Tech That I Have Used
 
-There is still a lot I don't know about these. If you see something incorrect, please [let me know](mailto:jxl1729@miami.edu).
+There is still a lot I don't know about these. If you see something incorrect, please [let me know](mailto:julianlindsaykaufman@gmail.com).
 
 ### Programming Languages
 

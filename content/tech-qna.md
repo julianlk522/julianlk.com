@@ -10,7 +10,7 @@ These writings also serve as notes to help me learn and for future reference.
 
 More topics will be added over time.
 
-As always, if you see something false, please [let me know](mailto:jxl1729@miami.edu). I try hard to fact-check everything but am not perfect.
+As always, if you see something false, please [let me know](mailto:julianlindsaykaufman@gmail.com). I try hard to fact-check everything but am not perfect.
 
 ## Table of Contents
 
