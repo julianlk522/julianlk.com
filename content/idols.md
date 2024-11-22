@@ -1,5 +1,5 @@
 +++
-title = 'Heroes'
+title = 'Idols'
 date = 2024-08-09T16:06:20-04:00
 draft = false
 +++
@@ -54,23 +54,23 @@ Rest in peace, Aaron. Your sacrifices have made countless lives so much better.
 
 ### Justin Wong
 
-Justin Wong is different from a lot of the heroes on this page. He's not an educator per se, but his achievements have educated fans on the limitless potential of practice and determination. He is a professional fighting game player who I came to know as an icon in the community of Ultimate Marvel vs. Capcom 3, my favorite video game ever.
+Justin Wong, unlike others on this page, is not an educator per se. But his achievements have educated fans on the limitless potential of practice and determination. He is a professional fighting game player who I came to know as an icon in the community of Ultimate Marvel vs. Capcom 3, my favorite video game ever.
 
 In the early years of "Mahvel"'s life, Justin was a frequent finalist in tournaments. Despite being [infamously unbeatable](https://www.evo.gg/news/a-brief-history-of-marvel-vs-capcom-at-evo) in the previous edition of the series, Justin was often considered an underdog in Marvel 3. It's frankly not a very fair game, and tactics to produce nearly riskless victories were, even in 2013, well-known. Many abused these strategies against Justin but he (almost) never ceded and joined them. He stuck to a relatively fair gameplan, making it harder for himself. Why? I believe it comes from the opinion, which I agree with, that the process of truly earning a victory is more important than just getting one.
 
 (You might be thinking, "that sounds like a bad game if it's so unfair," and you would be right. But it's also an amazing game for reasons I won't get into here.)
 
-Still, Justin often came out ahead, through incredible skill and some other mysterious force. A name was given to it: the "Wong Factor." The phenomenon which caused him to suddenly, in the most dire and hopeless moments, make the exact decisions and executions needed to clutch a game. Beholding the Wong Factor in the finals of Evolution [2013](https://youtu.be/HkZXmPVSoOY?si=AittMnCG4klGqTxI&t=596) and [2014](https://youtu.be/H9-kPPCnNzY?si=omFpi29yhCzL2lP1&t=771) was like experiencing magic happen. I honestly consider it a defining moment of my life. It was an immaculate display of talent but, more importantly, it was a broadcast to the world that nothing is impossible.
+Still, he often came out ahead through incredible skill and some other mysterious force. A name was given to it: the "Wong Factor." The phenomenon which caused him to suddenly, in the most dire and hopeless moments, make the exact decisions and executions needed to clutch a game. Beholding the Wong Factor in the finals of Evolution [2013](https://youtu.be/HkZXmPVSoOY?si=AittMnCG4klGqTxI&t=596) and [2014](https://youtu.be/H9-kPPCnNzY?si=omFpi29yhCzL2lP1&t=771) was like witnessing magic happen. I consider it a defining moment of my life. It was an immaculate display of talent but, more importantly, it was a broadcast to the world that nothing is impossible.
 
-Years later, I still occasionally replay Justin's old matches from that era. If he did that, what else might be possible that few believe in?
+Years later, I still occasionally replay Justin's matches from that era. If he did that, what else might be possible that few believe in?
 
 By the way, in the decade-plus and _thousands_ of Marvel matches I have spectated and played, Justin Wong is the _only player I have ever seen_ to command the level of respect needed to hit that same-side overhead mixup. Nobody even _attempts_ that mixup because if your opponent isn't scared shitless then it's basically guaranteed to flop and leave your character for certain death.
 
-Justin also only did that mixup twice: once in 2013 in Evo Grand Finals against Flocker, and once more [here](https://youtu.be/ojYshX0FOBg?si=KqFPASucShQap0gn&t=95) in 2022, _nearly 10 years later_, against Chris G. Chris G is another Evo champion and multi-time Evo finalist who is renowned for his composure and defensive skill. Chris G blocks _everything_. But not the most simple mixup imaginable when dealt by a true master.
+Justin also only did that mixup twice as far as I know: once in 2013 in Evo Grand Finals against Flocker, and once more [here](https://youtu.be/ojYshX0FOBg?si=KqFPASucShQap0gn&t=95) in 2022, _nearly 10 years later_, against Chris G. Chris G is another Evo champion and multi-time Evo finalist who is renowned for his composure and defensive skill. Chris G blocks everything. But not the simplest possible mixup when its dealt by a true master.
 
 ### Tim Ferriss
 
-[Tim Ferriss](https://tim.blog/) does a lot of things, but personally I am most grateful for the effort he has put into _The Tim Ferriss Show_. Like [Annie Rauwerda]({{< ref "/heroes#annie-rauwerda-depths-of-wikipedia">}}), Tim does a spectacular job of offering people fun ways to shed "unknown unknowns." His podcasts are typically interviews/conversations, and guests come from a range of backgrounds. Of the handful of podcasts I have tested, it is by far the one with the highest average episode quality.
+[Tim Ferriss](https://tim.blog/) does a lot of things, but personally I am most grateful for the effort he has put into _The Tim Ferriss Show_. Like [Annie Rauwerda]({{< ref "/idols#annie-rauwerda-depths-of-wikipedia">}}), Tim does a spectacular job of offering people fun ways to shed "unknown unknowns." His podcasts are typically interviews/conversations, and guests come from a range of backgrounds. Of the handful of podcasts I have tested, it is by far the one with the highest average episode quality.
 
 What makes Tim's podcast so good? A mix of interesting subject matter (for virtually all tastes), great questions (often the same or variations... because they work well), focused conversions with few detours, a willingness to congratulate and empower rivals (the opposite suggests selfish ulterior motives and is a red flag, in my opinion) and, often, a sincerity between speakers that other podcasts lack.
 

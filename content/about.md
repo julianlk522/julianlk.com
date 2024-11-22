@@ -15,7 +15,7 @@ I'm currently working on:
 -   Helping to fill [FITM](https://fitm.online) with Internet treasure
 -   Adding to this website:
     -   Researching for [Tech](../tech/) and [Tech QnA](../tech-qna/)
-    -   Celebrating my [Heroes](../heroes/)
+    -   Celebrating my [Idols](../idols/)
 
 <br>
 
