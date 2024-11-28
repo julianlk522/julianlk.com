@@ -356,7 +356,7 @@ rankings:
     - name: 'overhead fans'
       score: 7.3
     - name: 'loud incessant noises'
-      score: 0.5
+      score: 0.75
     - name: 'moving (homes)'
       score: 4
     - name: 'LEGOs'
@@ -391,3 +391,11 @@ rankings:
       score: 6.7
     - name: 'crazy drivers'
       score: 1.8
+    - name: 'LinkedIn'
+      score: 0.75
+    - name: 'chocolate'
+      score: 7.6
+    - name: 'zippers'
+      score: 6.9
+    - name: 'payment cards (as opposed to paper bills and coins)'
+      score: 8
