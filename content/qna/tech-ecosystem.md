@@ -46,7 +46,7 @@ Server hosting: servers generally run locally in a background process spawned by
 
 Let's clarify lossy vs. lossless compression first because this does not apply to lossy. It's a bit self-explanatory: lossy compression _loses_ some data integrity, for example in MP3 by discarding audio above roughly the [20,000Hz human audible frequency limit](https://interview.orpheus.network/spectral-analysis.php), while lossless compression does not. These offer a key tradeoff: lossy compression increases data reduction (smaller file sizes) but lossless compression allows the exact data to be preserved and reconstructed perfectly after unencoding (higher quality).
 
-Lossy makes sense for storing things like videos. The trimmed data doesn't affect video quality much but has huge implications for storage savings, especially when working on the order of [exabytes](https://what-if.xkcd.com/63/). For other things where exact data representation matter a lot, lossless compression like gzip is required to safely shrink file sizes.
+Lossy makes sense for storing things like videos. The trimmed data doesn't affect video quality much but has huge implications for storage savings, especially when working on the order of [exabytes](https://what-if.xkcd.com/63/). For other things where exact data representation matters a lot, lossless compression like gzip is required to safely shrink file sizes.
 
 So, if compressing code to a .gz file is possible, why do we ever bother with uncompressed file formats? Isn't a lower number of bits stored always better?
 

@@ -82,7 +82,7 @@ Tim is the author of several great books and has recommended others (both direct
 
 Aside from great essays, PG is responsible for creating [Hacker News](https://news.ycombinator.com/), one of my favorite and most-visited Internet sites. (Fun fact: the HN backend is written in Arc, a dialect of the Lisp programming language which PG authored. It is possibly the only use of Arc used in production code today.) He is also well known for his role at YCombinator, helping to identify and sponsor important startups to bring dreams to reality. I don't tend to glorify venture capital, but I really like some companies/nonprofits that YC has backed (Reddit and [80,000 Hours](https://80000hours.org/about/), for instance).
 
-Despite huge success, PG is humble, compassionate, and happy to see others succeed. Maybe being a father helps to cultivate that positivity. I respect and thank him a lot for his commitment to improving broad quality of life through startup advising, setting HackerNews on a path to greatness, and openly sharing his thoughtful excerpts with the world.
+Despite huge success, PG is humble, compassionate, and happy to see others succeed. Maybe being a father helps to cultivate that positivity. I respect and thank him a lot for his commitment to improving broad quality of life through startup advising, setting Hacker News on a path to greatness, and openly sharing his thoughtful excerpts with the world.
 
 ### Terry Crews
 
