@@ -19,6 +19,4 @@ I'm currently working on:
 
 <br>
 
-<img src="/jlk-family.jpeg" title="JLK family" alt="Julian, Sneha, Kulfi, and Jamun" width='150' />
-
-For fun, I like listening to podcasts, reading nonfiction, struggling with the guitar, cooking different foods from around the world, writing about things I enjoy, and spending quality time with my girlfriend, Sneha, and our 2 wonderful cats, Kulfi and Jamun. I am also a _huge_ UMvC3 fan.
+For fun, I like listening to podcasts, reading nonfiction, struggling with the guitar, cooking different foods from around the world, and writing about things I enjoy. I am also a huge UMvC3 fan.
