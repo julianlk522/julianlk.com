@@ -20,3 +20,5 @@ I'm currently working on:
 <br>
 
 For fun, I like listening to podcasts, reading nonfiction, struggling with the guitar, cooking different foods from around the world, and writing about things I enjoy. I am also a huge UMvC3 fan.
+
+<strong>Disclaimer</strong>: Views expressed here are mine, not my employer's.
