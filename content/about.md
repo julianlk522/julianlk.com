@@ -8,7 +8,7 @@ draft = false
 
 I'm Julian Lindsay-Kaufman. Nice to meet you!
 
-I have many interests. Right now they mostly center around education and technology. There is huge potential in combining those, and I think often about how to best do it.
+I have many interests. Right now they mostly center around education and technology.
 
 I'm currently working on:
 
