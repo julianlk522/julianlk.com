@@ -80,7 +80,7 @@ rankings:
     - name: 'Austin Powers trilogy'
       score: 9.6
     - name: 'Greek yogurt'
-      score: 9.2
+      score: 9.1
     - name: 'RSS'
       score: 7.6
     - name: 'Notion'
@@ -115,7 +115,7 @@ rankings:
       score: 9
     - name: 'pickled cabbage'
       score: 7.7
-    - name: 'Ron Jarzombek'
+    - name: 'Ron Jarzombek music'
       score: 9.2
     - name: 'early mornings'
       score: 3
@@ -397,3 +397,19 @@ rankings:
       score: 6.9
     - name: 'payment cards (as opposed to paper bills and coins)'
       score: 8
+    - name: 'Outliers by Malcolm Gladwell'
+      score: 7
+    - name: 'The Righteous Mind by Jonathan Haidt'
+      score: 9
+    - name: 'Anything You Want by Derek Sivers'
+      score: 9
+    - name: 'The Paradox of Choice by Barry Schwartz'
+      score: 8
+    - name: 'video game glitches'
+      score: 8.9
+    - name: 'gongs'
+      score: 8.1
+    - name: 'mantis shrimp'
+      score: 9.2
+    - name: 'phone calls'
+      score: 4
