@@ -8,5 +8,3 @@ draft = false
 #### or... a lot of things, at least
 
 Rankings are intended to be context-specific.
-
-Subject to change.

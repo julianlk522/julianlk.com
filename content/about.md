@@ -8,27 +8,30 @@ draft = false
 
 I'm Julian Lindsay-Kaufman. Nice to meet you!
 
-I have broad interests and volatile preoccupations with each. Thus, I've settled for specializing in generalizing.
+I have broad interests and volatile interest in them. I think there are way too many worthy preoccupations to not be some sort of generalist. Thus, I intend to specialize in generalizing. I'm interested in learning to learn better, and in improving information availability.
 
-Current Projects:
-
--   Helping to fill [FITM](https://fitm.online) with Internet treasure
--   Journaling here
-
-For fun, I like to:
+As such, some of my favorite hobbies are:
 
 -   listen to podcasts
 -   read nonfiction
 -   explore spontaneous curiosity rabbit holes
+-   discover new lifestyle supercharge techniques through coding and I.T.
 -   write about things I enjoy
--   doodle on the guitar
--   experiment with cooking
--   clack my arcade stick to some UMvC3
 
-To get a better sense for who I am, consider exploring my [Ranking List of Everything](../rankings/) or [Tribute to my Idols](../idols/)
+But I also have fun
+
+-   doodling on the guitar
+-   testing new cooking experiments
+-   mashing buttons in UMvC3
+
+Current Projects:
+
+-   Helping to fill [FITM](https://fitm.online) with Internet treasure
+
+<b>To get a better sense of who I am, consider reading [Ranking List of Everything](../rankings/) or [Tribute to my Idols](../idols/)</b>
 
 <br>
 
 <strong>Disclaimer</strong>: Views expressed here are mine, not my employer's.
 
-<strong>Disclaimer 2</strong>: I change my mind sometimes. (Wow! Blasphemy.) Don't assume that any opinions here are permanent. I also am very picky about wording and may adjust it from time to time.
+<strong>Disclaimer 2</strong>: I change my mind sometimes. (Wow! Blasphemy.) Don't assume that any opinions here are permanent. I'm also very picky about wording and may adjust it from time to time.
