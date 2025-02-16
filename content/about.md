@@ -10,7 +10,7 @@ I'm Julian Lindsay-Kaufman. Nice to meet you!
 
 I have broad interests and volatile interest in them. I think there are way too many worthy preoccupations to not be some sort of generalist. Thus, I intend to specialize in generalizing. I'm interested in learning to learn better, and in improving information availability.
 
-As such, some of my favorite hobbies are:
+As such, some of my favorite hobbies are to:
 
 -   listen to podcasts
 -   read nonfiction
@@ -18,11 +18,11 @@ As such, some of my favorite hobbies are:
 -   discover new lifestyle supercharge techniques through coding and I.T.
 -   write about things I enjoy
 
-But I also have fun
+But I also have fun:
 
 -   doodling on the guitar
 -   testing new cooking experiments
--   mashing buttons in UMvC3
+-   mashing some buttons in UMvC3
 
 Current Projects:
 

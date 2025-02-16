@@ -6,4 +6,4 @@ draft = false
 
 Welcome to Julian Lindsay Kaufman's personal website.
 
-Here you'll find my writings, compilations, and current preoccupations.
+Here you'll find my writings and compilations.
