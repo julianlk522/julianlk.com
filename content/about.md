@@ -8,30 +8,25 @@ draft = false
 
 I'm Julian Lindsay-Kaufman. Nice to meet you!
 
-I have broad interests and volatile interest in them. I think there are way too many worthy preoccupations to not be some sort of generalist. Thus, I intend to specialize in generalizing. I'm interested in learning to learn better, and in improving information availability.
+I have broad interests and volatile interest in them. There are way too many topics worthy of attention, so I aim to specialize in generalizing.
 
-As such, some of my favorite hobbies are to:
+My foremost hope in life is to help proliferate curiosity and joy for learning, and empower average people to be more knowledgeable. To that end, I strive to increase information availability on two levels:
 
--   listen to podcasts
--   read nonfiction
--   explore spontaneous curiosity rabbit holes
--   discover new lifestyle supercharge techniques through coding and I.T.
--   write about things I enjoy
+-   subjectively, by promoting topics I greatly enjoy
+-   systematically, by refining available self-education tools
 
-But I also have fun:
+<br>
 
--   doodling on the guitar
--   testing new cooking experiments
--   mashing some buttons in UMvC3
+<b>For a better sense of who I am, consider reading [Ranking List of Everything](../rankings/) or [Tribute to my Idols](../idols/)</b>
+
+<br>
 
 Current Projects:
 
 -   Helping to fill [FITM](https://fitm.online) with Internet treasure
 
-<b>To get a better sense of who I am, consider reading [Ranking List of Everything](../rankings/) or [Tribute to my Idols](../idols/)</b>
-
 <br>
 
 <strong>Disclaimer</strong>: Views expressed here are mine, not my employer's.
 
-<strong>Disclaimer 2</strong>: I change my mind sometimes. (Wow! Blasphemy.) Don't assume that any opinions here are permanent. I'm also very picky about wording and may adjust it from time to time.
+<strong>Disclaimer 2</strong>: I change my mind sometimes. (Wow! Blasphemy.) Don't assume that any opinions here are permanent. I'm also very picky about wording and will adjust it now and then.
