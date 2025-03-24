@@ -65,7 +65,7 @@ counter2() // 1
 counter2() // 1
 ```
 
-You could store the state outside the function scope, which would allow it to persist between calls, but that would expose it outside manipulation and would require knowing the number of instances in advance.
+You could store the state outside of function scope, which would allow it to persist during execution of the program, but that would also expose it to outside manipulation and require knowing in advance how many instances of that state need to exist.
 
 So, closures are a way to allow dynamic regeneratation of private, preserved state.
 
@@ -143,7 +143,7 @@ console.log(sequence.next().value) // 1
 console.log(sequence.next().value) // 2
 ```
 
-2. Generators also integrate nicely into [iterators](https://en.wikipedia.org/wiki/Iterator) and allow usage of `for-of` loops and other constructs that can simplify readability where alternative solutions may not make that so easy.
+2. Generators also integrate nicely into [iterators](https://en.wikipedia.org/wiki/Iterator) and allow usage of `for-of` loops and other constructs that can simplify readability.
 
 ```
 async function asynchronous_task() {
@@ -199,6 +199,33 @@ consume_stream()
     - no mixing up `foo()` and `foo()` if they are `bar.foo()` and `baz.foo()`
 2. (opinion) Classes intuitively group related data and separate unrelated data
     - see [https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx](https://www.reddit.com/r/learnpython/comments/1mc8ih/comment/cc7uyxx)
+
+## What is LSP? What problem(s) does it solve?
+
+**_LSP_**: _Language Server Protocol_
+
+LSP is an [open standard](https://github.com/microsoft/language-server-protocol) that allows different [IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to offer standardized tooling options for various programming languages.
+
+Language servers run in the background, analyze code segments, and emit instructions back to the editor via [JSON-RPC](https://en.wikipedia.org/wiki/JSON-RPC) to offer helpful guidance or automated tasks. For example:
+
+-   auto complete suggestions
+-   syntax highlighting
+-   error checking
+-   documentation on hover
+-   etc.
+
+LSP solves the problem of providing development support features for a range of languages, across a range of editors and IDEs, without duplicating implementation and without loading any such features that you don't need. Without it, each editor would need to reinvent the wheel for each langauge's tooling features.
+
+see:
+
+-   [https://microsoft.github.io/language-server-protocol/](https://microsoft.github.io/language-server-protocol/)
+-   [https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ](https://groups.google.com/g/bbedit/c/fFu9QnJI-Tc/m/hC8rq3I5BAAJ)
+
+#### Who maintains LSP servers and their networking needs?
+
+Development: varies, but [Microsoft maintains a handful of implementations](https://microsoft.github.io/language-server-protocol/implementors/servers/).
+
+Server deployment: servers generally run locally in a background process spawned by your editor. No, there is no remote networking involved and no, the maintainers are not selling your keystrokes to the NSA.
 
 ## Why is an in-memory database sometimes preferred to a disk-based database?
 
