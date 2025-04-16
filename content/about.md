@@ -10,7 +10,7 @@ I'm Julian Lindsay-Kaufman. Nice to meet you!
 
 I have broad interests and volatile interest in them. There are way too many topics worthy of attention, so I aim to specialize in generalizing.
 
-My foremost hope in life is to help proliferate curiosity and joy for learning, and empower average people to be more knowledgeable. To that end, I strive to increase information availability and make education more fun on two levels:
+My paramount goal is to help proliferate curiosity and joy for learning, and empower people to be more knowledgeable. To that end, I strive to increase information availability and make education fun on two levels:
 
 -   subjectively, by promoting topics I enjoy
 -   systematically, by building and improving self-education tools
@@ -23,7 +23,7 @@ My foremost hope in life is to help proliferate curiosity and joy for learning, 
 
 Current Projects:
 
--   Helping to fill [FITM](https://fitm.online) with Internet treasure
+-   Filling [FITM](https://fitm.online) with Internet treasure
 
 <br>
 
