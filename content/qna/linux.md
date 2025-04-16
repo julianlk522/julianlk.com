@@ -5,15 +5,22 @@ layout = 'qna-section'
 draft = false
 +++
 
-## Why does Debian have both `apt` and `apt-get` commands for package management?
+## What are the biggest / most common reasons to consider trying Linux?
 
-`apt` is newer and offers a more high-level, user-friendly interface than `apt-get`.
+-   speed
+    -   minimal system overhead
+        -   more CLIs than GUIs
+        -   non-essential features can be removed at will
+-   customizability
+    -   GUI system, keyboard shortcuts, window manager, ... anything you can think of
+-   security
+    -   open source, so heavily scrutinized by community
+    -   no [built-in spyware](https://www.extremetech.com/computing/342941-windows-11-collects-an-awful-lot-of-telemetry-about-your-pc)
+    -   package managers
+        -   keep download sources (repositories) in one location
+        -   require packages be verified before serving to users
 
-`apt` also has a few noteworthy features that `apt-get` does not, like automatically removing obsolete package versions with `apt upgrade` or recommending suggested package installs to fix dependency issues.
-
-see [https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/](https://aws.amazon.com/compare/the-difference-between-apt-and-apt-get/)
-
-## How do `sh` and `bash` differ? How might `#!/bin/bash` vs. `#!/bin/sh` [shebangs](<https://en.wikipedia.org/wiki/Shebang_(Unix)>) differ in their effects on subsequent code?
+## How do `sh` and `bash` differ? How might `#!/bin/bash` vs. `#!/bin/sh` [shebangs](<https://en.wikipedia.org/wiki/Shebang_(Unix)>) run subsequent code differently?
 
 `sh` (Shell Command Language or Bourne Shell) is defined in the [POSIX](https://stackoverflow.com/a/1780614) standard and is the foundation for multiple derived implementations, including `bash`. `bash` is a [superset](https://www.hackterms.com/superset) of `sh` that includes other commands like `history` and other features like [process substitution](https://www.linkedin.com/pulse/difference-between-sh-bash-linux-alok-mishra-soogc/#:~:text=Process%20Substitution). Scripts that use these features _may\*_ fail when told to run with `sh`.
 
