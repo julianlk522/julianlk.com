@@ -4,26 +4,32 @@ date = 2024-08-31T23:34:03-04:00
 draft = false
 +++
 
-## Learning / Practicing / Testing
+## Learning / Trying Out
 
--   [fzf](https://junegunn.github.io/fzf/)
--   [direnv](https://direnv.net/)
--   bash
--   vi/Vim
--   [SQL(ite)](https://www.sqlite.org/windowfunctions.html)
--   Git
-    -   rebase, cherry-pick, bisect, etc.
+-   [AutoHotkey](https://www.autohotkey.com/)
+-   [ReaPack](https://reapack.com/)
 
 ## Considering
 
--   Redis
 -   some functional programming language
-    -   I'm intrigued by Lisp or anything like it
+    -   I'm intrigued by Lisp
 -   [Bun](https://bun.sh/)
 
 ## Opinons on Tech I Have Used
 
-Disclaimer: There is a lot to know about some of these, and I don't grasp anywhere near all of it. If you know why one of my opinions may be very wrong, and you care to share, I'd love to [hear from you](mailto:julianlindsaykaufman@gmail.com)!
+Disclaimer: There is a lot to know about some of these, and I don't grasp anywhere near all of it. [If you'd like to point out why one of my statements is wrong](mailto:julianlindsaykaufman@gmail.com), I'd love to hear from you!
+
+### What I have used and had an absolute joy with. No notes.
+
+-   [**Wezterm**](https://wezterm.org/) (highly customizable terminal emulator with great documentation)
+-   [**Obsidian**](https://obsidian.md/) (easily navigable, self-hosted Markdown notes)
+-   [**SQLite**](https://sqlite.org/) (popular small, fast, and reliable SQL database engine)
+-   [**Astro.js**](https://astro.build/) (frontend framework allowing fine blending of server-side rendering and pockets of isolated interactivity)
+-   [**tmux**](https://github.com/tmux/tmux/wiki) (terminal multiplexer / macro enabler / persistent session)
+-   [**fzf**](https://junegunn.github.io/fzf/) (command-line fuzzy finder)
+-   [**direnv**](https://direnv.net/) (easy directory-specific, file-based loading/unloading of environment variables)
+-   [**Bruno**](https://github.com/usebruno/bruno) (lightweight API testing - Postman alternative)
+-   [**Cisco PacketTracer**](https://en.wikipedia.org/wiki/Packet_Tracer) (networking simulation and visualization)
 
 ### Programming Languages
 
@@ -95,14 +101,19 @@ Cons:
     -   `{}+[] // 0`
     -   etc.
 
+#### Bash
+
+Haven't used it enough to have strong opinions. Pipes are awesome. Kind of hard-to-read syntax, IMO.
+
 ### Other Software
 
 #### Neovim
 
 Pros:
 
--   completely configurable
+-   everything is configurable and extensible
 -   lightweight compared to, e.g., VS Code
+-   clout
 
 Cons:
 
@@ -137,15 +148,15 @@ Cons:
 -   error messages are not always helpful or explicit
     -   . e.g., when I accidentally .gitignore'd `themes/lugo/layouts/_default` and ran the build, Hugo subtly outputted a one-line `WARN` log but continued spinning up the 16.67% of the site that wasn't broken (1 page / 6 had a dedicated layout living outside the theme's `_default` folder, so it could build)
 
-#### Cisco PacketTracer
+#### Git
 
--   amazing
--   download page is somewhat hidden away
+Pros:
 
-### What I have used and had an absolute joy with. No notes.
+-   somewhat useful and important...
+-   generally easy and autopilot-able
 
--   **Astro.js** (frontend framework allowing fine blending of server-side rendering and pockets of isolated interactivity)
--   **tmux** (terminal multiplexer / macro enabler / persistent session)
--   **Wezterm** (highly customizable terminal emulator with great documentation)
--   **Obsidian** (easily navigable Markdown notes)
--   [**Bruno**](https://github.com/usebruno/bruno) (open source, lightweight Postman alternative)
+Cons:
+
+-   ugly documentation
+    -   but, at least informal documentation is good since so many people use it
+-   when automatic merging screws up and you get to untangle a complete mess

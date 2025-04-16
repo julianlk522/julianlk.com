@@ -413,3 +413,19 @@ rankings:
       score: 9.2
     - name: 'phone calls'
       score: 4
+    - name: 'lions'
+      score: 8.8
+    - name: 'high frequency trading'
+      score: 0.25
+    - name: 'velcro'
+      score: 6.5
+    - name: 'socks'
+      score: 7
+    - name: 'shoes'
+      score: 6.6
+    - name: 'jello'
+      score: 7.2
+    - name: 'carrots'
+      score: 6.9
+    - name: 'cockroaches'
+      score: 0.75
