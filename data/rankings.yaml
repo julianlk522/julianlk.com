@@ -429,3 +429,21 @@ rankings:
       score: 6.9
     - name: 'cockroaches'
       score: 0.75
+    - name: 'egg shells'
+      score: 1
+    - name: 'peanuts'
+      score: 7.5
+    - name: 'Praise the Sun (gesture)'
+      score: 8.9
+    - name: 'elementary school'
+      score: 8
+    - name: 'middle school'
+      score: 6
+    - name: 'high school'
+      score: 7
+    - name: 'college'
+      score: 9.2
+    - name: 'pollen'
+      score: 4.5
+    - name: 'silence'
+      score: 7.7
