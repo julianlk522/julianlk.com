@@ -15,7 +15,7 @@ With an RSS feed, you can check a single location to get automatic updates from 
 
 ## (Lossless) File compression: why is it possible? Doesn't it imply that data is usually stored inefficiently?
 
-**TL;DR**: No, not if both storage space _and_ processing cost are components to efficiency.
+**TL;DR**: No, not if both storage space _and processing cost_ are components to efficiency.
 
 Let's clarify lossy vs. lossless compression first because this does not apply to lossy. It's a bit self-explanatory: lossy compression _loses_ some data integrity, for example in MP3 by discarding audio above roughly the [20,000Hz human audible frequency limit](https://interview.orpheus.network/spectral-analysis.php), while lossless compression does not. These offer a key tradeoff: lossy compression increases data reduction (smaller file sizes) but lossless compression allows the exact data to be preserved and reconstructed perfectly after unencoding (higher quality).
 
