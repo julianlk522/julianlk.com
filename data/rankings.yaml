@@ -1,12 +1,12 @@
 rankings:
     - name: 'Bahama Mama GFuel'
-      score: 9.5
+      score: 10
     - name: 'Wikipedia'
-      score: 9.5
+      score: 9.7
     - name: 'Google'
-      score: 6.5
+      score: 7
     - name: 'TD Ameritrade'
-      score: 6.5
+      score: 6.6
     - name: 'Venetian Snares'
       score: 8.3
     - name: 'water'
@@ -14,9 +14,9 @@ rankings:
     - name: 'UMvC3'
       score: 9.9
     - name: 'dogs'
-      score: 9
+      score: 9.5
     - name: 'cats'
-      score: 8.5
+      score: 9.2
     - name: 'Cookout'
       score: 7.4
     - name: 'Popeyes'
@@ -26,31 +26,31 @@ rankings:
     - name: 'Sriracha'
       score: 8.8
     - name: 'HIIT sprints'
-      score: 6.6
+      score: 7
     - name: 'Go(lang)'
-      score: 8.2
-    - name: 'NextJS'
+      score: 8.5
+    - name: 'NextJS (as of 2/8/23)'
       score: 5.8
     - name: 'AstroJS'
       score: 8.3
     - name: 'reaction videos'
       score: 0
     - name: 'Python'
-      score: 8.1
+      score: 9
     - name: 'JavaScript'
-      score: 5.9
+      score: 6.4
     - name: 'TypeScript'
       score: 7.3
     - name: 'YouTube'
-      score: 9.3
+      score: 9.7
     - name: 'Necrophagist'
-      score: 9.1
+      score: 9.2
     - name: 'Meshuggah'
       score: 7.7
     - name: 'New York City'
-      score: 4
-    - name: 'Chapel Hill'
-      score: 6.5
+      score: 4.5
+    - name: 'Chapel Hill, NC'
+      score: 6
     - name: 'gratitude'
       score: 9.8
     - name: 'telescope.nvim'
@@ -62,45 +62,45 @@ rankings:
     - name: 'Obsidian (markdown editor)'
       score: 8.1
     - name: 'VS Code'
-      score: 8.3
+      score: 8.6
     - name: 'LG Gram 16" Intel i7 16GB LPDDR4X 512GB laptop'
-      score: 8.8
-    - name: 'Figma'
       score: 8.7
+    - name: 'Figma'
+      score: 9
     - name: 'AutoHotkey'
-      score: 7.4
+      score: 9.2
     - name: 'airports'
-      score: 0.5
+      score: 1.5
     - name: 'Vim'
-      score: 8.5
+      score: 9.4
     - name: 'Neovim'
-      score: 8.9
+      score: 8.6
     - name: 'photography'
       score: 6
-    - name: 'Austin Powers trilogy'
+    - name: 'Austin Powers (trilogy)'
       score: 9.6
     - name: 'Greek yogurt'
       score: 9.1
     - name: 'RSS'
-      score: 7.6
-    - name: 'Notion'
+      score: 8
+    - name: 'Notion (note-taking)'
       score: 6.9
     - name: 'bookmarklets'
-      score: 6.8
+      score: 5.5
     - name: 'Netlify'
-      score: 8.1
-    - name: 'Railway.app'
+      score: 8.2
+    - name: 'Railway.app (as of roughly early 2023)'
       score: 7.2
     - name: 'Linode (Akamai)'
       score: 8.9
     - name: 'the Olympics'
-      score: 7.5
+      score: 7.9
     - name: 'bucket hats'
       score: 8.4
     - name: 'TailwindCSS'
       score: 7.5
     - name: 'Hacker News'
-      score: 9.7
+      score: 9.8
     - name: 'trading (speculative investment)'
       score: 7.7
     - name: 'October'
@@ -115,8 +115,8 @@ rankings:
       score: 9
     - name: 'pickled cabbage'
       score: 7.7
-    - name: 'Ron Jarzombek music'
-      score: 9.2
+    - name: 'Ron Jarzombek discography (mixed acts)'
+      score: 9.3
     - name: 'early mornings'
       score: 3
     - name: 'late night coding'
@@ -128,15 +128,15 @@ rankings:
     - name: 'IFC Yipes commentary'
       score: 9.6
     - name: 'An Endless Sporadic'
-      score: 8.4
-    - name: 'Chrome DevTools'
+      score: 8.9
+    - name: 'Google Chrome DevTools'
       score: 8
     - name: 'MIT Open CourseWare'
       score: 7.7
     - name: 'ragdoll physics'
       score: 8.2
     - name: 'Mark Lettieri'
-      score: 8.7
+      score: 8.8
     - name: 'TED Talks'
       score: 6.9
     - name: 'hayd3nplz combos'
@@ -144,7 +144,7 @@ rankings:
     - name: 'shader art'
       score: 7.8
     - name: 'Khan Academy'
-      score: 8.1
+      score: 8.7
     - name: 'allergies'
       score: 0
     - name: 'Scooby Doo'
@@ -154,9 +154,9 @@ rankings:
     - name: 'ants'
       score: 8.3
     - name: 'NC beaches'
-      score: 7
+      score: 7.3
     - name: 'bhākarwadi'
-      score: 8.9
+      score: 9
     - name: 'Pendulum'
       score: 8.5
     - name: "DnB that isn't Pendulum"
@@ -168,19 +168,19 @@ rankings:
     - name: 'The Wire'
       score: 8.3
     - name: 'The Simpsons'
-      score: 8.5
+      score: 8.7
     - name: 'fire'
-      score: 7.3
+      score: 8
     - name: 'VersaClimbers'
-      score: 8.4
-    - name: 'smooth press rolls'
-      score: 8.9
+      score: 8.6
+    - name: 'press rolls (more points for smoothness)'
+      score: 8.8
     - name: 'sweatpants'
       score: 7.6
     - name: 'ThinkOrSwim'
       score: 8.4
     - name: 'claude.ai'
-      score: 9.6
+      score: 9.9
     - name: 'ultimate frisbee'
       score: 7.8
     - name: '90s rap'
@@ -192,7 +192,7 @@ rankings:
     - name: 'February'
       score: 4
     - name: 'March'
-      score: 7.3
+      score: 7.8
     - name: 'June'
       score: 8
     - name: 'July'
@@ -220,7 +220,7 @@ rankings:
     - name: 'pride'
       score: 5.5
     - name: 'humility'
-      score: 9
+      score: 9.8
     - name: 'onomatopoeia'
       score: 7.6
     - name: 'dry humor'
@@ -228,10 +228,10 @@ rankings:
     - name: 'SQL'
       score: 7.8
     - name: 'kettlebell swings'
-      score: 8.1
+      score: 8.8
     - name: 'tennis'
       score: 6
-    - name: 'a fully passing test suite'
+    - name: 'a passing test suite'
       score: 9.4
     - name: 'Bluetooth'
       score: 7.7
@@ -248,7 +248,7 @@ rankings:
     - name: 'Twitter before 2022'
       score: 8
     - name: 'spicy vocabulary'
-      score: 8.2
+      score: 8.5
     - name: 'Chapel Hill Public Library'
       score: 8.8
     - name: 'wordreference.com'
@@ -270,13 +270,13 @@ rankings:
     - name: 'anthropomorphism'
       score: 7.8
     - name: 'Snarky Puppy'
-      score: 8.1
+      score: 8.3
     - name: 'draw.io'
       score: 7.2
     - name: 'podcasts'
-      score: 8.3
+      score: 9.1
     - name: 'Google Docs'
-      score: 7
+      score: 7.5
     - name: 'PB n banana smoothies'
       score: 8.1
     - name: 'Depths of Wikipedia'
@@ -290,7 +290,7 @@ rankings:
     - name: 'Microsoft'
       score: 8.6
     - name: 'Reddit'
-      score: 9.2
+      score: 9.3
     - name: 'earplugs'
       score: 6.9
     - name: 'pizza'
@@ -306,8 +306,8 @@ rankings:
     - name: '"Souls" games'
       score: 8.7
     - name: 'pinch harmonics'
-      score: 9.3
-    - name: 'Packet Tracer'
+      score: 8.9
+    - name: 'Packet Tracer (Cisco software)'
       score: 9
     - name: 'SVG'
       score: 8.3
@@ -316,7 +316,7 @@ rankings:
     - name: 'calisthenics'
       score: 7.8
     - name: 'boxing'
-      score: 7.1
+      score: 7.4
     - name: 'blue'
       score: 7.9
     - name: 'green'
@@ -334,7 +334,7 @@ rankings:
     - name: 'The Big Lebowski'
       score: 9.1
     - name: 'The Matrix'
-      score: 8.4
+      score: 8.5
     - name: 'Spirited Away'
       score: 7
     - name: 'The Wolf of Wall Street'
@@ -380,9 +380,9 @@ rankings:
     - name: 'cable TV'
       score: 3.2
     - name: 'tiling window managers'
-      score: 8
+      score: 8.4
     - name: 'git'
-      score: 9.3
+      score: 8.3
     - name: 'designing UIs'
       score: 4
     - name: 'ReactJS'
@@ -395,6 +395,8 @@ rankings:
       score: 7.6
     - name: 'zippers'
       score: 6.9
+    - name: 'slippers'
+      score: 7.8
     - name: 'payment cards (as opposed to paper bills and coins)'
       score: 8
     - name: 'Outliers by Malcolm Gladwell'
@@ -402,7 +404,7 @@ rankings:
     - name: 'The Righteous Mind by Jonathan Haidt'
       score: 9
     - name: 'Anything You Want by Derek Sivers'
-      score: 8.9
+      score: 9
     - name: 'The Paradox of Choice by Barry Schwartz'
       score: 8
     - name: 'video game glitches'
@@ -446,4 +448,6 @@ rankings:
     - name: 'pollen'
       score: 4.5
     - name: 'silence'
-      score: 7.7
+      score: 9.1
+    - name: 'Soreption (first 2 albums, with Anton Svedin)'
+      score: 9.7
