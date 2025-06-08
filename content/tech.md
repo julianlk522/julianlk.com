@@ -66,6 +66,7 @@ Cons:
         -   you can cast any type to `interface{}` then later perform runtime type assertion / type switching / reflection, but it's kind of gross and excessive
         -   https://zackoverflow.dev/writing/hacking-go-to-give-it-sumtypes
     -   Strictly matching JSON to struct shape when unmarshaling requires some boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
+-   no enum
 
 #### Python
 
