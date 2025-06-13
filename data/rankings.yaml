@@ -28,7 +28,7 @@ rankings:
     - name: 'HIIT sprints'
       score: 7
     - name: 'Go(lang)'
-      score: 8.5
+      score: 8
     - name: 'NextJS (as of 2/8/23)'
       score: 5.8
     - name: 'AstroJS'
@@ -54,7 +54,7 @@ rankings:
     - name: 'gratitude'
       score: 9.8
     - name: 'telescope.nvim'
-      score: 9.3
+      score: 9
     - name: 'Clean Code by Robert Martin'
       score: 5.9
     - name: 'Anki'
@@ -68,11 +68,11 @@ rankings:
     - name: 'Figma'
       score: 9
     - name: 'AutoHotkey'
-      score: 9.2
+      score: 8.8
     - name: 'airports'
       score: 1.5
     - name: 'Vim'
-      score: 9.4
+      score: 9.1
     - name: 'Neovim'
       score: 8.6
     - name: 'photography'
@@ -80,7 +80,7 @@ rankings:
     - name: 'Austin Powers (trilogy)'
       score: 9.6
     - name: 'Greek yogurt'
-      score: 9.1
+      score: 8.7
     - name: 'RSS'
       score: 8
     - name: 'Notion (note-taking)'
@@ -150,7 +150,7 @@ rankings:
     - name: 'Scooby Doo'
       score: 8.1
     - name: 'rain'
-      score: 9.3
+      score: 9.4
     - name: 'ants'
       score: 8.3
     - name: 'NC beaches'
@@ -184,7 +184,7 @@ rankings:
     - name: 'ultimate frisbee'
       score: 7.8
     - name: '90s rap'
-      score: 8.1
+      score: 7.8
     - name: 'post-90s rap'
       score: 5.5
     - name: 'January'
@@ -278,7 +278,7 @@ rankings:
     - name: 'Google Docs'
       score: 7.5
     - name: 'PB n banana smoothies'
-      score: 8.1
+      score: 7.5
     - name: 'Depths of Wikipedia'
       score: 8.8
     - name: 'secret handshakes'
@@ -288,7 +288,7 @@ rankings:
     - name: 'Stack Exchange'
       score: 8.1
     - name: 'Microsoft'
-      score: 8.6
+      score: 8.1
     - name: 'Reddit'
       score: 9.3
     - name: 'earplugs'
@@ -308,9 +308,9 @@ rankings:
     - name: 'pinch harmonics'
       score: 8.9
     - name: 'Packet Tracer (Cisco software)'
-      score: 9
+      score: 8.4
     - name: 'SVG'
-      score: 8.3
+      score: 7.8
     - name: 'The Flashbulb'
       score: 8.2
     - name: 'calisthenics'
@@ -334,7 +334,7 @@ rankings:
     - name: 'The Big Lebowski'
       score: 9.1
     - name: 'The Matrix'
-      score: 8.5
+      score: 8.8
     - name: 'Spirited Away'
       score: 7
     - name: 'The Wolf of Wall Street'
@@ -360,7 +360,7 @@ rankings:
     - name: 'LEGOs'
       score: 7.6
     - name: 'cht.sh'
-      score: 9.2
+      score: 8.9
     - name: 'spearmint'
       score: 8.1
     - name: 'interviews'
@@ -451,3 +451,7 @@ rankings:
       score: 9.1
     - name: 'Soreption (first 2 albums, with Anton Svedin)'
       score: 9.7
+    - name: 'Apple (corp)'
+      score: 7.4
+    - name: 'apple (fruit)'
+      score: 6.1
