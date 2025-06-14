@@ -77,12 +77,12 @@ rankings:
       score: 8.6
     - name: 'photography'
       score: 6
-    - name: 'Austin Powers (trilogy)'
+    - name: 'Austin Powers (film trilogy)'
       score: 9.6
     - name: 'Greek yogurt'
       score: 8.7
     - name: 'RSS'
-      score: 8
+      score: 7.2
     - name: 'Notion (note-taking)'
       score: 6.9
     - name: 'bookmarklets'
@@ -92,7 +92,7 @@ rankings:
     - name: 'Railway.app (as of roughly early 2023)'
       score: 7.2
     - name: 'Linode (Akamai)'
-      score: 8.9
+      score: 8.8
     - name: 'the Olympics'
       score: 7.9
     - name: 'bucket hats'
@@ -170,7 +170,7 @@ rankings:
     - name: 'The Simpsons'
       score: 8.7
     - name: 'fire'
-      score: 8
+      score: 8.3
     - name: 'VersaClimbers'
       score: 8.6
     - name: 'press rolls (more points for smoothness)'
@@ -232,11 +232,11 @@ rankings:
     - name: 'tennis'
       score: 6
     - name: 'a passing test suite'
-      score: 9.4
+      score: 9.1
     - name: 'Bluetooth'
       score: 7.7
     - name: 'SSH'
-      score: 8
+      score: 7.8
     - name: 'Hugo SSG'
       score: 4.8
     - name: 'Metallica'
@@ -248,7 +248,7 @@ rankings:
     - name: 'Twitter before 2022'
       score: 8
     - name: 'spicy vocabulary'
-      score: 8.5
+      score: 8.6
     - name: 'Chapel Hill Public Library'
       score: 8.8
     - name: 'wordreference.com'
@@ -268,7 +268,7 @@ rankings:
     - name: 'polymorphism'
       score: 6.7
     - name: 'anthropomorphism'
-      score: 7.8
+      score: 7.4
     - name: 'Snarky Puppy'
       score: 8.3
     - name: 'draw.io'
@@ -350,7 +350,7 @@ rankings:
     - name: 'The Eric Andre Show'
       score: 7.8
     - name: 'cacti'
-      score: 7.8
+      score: 7.6
     - name: 'overhead fans'
       score: 7.3
     - name: 'loud incessant noises'
@@ -382,7 +382,7 @@ rankings:
     - name: 'tiling window managers'
       score: 8.4
     - name: 'git'
-      score: 8.3
+      score: 7.8
     - name: 'designing UIs'
       score: 4
     - name: 'ReactJS'
@@ -455,3 +455,29 @@ rankings:
       score: 7.4
     - name: 'apple (fruit)'
       score: 6.1
+    - name: 'documentaries'
+      score: 8
+    - name: 'brick (material)'
+      score: 6.1
+    - name: 'writing (process)'
+      score: 8.2
+    - name: 'reading'
+      score: 7.8
+    - name: 'wind'
+      score: 4.95
+    - name: 'caterpillars'
+      score: 8.8
+    - name: 'gloves (cloth, wool)'
+      score: 6
+    - name: 'gloves (leather)'
+      score: 6.5
+    - name: 'gloves (latex)'
+      score: 7
+    - name: 'propeller hats'
+      score: 7.9
+    - name: 'lasers'
+      score: 8.5
+    - name: 'Bradford pear trees'
+      score: 2.5
+    - name: 'palm trees'
+      score: 8
