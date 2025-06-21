@@ -5,13 +5,13 @@ layout = 'qna-section'
 draft = false
 +++
 
-## What is RSS? What problem(s) does it solve?
+## What is RSS? Should I care about it?
 
 **_RSS_**: _Really Simple Syndication_
 
-That depends on whether you follow a lot of blogs or other (relatively basic) sources that are periodically updated. RSS helps you keep up with those. You configure an _RSS aggregator_ which fetches an XML _sitemap_ file from the sites you specify. The sitemap overviews site content, and your aggregator (or _reader_) will detect and report any updates back to you in a _syndicated_ location (hence the 2nd "S").
+If you follow a lot of blogs or other (relatively basic) sources that are periodically updated, then yes. RSS helps you keep up with those. You configure an _RSS aggregator_ which fetches an XML _sitemap_ file from the sites you specify. The sitemap overviews site content, and your aggregator (or _reader_) will detect and report any updates back to you in a _syndicated_ location (hence the 2nd "S").
 
-With an RSS feed, you can check a single location to get automatic updates from multiple, maybe many, sites at once. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
+With an RSS feed, you can check one location to get automatic updates from multiple, maybe many, sites at once. But the content must be presentable in XML format, so it won't work well for more sophisticated sites or web-apps, like determining changes to the [Figma](https://www.figma.com/) engine, for example.
 
 ## (Lossless) File compression: why is it possible? Doesn't it imply that data is usually stored inefficiently?
 
