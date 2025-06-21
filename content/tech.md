@@ -6,7 +6,7 @@ draft = false
 
 ## Learning / Trying Out
 
--   [AutoHotkey](https://www.autohotkey.com/)
+-   [AutoHotkey](https://autohotkey.com/)
 -   [ReaPack](https://reapack.com/)
 
 ## Considering
@@ -17,7 +17,7 @@ draft = false
 
 ## Opinons on Tech I Have Used
 
-Disclaimer: There is a lot to know about some of these, and I don't grasp anywhere near all of it. [If you'd like to point out why one of my statements is wrong](mailto:julianlindsaykaufman@gmail.com), I'd love to hear from you!
+Disclaimer: There is a lot to know about some of these, and I don't grasp anywhere near all of it. If you'd like to [point out why one of my statements is wrong](mailto:julianlindsaykaufman@gmail.com), I'd love to hear from you!
 
 ### What I have used and had an absolute joy with. No notes.
 

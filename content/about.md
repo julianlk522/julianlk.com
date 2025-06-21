@@ -21,7 +21,7 @@ My #1 goal is to help proliferate curiosity and joy for learning, and empower pe
 
 <br>
 
-Current Projects:
+Currently:
 
 -   Filling [FITM](https://fitm.online) with Internet treasure
 
