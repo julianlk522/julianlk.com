@@ -15,7 +15,7 @@ draft = false
     -   I'm intrigued by Lisp
 -   [Bun](https://bun.sh/)
 
-## Opinons on Tech I Have Used
+## Opinions on Tech I Have Used
 
 Disclaimer: There is a lot to know about some of these, and I don't grasp anywhere near all of it. If you'd like to [point out why one of my statements is wrong](mailto:julianlindsaykaufman@gmail.com), I'd love to hear from you!
 

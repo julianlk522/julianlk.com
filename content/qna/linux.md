@@ -22,9 +22,9 @@ draft = false
 
 ## Bash statement separators... there are a few!
 
--   **&&**: execute following statment only after preceding statment executes successfullyq
--   **||**: execute following statment only after preceding statment fails
--   **;**: execute following statment regardless of whether preceding statment succeeded or failed
+-   **&&**: execute following statement only after preceding statement executes successfully
+-   **||**: execute following statement only after preceding statement fails
+-   **;**: execute following statement regardless of whether preceding statement succeeded or failed
 -   **&**: execute following statement while preceding statement runs parallel in the background
 
 \*In Linux distributions such as Ubuntu or Linux Mint, however, `#!/bin/sh` is a [symlink](https://www.hackterms.com/symlink) to `#!/bin/dash` ([like bash but faster](https://lwn.net/Articles/343924/#:~:text=The%20major,dash)), so in practice there may be little to no difference in how the two shebang lines affect script behavior.

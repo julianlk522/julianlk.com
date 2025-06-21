@@ -67,9 +67,9 @@ counter2() // 1
 
 You could store the state outside of function scope, which would allow it to persist during execution of the program, but that would also expose it to outside manipulation and require knowing in advance how many instances of that state need to exist.
 
-So, closures are a way to allow dynamic regeneratation of private, preserved state.
+So, closures are a way to allow dynamic regeneration of private, preserved state.
 
-The same effect can be achieved with a class. The private state could be represented as a property of the class and the inner function could be a method. Calling a class constuctor (e.g., `new Thing(...)`) would be equivalent to calling the outer function.
+The same effect can be achieved with a class. The private state could be represented as a property of the class and the inner function could be a method. Calling a class constructor (e.g., `new Thing(...)`) would be equivalent to calling the outer function.
 
 Both the [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) implementation (classes) and [FP](https://en.wikipedia.org/wiki/Functional_programming) implementation (closures) are valid, depending on the programming language and existing design patterns in the codebase, though classes do not always guarantee separation of state from other parts of the codebase.
 
