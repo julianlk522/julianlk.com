@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'JLK site'
+title = 'JLK'
 theme = 'lugo'
 
 [markup.goldmark.renderer]
@@ -13,11 +13,11 @@ theme = 'lugo'
     ordered = false
 
 [params]
-description = "JLK Personal website"
+description = "Fun things to think about"
 listDataFormat = '2 Jan 2006'
 
 homeIntroContent = """
-Thank you for visiting the personal website of Julian Lindsay-Kaufman. Here you will find writings and compilations of various kinds.
+You've reached the personal website of Julian Lindsay-Kaufman... Prepare for your imminent doom! Or, enjoy some (hopefully helpful) thoughts and compilations.
 """
 
 [[params.menu]]
