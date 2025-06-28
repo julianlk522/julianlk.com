@@ -11,11 +11,12 @@ draft = false
 
 ## Considering
 
+-   Rust
 -   some functional programming language
     -   I'm intrigued by Lisp
--   [Bun](https://bun.sh/)
+-   maybe C ... probably not
 
-## Opinions on Tech I Have Used
+## Opinions on Tech I Have Tried
 
 Disclaimer: There is a lot to know about some of these, and I don't grasp anywhere near all of it. If you'd like to [point out why one of my statements is wrong](mailto:julianlindsaykaufman@gmail.com), I'd love to hear from you!
 
@@ -38,18 +39,19 @@ Disclaimer: There is a lot to know about some of these, and I don't grasp anywhe
 Pros:
 
 -   strong stlib
-    -   `testing` lib is simple and powerful
+    -   `testing` is simple and powerful
         -   fuzz with `testing.F` and `go test -fuzz {fuzz test func}`
         -   benchmark reports with `testing.B` and `go test -bench={dir}`
         -   coverage reports with `go test -cover`
-            -   see [https://tip.golang.org/doc/go1.2#cover](https://tip.golang.org/doc/go1.2#cover)
+            -   [https://tip.golang.org/doc/go1.2#cover](https://tip.golang.org/doc/go1.2#cover)
+    -   `context`: useful, elegant alternative to global state; simple inter-process communication
+    -   also `database` SQL database/driver interfaces, `image` processing, and helpful utilities via `sort`, `time`, and others
 -   useful / intuitive CLI
     -   `go fmt`
     -   `go test`
     -   `go run` / `go build`
     -   I wish there were a command for renaming your packages though :(
--   goroutine and channel primitives for concurrency
--   context useful as more organized and elegant alternative to global state
+-   concurrency primitives: goroutines and channels
 -   `defer`ing is useful for cleanup sometimes
     -   Like, when you open a database connection and want to close it immediately when you done using it. You can specify that as you initiate the connection, which elegantly groups the related logic
 -   really fast for being fairly high-level / readable
@@ -153,11 +155,11 @@ Cons:
 
 Pros:
 
--   somewhat useful and important...
+-   rather helpful, I'd argue
 -   generally easy and autopilot-able
 
 Cons:
 
 -   ugly documentation
-    -   but, at least informal documentation is good since so many people use it
+    -   but, at least third-party documentation is good
 -   when automatic merging screws up and you get to untangle a complete mess
