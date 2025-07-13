@@ -8,7 +8,7 @@ draft = false
 
 I'm Julian Lindsay-Kaufman. Nice to meet you!
 
-I have broad interests and volatile interest in them. There are way too many captivating topics to attend to, so I aim to specialize in generalizing.
+I have broad interests and volatile interest in them, so I aim to specialize in generalizing.
 
 My #1 goal is to make information as available and as precise as it can be for all interested people. My focus here is on evolving self-education technology. In particular, I'm building an extremely efficient, simple search engine and social bookmarking page at [FITM](https://fitm.online)&mdash;and filling it with awesome Internet treasure!
 

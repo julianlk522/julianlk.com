@@ -21,8 +21,6 @@ draft = false
 
 "Take risks and you'll get the payoffs. Learn from your mistakes until you succeed. It's that simple." - Bobby Flay
 
-"It's only the misfits who have a chance" - Naval Ravikant
-
 "If I've truly invested in my team, ... I have no right to expose them to my horrible disposition." - Larry Little, _Make a Difference_
 
 "You can't be angry and grateful simultaneously." - Tony Robbins

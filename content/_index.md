@@ -6,10 +6,8 @@ draft = false
 
 (in the voice of Dr. Evil)
 
-Ladies and gentlemen, welcome to my underground lair.
+Welcome to my underground lair!
 
 <br>
 
-Imminent doom awaits you!
-
-Just kidding. Enjoy some (hopefully helpful and enjoyable) thoughts and compilations.
+Enjoy some disorganized thoughts and compilations.
