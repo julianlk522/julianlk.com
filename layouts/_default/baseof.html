@@ -31,6 +31,11 @@
 		<main>
 			<header>
 				<h1>{{ block "title" . }}{{ end }}</h1>
+				{{ if and .Lastmod (not .Params.hide_lastmod) }}
+				<p id="last-updated">
+					updated {{ .Lastmod | time.Format "01-02-2006" }}
+				</p>
+				{{ end }}
 			</header>
 			<article>
 				{{ block "main" . }} {{ .Content }} {{ end }} {{ if .Param

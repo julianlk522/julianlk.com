@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}">
 	<head>
-		<title>
-			{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title
-			}}
-		</title>
+		<title>{{ .Title | title }}</title>
 		<link rel="canonical" href="{{ .Site.BaseURL }}" />
 		<link
 			rel="alternate"
@@ -31,6 +28,9 @@
 		<main>
 			<header>
 				<h1>Favorite Quotes</h1>
+				<p id="last-updated">
+					Last updated: {{ .Lastmod.Format "2006-01-02" }}
+				</p>
 			</header>
 			<article>
 				{{ block "main" . }} {{ .Content }} {{ end }} {{ if .Param
