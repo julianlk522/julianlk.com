@@ -2,7 +2,7 @@ rankings:
     - name: 'Bahama Mama GFuel'
       score: 10
     - name: 'Wikipedia'
-      score: 9.7
+      score: 9.4
     - name: 'Google'
       score: 7
     - name: 'TD Ameritrade'
@@ -38,7 +38,7 @@ rankings:
     - name: 'Python'
       score: 9
     - name: 'JavaScript'
-      score: 6.4
+      score: 6.3
     - name: 'TypeScript'
       score: 7.3
     - name: 'YouTube'
@@ -52,7 +52,7 @@ rankings:
     - name: 'Chapel Hill, NC'
       score: 6
     - name: 'gratitude'
-      score: 9.8
+      score: 9.6
     - name: 'telescope.nvim'
       score: 9
     - name: 'Clean Code by Robert Martin'
@@ -102,7 +102,7 @@ rankings:
     - name: 'Hacker News'
       score: 9.8
     - name: 'trading (speculative investment)'
-      score: 7.7
+      score: 7.8
     - name: 'October'
       score: 3
     - name: 'November'
@@ -111,17 +111,17 @@ rankings:
       score: 8
     - name: 'May (month)'
       score: 9
-    - name: 'James Brown'
+    - name: 'James Brown (music)'
       score: 9
     - name: 'pickled cabbage'
       score: 7.7
-    - name: 'Ron Jarzombek discography (mixed acts)'
+    - name: 'Ron Jarzombek (mixed acts) (music)'
       score: 9.3
     - name: 'early mornings'
       score: 3
     - name: 'late night coding'
       score: 8.5
-    - name: 'Jaco Pastorius'
+    - name: 'Jaco Pastorius (music)'
       score: 8.4
     - name: 'Discord'
       score: 7.4
@@ -135,7 +135,7 @@ rankings:
       score: 7.7
     - name: 'ragdoll physics'
       score: 8.2
-    - name: 'Mark Lettieri'
+    - name: 'Mark Lettieri (music)'
       score: 8.8
     - name: 'TED Talks'
       score: 6.9
@@ -231,7 +231,7 @@ rankings:
       score: 8.8
     - name: 'tennis'
       score: 6
-    - name: 'a passing test suite'
+    - name: '100% passing test suite'
       score: 9.1
     - name: 'Bluetooth'
       score: 7.7
@@ -255,7 +255,7 @@ rankings:
       score: 7.5
     - name: 'boba'
       score: 8
-    - name: 'big band'
+    - name: 'big band (genre)'
       score: 8.9
     - name: 'grapefruit'
       score: 7.4
@@ -284,7 +284,7 @@ rankings:
     - name: 'secret handshakes'
       score: 7
     - name: 'Darknet Diaries'
-      score: 7.9
+      score: 7.6
     - name: 'Stack Exchange'
       score: 8.1
     - name: 'Microsoft'
@@ -310,7 +310,7 @@ rankings:
     - name: 'Packet Tracer (Cisco software)'
       score: 8.4
     - name: 'SVG'
-      score: 7.8
+      score: 7.6
     - name: 'The Flashbulb'
       score: 8.2
     - name: 'calisthenics'
@@ -449,7 +449,7 @@ rankings:
       score: 4.5
     - name: 'silence'
       score: 9.1
-    - name: 'Soreption (first 2 albums, with Anton Svedin)'
+    - name: 'Soreption (with Anton Svedin)'
       score: 9.7
     - name: 'Apple (corp)'
       score: 7.4
@@ -481,3 +481,23 @@ rankings:
       score: 2.5
     - name: 'palm trees'
       score: 8
+    - name: 'DMV (office)'
+      score: 1
+    - name: 'hold music'
+      score: 2
+    - name: 'iPhones'
+      score: 8.6
+    - name: 'natural disasters'
+      score: 0.25
+    - name: 'Skee-Ball'
+      score: 6.1
+    - name: 'Pokémon'
+      score: 7.7
+    - name: 'Tetris'
+      score: 6.9
+    - name: 'Wii'
+      score: 9
+    - name: 'Nintendo (corp)'
+      score: 8.9
+    - name: 'Tap Tap Revenge'
+      score: 7.4
