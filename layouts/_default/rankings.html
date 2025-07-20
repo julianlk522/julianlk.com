@@ -8,7 +8,11 @@
 "desc" }}
 <ol>
 	{{ range $rankings }}
-	<li>{{ .name }} - {{ .score }}/10</li>
+	<li>
+		{{ if .url }}
+		<a href="{{ .url }}" target="_blank">{{ .name }}</a> - {{ .score }}/10
+		{{ else }} {{ .name }} - {{ .score }}/10 {{ end }}
+	</li>
 	{{ end }}
 </ol>
 {{ end }}

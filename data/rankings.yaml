@@ -1,108 +1,151 @@
 rankings:
     - name: 'Bahama Mama GFuel'
       score: 10
+      url: 'https://gfuel.com/products/bahama-mama-tub-40-servings'
     - name: 'Wikipedia'
       score: 9.4
+      url: 'https://en.wikipedia.org/'
     - name: 'Google'
       score: 7
+      url: 'https://www.google.com/'
     - name: 'TD Ameritrade'
       score: 6.6
     - name: 'Venetian Snares'
       score: 8.3
+      url: 'https://venetiansnares.bandcamp.com/album/meathole'
     - name: 'water'
       score: 10
-    - name: 'UMvC3'
+    - name: 'Ultimate Marvel vs. Capcom 3'
       score: 9.9
+      url: 'https://www.reddit.com/r/MvC3/'
     - name: 'dogs'
       score: 9.5
     - name: 'cats'
       score: 9.2
     - name: 'Cookout'
       score: 7.4
+      url: 'https://cookout.com/'
     - name: 'Popeyes'
       score: 7.7
+      url: 'https://www.popeyes.com/'
     - name: 'Pollo Tropical'
       score: 9.2
+      url: 'https://www.pollotropical.com/'
     - name: 'Sriracha'
       score: 8.8
+      url: 'https://en.wikipedia.org/wiki/Sriracha'
     - name: 'HIIT sprints'
       score: 7
+      url: 'https://en.wikipedia.org/wiki/High-intensity_interval_training'
     - name: 'Go(lang)'
       score: 8
+      url: 'https://go.dev/'
     - name: 'NextJS (as of 2/8/23)'
       score: 5.8
+      url: 'https://nextjs.org/'
     - name: 'AstroJS'
       score: 8.3
+      url: 'https://astro.build/'
     - name: 'reaction videos'
       score: 0
+      url: 'https://en.wikipedia.org/wiki/Reaction_video'
     - name: 'Python'
       score: 9
+      url: 'https://www.python.org/'
     - name: 'JavaScript'
       score: 6.3
+      url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
     - name: 'TypeScript'
       score: 7.3
+      url: 'https://www.typescriptlang.org/'
     - name: 'YouTube'
       score: 9.7
+      url: 'https://www.youtube.com/'
     - name: 'Necrophagist'
       score: 9.2
+      url: 'https://en.wikipedia.org/wiki/Necrophagist'
     - name: 'Meshuggah'
       score: 7.7
+      url: 'https://www.meshuggah.net/'
     - name: 'New York City'
       score: 4.5
+      url: 'https://www.nyc.gov/'
     - name: 'Chapel Hill, NC'
       score: 6
+      url: 'https://www.townofchapelhill.org/'
     - name: 'gratitude'
       score: 9.6
     - name: 'telescope.nvim'
       score: 9
+      url: 'https://github.com/nvim-telescope/telescope.nvim'
     - name: 'Clean Code by Robert Martin'
       score: 5.9
+      url: 'https://en.wikipedia.org/wiki/Robert_C._Martin'
     - name: 'Anki'
       score: 7.3
+      url: 'https://apps.ankiweb.net/'
     - name: 'Obsidian (markdown editor)'
       score: 8.1
+      url: 'https://obsidian.md/'
     - name: 'VS Code'
       score: 8.6
+      url: 'https://code.visualstudio.com/'
     - name: 'LG Gram 16" Intel i7 16GB LPDDR4X 512GB laptop'
       score: 8.7
     - name: 'Figma'
       score: 9
+      url: 'https://www.figma.com/'
     - name: 'AutoHotkey'
       score: 8.8
+      url: 'https://www.autohotkey.com/'
     - name: 'airports'
       score: 1.5
     - name: 'Vim'
       score: 9.1
+      url: 'https://www.vim.org/'
     - name: 'Neovim'
       score: 8.6
+      url: 'https://neovim.io/'
     - name: 'photography'
       score: 6
-    - name: 'Austin Powers (film trilogy)'
+    - name: 'Austin Powers'
       score: 9.6
+      url: 'https://en.wikipedia.org/wiki/Austin_Powers'
     - name: 'Greek yogurt'
       score: 8.7
     - name: 'RSS'
       score: 7.2
+      url: 'https://en.wikipedia.org/wiki/RSS'
     - name: 'Notion (note-taking)'
       score: 6.9
+      url: 'https://www.notion.so/'
     - name: 'bookmarklets'
       score: 5.5
+      url: 'https://en.wikipedia.org/wiki/Bookmarklet'
     - name: 'Netlify'
       score: 8.2
+      url: 'https://www.netlify.com/'
     - name: 'Railway.app (as of roughly early 2023)'
       score: 7.2
+      url: 'https://railway.app/'
     - name: 'Linode (Akamai)'
       score: 8.8
+      url: 'https://www.linode.com/'
     - name: 'the Olympics'
       score: 7.9
+      url: 'https://www.olympics.com/'
     - name: 'bucket hats'
       score: 8.4
+      url: 'https://en.wikipedia.org/wiki/Bucket_hat'
     - name: 'TailwindCSS'
       score: 7.5
+      url: 'https://tailwindcss.com/'
     - name: 'Hacker News'
       score: 9.8
+      url: 'https://news.ycombinator.com/'
     - name: 'trading (speculative investment)'
       score: 7.8
+      url: 'https://www.trendfollowing.com/whitepaper/Edwin_LeFevre_Reminiscences_of_a_Stock_Operator.pdf'
     - name: 'October'
       score: 3
     - name: 'November'
@@ -113,52 +156,71 @@ rankings:
       score: 9
     - name: 'James Brown (music)'
       score: 9
+      url: 'https://en.wikipedia.org/wiki/James_Brown'
     - name: 'pickled cabbage'
       score: 7.7
-    - name: 'Ron Jarzombek (mixed acts) (music)'
+    - name: 'Ron Jarzombek (mixed acts)'
       score: 9.3
+      url: 'http://www.ronjarzombek.com/index.html'
     - name: 'early mornings'
       score: 3
     - name: 'late night coding'
       score: 8.5
-    - name: 'Jaco Pastorius (music)'
+    - name: 'Jaco Pastorius'
       score: 8.4
+      url: 'https://en.wikipedia.org/wiki/Jaco_Pastorius'
     - name: 'Discord'
       score: 7.4
+      url: 'https://discord.com/'
     - name: 'IFC Yipes commentary'
       score: 9.6
+      url: 'https://www.youtube.com/watch?v=nxmmT9kJB9U'
     - name: 'An Endless Sporadic'
       score: 8.9
+      url: 'https://www.anendlesssporadic.com/'
     - name: 'Google Chrome DevTools'
       score: 8
+      url: 'https://developer.chrome.com/docs/devtools'
     - name: 'MIT Open CourseWare'
       score: 7.7
+      url: 'https://ocw.mit.edu/'
     - name: 'ragdoll physics'
       score: 8.2
-    - name: 'Mark Lettieri (music)'
+      url: 'https://www.newgrounds.com/portal/view/218014'
+    - name: 'Mark Lettieri'
       score: 8.8
+      url: 'https://www.marklettieri.com/bio'
     - name: 'TED Talks'
       score: 6.9
+      url: 'https://www.ted.com/'
     - name: 'hayd3nplz combos'
       score: 9.8
+      url: 'https://www.youtube.com/watch?v=q-zwUkDGD9s'
     - name: 'shader art'
       score: 7.8
+      url: 'https://www.shadertoy.com/'
     - name: 'Khan Academy'
       score: 8.7
+      url: 'https://www.khanacademy.org/'
     - name: 'allergies'
       score: 0
     - name: 'Scooby Doo'
       score: 8.1
+      url: 'https://en.wikipedia.org/wiki/Scooby-Doo,_Where_Are_You!'
     - name: 'rain'
       score: 9.4
+      url: 'https://www.youtube.com/watch?v=ep4JqcEX1qc'
     - name: 'ants'
       score: 8.3
+      url: 'https://gwern.net/doc/psychology/animal/maze/1985-feynman-surelyyourejokingmrfeynman-theamateurscientist-ants.pdf'
     - name: 'NC beaches'
       score: 7.3
     - name: 'bhākarwadi'
       score: 9
+      url: 'https://en.wikipedia.org/wiki/Bakarwadi'
     - name: 'Pendulum'
       score: 8.5
+      url: 'https://www.youtube.com/watch?v=931PQwTA79k'
     - name: "DnB that isn't Pendulum"
       score: 7.5
     - name: 'small talk'
@@ -167,24 +229,31 @@ rankings:
       score: 7.9
     - name: 'The Wire'
       score: 8.3
+      url: 'https://en.wikipedia.org/wiki/The_Wire'
     - name: 'The Simpsons'
       score: 8.7
+      url: 'https://www.youtube.com/watch?v=ng4Dce-mZRg'
     - name: 'fire'
       score: 8.3
-    - name: 'VersaClimbers'
+    - name: 'VersaClimber (machine)'
       score: 8.6
+      url: 'https://www.espn.com/nba/story/_/id/19389249/nba-cavs-favor-machine-training-edge'
     - name: 'press rolls (more points for smoothness)'
       score: 8.8
     - name: 'sweatpants'
       score: 7.6
     - name: 'ThinkOrSwim'
       score: 8.4
+      url: 'https://www.schwab.com/trading/thinkorswim'
     - name: 'claude.ai'
       score: 9.9
+      url: 'https://claude.ai/'
     - name: 'ultimate frisbee'
       score: 7.8
+      url: 'https://en.wikipedia.org/wiki/Ultimate_frisbee'
     - name: '90s rap'
       score: 7.8
+      url: 'https://genius.com/albums/Nas/Illmatic'
     - name: 'post-90s rap'
       score: 5.5
     - name: 'January'
@@ -209,10 +278,13 @@ rankings:
       score: 9.1
     - name: 'Tower of Power'
       score: 7.2
+      url: 'https://towerofpower.com/'
     - name: 'Tower of Hanoi'
       score: 7.2
+      url: 'https://en.wikipedia.org/wiki/Tower_of_Hanoi'
     - name: 'chess'
       score: 7.9
+      url: 'https://www.chess.com'
     - name: 'confusion'
       score: 4
     - name: 'anxiety'
@@ -227,36 +299,49 @@ rankings:
       score: 7.9
     - name: 'SQL'
       score: 7.8
+      url: 'https://en.wikipedia.org/wiki/SQL'
     - name: 'kettlebell swings'
       score: 8.8
+      url: 'https://www.youtube.com/watch?v=-KqxcDijOyA'
     - name: 'tennis'
       score: 6
     - name: '100% passing test suite'
       score: 9.1
     - name: 'Bluetooth'
       score: 7.7
+      url: 'https://www.bluetooth.com/learn-about-bluetooth/tech-overview/'
     - name: 'SSH'
       score: 7.8
+      url: 'https://www.ssh.com/academy/ssh/protocol'
     - name: 'Hugo SSG'
       score: 4.8
+      url: 'https://gohugo.io/'
     - name: 'Metallica'
       score: 8.2
+      url: 'https://www.metallica.com/?srsltid=AfmBOoqRWWa0pOg2cbY_fLtc8vXL_Ud67iPkQO6cOKKQH4Map6-LpycZ'
     - name: 'MS Word'
       score: 4.9
+      url: 'https://en.wikipedia.org/wiki/Microsoft_Word'
     - name: 'Twitter after 2022'
       score: 1
+      url: 'https://x.com/'
     - name: 'Twitter before 2022'
       score: 8
+      url: 'https://twitter.com/'
     - name: 'spicy vocabulary'
       score: 8.6
     - name: 'Chapel Hill Public Library'
       score: 8.8
+      url: 'https://chapelhillpubliclibrary.org/'
     - name: 'wordreference.com'
       score: 7.5
+      url: 'https://www.wordreference.com/'
     - name: 'boba'
       score: 8
-    - name: 'big band (genre)'
+      url: 'https://en.wikipedia.org/wiki/Bubble_tea'
+    - name: 'big band'
       score: 8.9
+      url: 'https://en.wikipedia.org/wiki/Big_band'
     - name: 'grapefruit'
       score: 7.4
     - name: 'mango'
@@ -265,54 +350,74 @@ rankings:
       score: 8
     - name: 'cloud computing'
       score: 7.6
+      url: 'https://en.wikipedia.org/wiki/Cloud_computing'
     - name: 'polymorphism'
       score: 6.7
+      url: 'https://en.wikipedia.org/wiki/Polymorphism_(computer_science)'
     - name: 'anthropomorphism'
       score: 7.4
+      url: 'https://www.youtube.com/watch?v=kZUPCB9533Y'
     - name: 'Snarky Puppy'
       score: 8.3
+      url: 'https://snarkypuppy.com/'
     - name: 'draw.io'
       score: 7.2
+      url: 'https://app.diagrams.net/'
     - name: 'podcasts'
       score: 9.1
+      url: 'https://fitm.online/search?cats=podcasts'
     - name: 'Google Docs'
       score: 7.5
+      url: 'https://docs.google.com/'
     - name: 'PB n banana smoothies'
       score: 7.5
+      url: 'https://www.youtube.com/watch?v=RFY0THuPkJQ'
     - name: 'Depths of Wikipedia'
       score: 8.8
+      url: 'https://en.wikipedia.org/wiki/Depths_of_Wikipedia'
     - name: 'secret handshakes'
       score: 7
     - name: 'Darknet Diaries'
       score: 7.6
+      url: 'https://darknetdiaries.com/'
     - name: 'Stack Exchange'
       score: 8.1
+      url: 'https://stackexchange.com/'
     - name: 'Microsoft'
       score: 8.1
+      url: 'https://www.microsoft.com/'
     - name: 'Reddit'
       score: 9.3
+      url: 'https://www.reddit.com/'
     - name: 'earplugs'
       score: 6.9
     - name: 'pizza'
       score: 7.4
     - name: '3Blue1Brown'
       score: 8.9
+      url: 'https://www.3blue1brown.com/'
     - name: 'ginger ale'
       score: 7.8
     - name: 'fresh guacamole'
       score: 8.6
     - name: 'Stoicism'
       score: 9.6
+      url: 'https://en.wikipedia.org/wiki/Stoicism'
     - name: '"Souls" games'
       score: 8.7
+      url: 'https://en.wikipedia.org/wiki/Bloodborne'
     - name: 'pinch harmonics'
       score: 8.9
-    - name: 'Packet Tracer (Cisco software)'
+      url: 'https://www.youtube.com/watch?v=tjrKUwWenBg'
+    - name: 'Packet Tracer'
       score: 8.4
+      url: 'https://en.wikipedia.org/wiki/Packet_Tracer'
     - name: 'SVG'
       score: 7.6
+      url: 'https://en.wikipedia.org/wiki/SVG'
     - name: 'The Flashbulb'
       score: 8.2
+      url: 'https://www.youtube.com/watch?v=OwdiyUg1_1U'
     - name: 'calisthenics'
       score: 7.8
     - name: 'boxing'
@@ -331,46 +436,62 @@ rankings:
       score: 7.2
     - name: 'Superbad'
       score: 8.2
+      url: 'https://www.imdb.com/title/tt0829482/'
     - name: 'The Big Lebowski'
       score: 9.1
+      url: 'https://www.imdb.com/title/tt0118715/'
     - name: 'The Matrix'
       score: 8.8
+      url: 'https://www.imdb.com/title/tt0133093/'
     - name: 'Spirited Away'
       score: 7
+      url: 'https://www.imdb.com/title/tt0245429/'
     - name: 'The Wolf of Wall Street'
       score: 3.5
+      url: 'https://www.imdb.com/title/tt0993846/'
     - name: 'Breaking Bad'
       score: 9.7
+      url: 'https://www.imdb.com/title/tt0903747/'
     - name: 'Rick and Morty'
       score: 2
+      url: 'https://www.imdb.com/title/tt2861424/'
     - name: 'Curb Your Enthusiasm'
       score: 8.8
+      url: 'https://www.imdb.com/title/tt0264235/'
     - name: 'Dexter (s. 1-4)'
       score: 7.6
+      url: 'https://www.imdb.com/title/tt0773262/'
     - name: 'The Eric Andre Show'
       score: 7.8
+      url: 'https://www.imdb.com/title/tt2244495/'
     - name: 'cacti'
       score: 7.6
     - name: 'overhead fans'
       score: 7.3
     - name: 'loud incessant noises'
       score: 0.75
+      url: 'https://unsplash.com/photos/smiling-baby-lying-forward-on-pink-textile-uFCkcE6GI40'
     - name: 'moving (homes)'
       score: 4
     - name: 'LEGOs'
       score: 7.6
+      url: 'https://www.lego.com/'
     - name: 'cht.sh'
       score: 8.9
+      url: 'https://cht.sh/'
     - name: 'spearmint'
       score: 8.1
     - name: 'interviews'
       score: 5.9
     - name: 'Planet Fitness'
       score: 6.5
+      url: 'https://www.planetfitness.com/'
     - name: 'LC-dolida bluetooth headband'
       score: 8.7
+      url: 'https://thelcdolida.com/'
     - name: 'trampolines'
       score: 6.8
+      url: 'https://en.wikipedia.org/wiki/Trampoline'
     - name: 'insomnia'
       score: 3.3
     - name: 'mega extroverts'
@@ -381,16 +502,21 @@ rankings:
       score: 3.2
     - name: 'tiling window managers'
       score: 8.4
+      url: 'https://i3wm.org/screenshots/'
     - name: 'git'
       score: 7.8
+      url: 'https://en.wikipedia.org/wiki/Git'
     - name: 'designing UIs'
       score: 4
     - name: 'ReactJS'
       score: 6.7
+      url: 'https://react.dev/'
     - name: 'crazy drivers'
       score: 0.5
+      url: 'https://www.miami.gov/'
     - name: 'LinkedIn'
       score: 0.75
+      url: 'https://www.linkedin.com/'
     - name: 'chocolate'
       score: 7.6
     - name: 'zippers'
@@ -401,72 +527,93 @@ rankings:
       score: 8
     - name: 'Outliers by Malcolm Gladwell'
       score: 7
+      url: 'https://en.wikipedia.org/wiki/Outliers_(book)'
     - name: 'The Righteous Mind by Jonathan Haidt'
       score: 9
+      url: 'https://jonathanhaidt.com/'
     - name: 'Anything You Want by Derek Sivers'
       score: 9
+      url: 'https://sive.rs/a'
     - name: 'The Paradox of Choice by Barry Schwartz'
       score: 8
+      url: 'https://en.wikipedia.org/wiki/The_Paradox_of_Choice'
     - name: 'video game glitches'
       score: 8.9
+      url: 'https://www.youtube.com/watch?v=DOR-XL_N9HE'
     - name: 'gongs'
       score: 8.1
     - name: 'mantis shrimp'
       score: 9.2
+      url: 'https://en.wikipedia.org/wiki/Mantis_shrimp'
     - name: 'phone calls'
       score: 4
     - name: 'lions'
       score: 8.8
     - name: 'high frequency trading'
       score: 0.25
+      url: 'https://en.wikipedia.org/wiki/High-frequency_trading'
     - name: 'velcro'
       score: 6.5
+      url: 'https://en.wikipedia.org/wiki/Hook-and-loop_fastener'
     - name: 'socks'
       score: 7
     - name: 'shoes'
       score: 6.6
     - name: 'jello'
       score: 7.2
+      url: 'https://en.wikipedia.org/wiki/Jell-O'
     - name: 'carrots'
       score: 6.9
     - name: 'cockroaches'
       score: 0.75
+      url: 'https://en.wikipedia.org/wiki/Cockroach'
     - name: 'egg shells'
       score: 1
     - name: 'peanuts'
       score: 7.5
     - name: 'Praise the Sun (gesture)'
       score: 8.9
+      url: 'https://www.reddit.com/r/darksouls/comments/1l1gfm6/praise_the_sun/'
     - name: 'elementary school'
       score: 8
+      url: 'https://en.wikipedia.org/wiki/Elementary_schools_in_the_United_States'
     - name: 'middle school'
       score: 6
+      url: 'https://en.wikipedia.org/wiki/Middle_school'
     - name: 'high school'
       score: 7
-    - name: 'college'
+      url: 'https://en.wikipedia.org/wiki/Secondary_school'
+    - name: 'college (undergraduate)'
       score: 9.2
+      url: 'https://en.wikipedia.org/wiki/Undergraduate_education'
     - name: 'pollen'
       score: 4.5
+      url: 'https://www.pollen.com/'
     - name: 'silence'
       score: 9.1
     - name: 'Soreption (with Anton Svedin)'
       score: 9.7
+      url: 'https://uniqueleaderrecords.bandcamp.com/album/deterioration-of-minds-2'
     - name: 'Apple (corp)'
       score: 7.4
+      url: 'https://www.apple.com/'
     - name: 'apple (fruit)'
       score: 6.1
     - name: 'documentaries'
       score: 8
     - name: 'brick (material)'
       score: 6.1
+      url: 'https://en.wikipedia.org/wiki/Brick'
     - name: 'writing (process)'
       score: 8.2
     - name: 'reading'
       score: 7.8
     - name: 'wind'
       score: 4.95
+      url: 'https://en.wikipedia.org/wiki/Wind'
     - name: 'caterpillars'
       score: 8.8
+      url: 'https://www.wildlifetrusts.org/wildlife/how-identify/identify-caterpillars'
     - name: 'gloves (cloth, wool)'
       score: 6
     - name: 'gloves (leather)'
@@ -475,29 +622,41 @@ rankings:
       score: 7
     - name: 'propeller hats'
       score: 7.9
+      url: 'https://en.wikipedia.org/wiki/Beanie_(seamed_cap)#Propellerhead'
     - name: 'lasers'
       score: 8.5
+      url: https://en.wikipedia.org/wiki/Laser
     - name: 'Bradford pear trees'
       score: 2.5
+      url: 'https://plants.ces.ncsu.edu/plants/pyrus-calleryana/'
     - name: 'palm trees'
       score: 8
+      url: 'https://en.wikipedia.org/wiki/Arecaceae'
     - name: 'DMV (office)'
       score: 1
     - name: 'hold music'
       score: 2
     - name: 'iPhones'
       score: 8.6
+      url: 'https://www.apple.com/iphone/'
     - name: 'natural disasters'
       score: 0.25
+      url: 'https://en.wikipedia.org/wiki/Natural_disaster'
     - name: 'Skee-Ball'
       score: 6.1
+      url: 'https://skeeball.com/'
     - name: 'Pokémon'
       score: 7.7
+      url: 'https://serebii.net/'
     - name: 'Tetris'
       score: 6.9
+      url: 'https://en.wikipedia.org/wiki/Tetris'
     - name: 'Wii'
       score: 9
+      url: 'https://en.wikipedia.org/wiki/Wii'
     - name: 'Nintendo (corp)'
       score: 8.9
+      url: 'https://www.nintendo.com/'
     - name: 'Tap Tap Revenge'
       score: 7.4
+      url: 'https://en.wikipedia.org/wiki/Tap_Tap_Revenge'
