@@ -58,17 +58,17 @@ Pros:
 
 Cons:
 
--   no convenient way (?) to use shared data across package test suites
-    -   `TestMain` works well within one package for multi-test setup / teardown but not across packages. A shared database connection, like for integration tests, seems to require duplicating something in each package's `TestMain`.
-    -   [https://stackoverflow.com/a/70385157](https://stackoverflow.com/a/70385157)
--   lots of `if err != nil { ... }`
-    -   But `try/catch` blocks lead to more nesting, which can hurt readability. Overall I do like Go's errors-as-values approach.
+-   no enum
 -   static typing is annoying sometimes (? probably just skill issue):
     -   no sum type (`foo | bar`) leads to duplication or awkward interface usage to provide type safety
         -   you can cast any type to `interface{}` then later perform runtime type assertion / type switching / reflection, but it's kind of gross and excessive
         -   https://zackoverflow.dev/writing/hacking-go-to-give-it-sumtypes
     -   Strictly matching JSON to struct shape when unmarshaling requires some boilerplate, especially with deeply nested properties e.g., `"message":{"likes":{"user":{"id":"00941362-d9cf-4527-8f20-761f4d563da7"}}}` ...
--   no enum
+-   no easy way (?) to use shared data across package test suites
+    -   `TestMain` works well within one package for multi-test setup / teardown but not across packages. A shared database connection, like for integration tests, seems to require duplicating something in each package's `TestMain`.
+    -   [https://stackoverflow.com/a/70385157](https://stackoverflow.com/a/70385157)
+-   lots of `if err != nil { ... }`
+    -   But `try/catch` blocks lead to more nesting, which hurts readability. Overall I like errors as values.
 
 #### Python
 
@@ -89,24 +89,27 @@ Cons:
 
 Pros:
 
--   some really elegant and handy convenience features:
+-   run natively in web browsers
+-   interact with webpage [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) elements
+-   some elegant and handy convenience features:
     -   [destructuring](https://javascript.info/destructuring-assignment)
     -   [optional chaining](https://github.com/tc39/proposal-optional-chaining)
 -   huge ecosystem
--   run natively in web browsers
 
 Cons:
 
--   not super fast
 -   goofy
     -   `Math.max() // -Infinity`
     -   `Math.min() // Infinity`
     -   `{}+[] // 0`
     -   etc.
+-   same stuff as Python, minus the indentation
 
 #### Bash
 
-Haven't used it enough to have strong opinions. Pipes are awesome. Kind of hard-to-read syntax, IMO.
+-   Pipes are awesome
+-   Kind of arcane syntax, IMO
+-   Haven't used it enough to have more concrete opinions
 
 ### Other Software
 
@@ -155,7 +158,7 @@ Cons:
 
 Pros:
 
--   rather helpful, I'd argue
+-   rather helpful
 -   generally easy and autopilot-able
 
 Cons:
