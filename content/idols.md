@@ -96,7 +96,7 @@ Terry, like many I admire, has had plenty of chances to sell out but will not. H
 
 ### Joyce Kaufman
 
-Joyce Kaufman is my grandma, who is also the kindest and most selfless person I've ever known. She lives in Elma, NY in the same decrepit farmhouse in which she raised my dad and his 5 siblings. If I had to summarize her favorite things in approximate order, they would be 1) hugs, 2) making people laugh, and 3) telling you all about how much she loved my grandpa, Sol.
+Joyce Kaufman is my grandma, who is also the kindest and most selfless person I've ever known. She lives in Elma, NY in the same decrepit farmhouse in which she raised my dad and his 5 siblings. If I had to summarize her favorite things in approximate order, they would be **1)** hugs, **2)** making people laugh, and 3) telling you all about how much she loved my grandpa, Sol.
 
 Joyce has always done her best to provide for those around her regardless of lineage or other differences. She fostered many kids and pets throughout her adult life, both temporarily and indefinitely. My aunt Jessica and uncle Dan are two such kids, and I've only known them as family because that's how Joyce treats everyone.
 

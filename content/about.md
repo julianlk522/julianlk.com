@@ -12,7 +12,7 @@ I have broad interests and volatile interest in them, so I aim to specialize in 
 
 My #1 goal is to make general information as accessible and as precise as it can be for anyone who wants it. My focus is on self-education technology. In particular, I'm building an extremely efficient, simple search engine and social bookmarking page at [FITM](https://fitm.online)&mdash;and filling it with awesome Internet treasure!
 
-My #2 goal is, through no specific means, to introduce fascinating concepts that inspire people. I love to dig through the works of great thinkers and share what seem to be cool and/or important findings. I also love to experiment and hunt for new and exciting possibilities myself, usually within music, computer programming, and _Ultimate Marvel vs. Capcom 3_. Maybe there will be other, bigger obsessions after these. Probably not.
+My #2 goal is, through no specific means, to share fascinating concepts that inspire people. I love to explore the works of great thinkers and introduce them to those who might be particularly moved. I also love to experiment and hunt for new and exciting possibilities myself, usually within music, computer programming, and _Ultimate Marvel vs. Capcom 3_. Maybe there will be other, bigger obsessions after these. Probably not.
 
 <br>
 
