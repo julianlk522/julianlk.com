@@ -660,3 +660,50 @@ rankings:
     - name: 'Tap Tap Revenge'
       score: 7.4
       url: 'https://en.wikipedia.org/wiki/Tap_Tap_Revenge'
+    - name: 'jazz'
+      score: 4.1
+    - name: 'traffic'
+      score: 3
+    - name: 'pine trees'
+      score: 6.8
+    - name: 'Madagascar (movie)'
+      score: 8.8
+      url: 'https://www.imdb.com/title/tt0351283/'
+    - name: 'goats'
+      score: 8.8
+    - name: "The Emperor's New Groove"
+      score: 8.9
+      url: 'https://www.imdb.com/title/tt0120917'
+    - name: 'waffles'
+      score: 7.2
+      url: 'https://en.wikipedia.org/wiki/Waffle'
+    - name: 'Waffle House'
+      score: 7.3
+      url: 'https://www.wafflehouse.com/'
+    - name: 'forks'
+      score: 7.5
+      url: 'https://en.wikipedia.org/wiki/Fork'
+    - name: 'eyelashes'
+      score: 4.8
+      url: 'https://en.wikipedia.org/wiki/Eyelash'
+    - name: 'Xbox 360'
+      score: 8.9
+      url: 'https://en.wikipedia.org/wiki/Xbox_360'
+    - name: 'Xbox Live (in its heyday)'
+      score: 8.9
+      url: 'https://www.youtube.com/watch?v=qlWHJ3mXRbI'
+    - name: 'Halo: Reach'
+      score: 9.2
+      url: 'https://en.wikipedia.org/wiki/Halo_Reach'
+    - name: 'Halo 4'
+      score: 8
+      url: 'https://en.wikipedia.org/wiki/Halo_4'
+    - name: 'The Binding of Isaac'
+      score: 8.7
+      url: 'https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki'
+    - name: 'Spelunky'
+      score: 8.5
+      url: 'https://www.spelunkyworld.com/'
+    - name: 'Spelunky 2'
+      score: 7.5
+      url: 'https://en.wikipedia.org/wiki/Spelunky_2'

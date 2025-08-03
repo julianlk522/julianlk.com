@@ -10,11 +10,11 @@ I have broad interests and volatile interest in them, so I aim to specialize in 
 
 My #1 goal is to make general information as accessible and as precise as it can be for whoever wants it. For now, I'm building an extremely efficient, simple search engine and social bookmarking page at [FITM](https://fitm.online)&mdash;and filling it with awesome Internet treasure!
 
-My #2 goal is, through no specific means, to spread cool ideas that inspire many people.
+My #2 goal is, through no specific means, to spread cool ideas that inspire people. I enjoy both the search for obscure, known ideas and the experimenting to produce new ones. Some of my favorite environments for that are computer programming, music, and _Ultimate Marvel vs. Capcom 3_.
 
 <br>
 
-<b>For a better sense of who I am, consider reading [Ranking List of Everything](../rankings/) or [Tribute to my Idols](../idols/)</b>
+<b>For a better sense of who I am, consider reading [Rankings](../rankings/) or [Idols](../idols/)</b>
 
 <br>
 

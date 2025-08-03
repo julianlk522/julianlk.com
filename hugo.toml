@@ -14,12 +14,10 @@ enableGitInfo = true
     ordered = false
 
 [params]
-description = "Fun things to think about"
+description = "Thoughts and compilations"
 listDataFormat = '2 Jan 2006'
 
-homeIntroContent = """
-You've reached the personal website of Julian Lindsay-Kaufman... Prepare for your imminent doom! Or, enjoy some (hopefully helpful) thoughts and compilations.
-"""
+homeIntroContent = "JLK"
 
 [[params.menu]]
 name = "home"
