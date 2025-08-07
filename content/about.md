@@ -20,4 +20,4 @@ My #2 goal is, through no specific means, to spread cool ideas that inspire peop
 
 <strong>Disclaimer</strong>: Views expressed here are mine, not my employer's.
 
-<strong>Disclaimer 2</strong>: I change my mind sometimes. (Wow! Blasphemy.) Don't assume any opinions given here are permanent. I'm also picky about wording and will adjust it frequently.
+<strong>Disclaimer 2</strong>: I change my mind sometimes. (Wow! Blasphemy.) Don't assume any opinions given here are permanent. I'm also picky about wording and will adjust it sometimes.
