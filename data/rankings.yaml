@@ -59,7 +59,7 @@ rankings:
       score: 7.3
       url: 'https://www.typescriptlang.org/'
     - name: 'YouTube'
-      score: 9.7
+      score: 9.6
       url: 'https://www.youtube.com/'
     - name: 'Necrophagist'
       score: 9.2
@@ -84,7 +84,7 @@ rankings:
     - name: 'Anki'
       score: 7.3
       url: 'https://apps.ankiweb.net/'
-    - name: 'Obsidian (markdown editor)'
+    - name: 'Obsidian'
       score: 8.1
       url: 'https://obsidian.md/'
     - name: 'VS Code'
@@ -116,7 +116,7 @@ rankings:
     - name: 'RSS'
       score: 7.2
       url: 'https://en.wikipedia.org/wiki/RSS'
-    - name: 'Notion (note-taking)'
+    - name: 'Notion'
       score: 6.9
       url: 'https://www.notion.so/'
     - name: 'bookmarklets'
@@ -143,7 +143,7 @@ rankings:
     - name: 'Hacker News'
       score: 9.8
       url: 'https://news.ycombinator.com/'
-    - name: 'trading (speculative investment)'
+    - name: 'trading'
       score: 7.8
       url: 'https://www.trendfollowing.com/whitepaper/Edwin_LeFevre_Reminiscences_of_a_Stock_Operator.pdf'
     - name: 'October'
@@ -194,7 +194,7 @@ rankings:
       score: 6.9
       url: 'https://www.ted.com/'
     - name: 'hayd3nplz combos'
-      score: 9.8
+      score: 10
       url: 'https://www.youtube.com/watch?v=q-zwUkDGD9s'
     - name: 'shader art'
       score: 7.8
@@ -235,7 +235,7 @@ rankings:
       url: 'https://www.youtube.com/watch?v=ng4Dce-mZRg'
     - name: 'fire'
       score: 8.3
-    - name: 'VersaClimber (machine)'
+    - name: 'VersaClimber machines'
       score: 8.6
       url: 'https://www.espn.com/nba/story/_/id/19389249/nba-cavs-favor-machine-training-edge'
     - name: 'press rolls (more points for smoothness)'
@@ -468,8 +468,8 @@ rankings:
       score: 7.6
     - name: 'overhead fans'
       score: 7.3
-    - name: 'loud incessant noises'
-      score: 0.75
+    - name: 'loud, incessant noises'
+      score: 1
       url: 'https://unsplash.com/photos/smiling-baby-lying-forward-on-pink-textile-uFCkcE6GI40'
     - name: 'moving (homes)'
       score: 4
@@ -512,7 +512,7 @@ rankings:
       score: 6.7
       url: 'https://react.dev/'
     - name: 'crazy drivers'
-      score: 0.5
+      score: 0.25
       url: 'https://www.miami.gov/'
     - name: 'LinkedIn'
       score: 0.75
@@ -550,7 +550,7 @@ rankings:
     - name: 'lions'
       score: 8.8
     - name: 'high frequency trading'
-      score: 0.25
+      score: 0.15
       url: 'https://en.wikipedia.org/wiki/High-frequency_trading'
     - name: 'velcro'
       score: 6.5
@@ -571,7 +571,7 @@ rankings:
       score: 1
     - name: 'peanuts'
       score: 7.5
-    - name: 'Praise the Sun (gesture)'
+    - name: 'Praise the Sun'
       score: 8.9
       url: 'https://www.reddit.com/r/darksouls/comments/1l1gfm6/praise_the_sun/'
     - name: 'elementary school'
@@ -592,9 +592,9 @@ rankings:
     - name: 'silence'
       score: 9.1
     - name: 'Soreption (with Anton Svedin)'
-      score: 9.7
+      score: 9.8
       url: 'https://uniqueleaderrecords.bandcamp.com/album/deterioration-of-minds-2'
-    - name: 'Apple (corp)'
+    - name: 'Apple'
       score: 7.4
       url: 'https://www.apple.com/'
     - name: 'apple (fruit)'
@@ -636,11 +636,11 @@ rankings:
       score: 1
     - name: 'hold music'
       score: 2
-    - name: 'iPhones'
+    - name: 'iPhone'
       score: 8.6
       url: 'https://www.apple.com/iphone/'
     - name: 'natural disasters'
-      score: 0.25
+      score: 0.05
       url: 'https://en.wikipedia.org/wiki/Natural_disaster'
     - name: 'Skee-Ball'
       score: 6.1
@@ -654,7 +654,7 @@ rankings:
     - name: 'Wii'
       score: 9
       url: 'https://en.wikipedia.org/wiki/Wii'
-    - name: 'Nintendo (corp)'
+    - name: 'Nintendo'
       score: 8.9
       url: 'https://www.nintendo.com/'
     - name: 'Tap Tap Revenge'
@@ -666,7 +666,7 @@ rankings:
       score: 3
     - name: 'pine trees'
       score: 6.8
-    - name: 'Madagascar (movie)'
+    - name: 'Madagascar'
       score: 8.8
       url: 'https://www.imdb.com/title/tt0351283/'
     - name: 'goats'
@@ -707,3 +707,12 @@ rankings:
     - name: 'Spelunky 2'
       score: 7.5
       url: 'https://en.wikipedia.org/wiki/Spelunky_2'
+    - name: 'Learned Optimism by Martin Seligman'
+      score: 8.2
+      url: 'https://en.wikipedia.org/wiki/Learned_optimism'
+    - name: 'Tools of Titans by Tim Ferriss'
+      score: 8
+      url: 'https://toolsoftitans.com/'
+    - name: 'Stumbling on Happiness by Daniel Gilbert'
+      score: 8.6
+      url: 'https://en.wikipedia.org/wiki/Stumbling_on_Happiness'
