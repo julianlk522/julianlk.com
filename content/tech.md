@@ -28,7 +28,7 @@ Disclaimer: There is a lot to know about some of these, and I don't grasp anywhe
 -   [**Astro.js**](https://astro.build/) (frontend framework allowing fine blending of server-side rendering and pockets of isolated interactivity)
 -   [**tmux**](https://github.com/tmux/tmux/wiki) (terminal multiplexer / macro enabler / persistent session)
 -   [**fzf**](https://junegunn.github.io/fzf/) (command-line fuzzy finder)
--   [**direnv**](https://direnv.net/) (easy directory-specific, file-based loading/unloading of environment variables)
+-   [**direnv**](https://direnv.net/) (easy, directory-specific, file-based loading/unloading of environment variables)
 -   [**Bruno**](https://github.com/usebruno/bruno) (lightweight API testing - Postman alternative)
 -   [**Cisco PacketTracer**](https://en.wikipedia.org/wiki/Packet_Tracer) (networking simulation and visualization)
 
