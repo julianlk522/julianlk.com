@@ -4,9 +4,9 @@ date = 2024-08-09T16:06:20-04:00
 draft = false
 +++
 
-This is an open letter of gratitude to some wonderful people. For a handful of reasons, I really admire them and they have significantly influenced my core values and dreams.
+This is an open letter of gratitude to some people whom I admire. They have significantly influenced my core values and dreams.
 
-My goal is both to give thanks and to introduce their incredible stories, providing a few of the many remarkable details.
+My goal is both to give thanks and to shed light on their insane stories, providing a few of the many remarkable details.
 
 ### Ron Jarzombek
 
@@ -66,7 +66,7 @@ Still, he often came out ahead. Not only that, he would often conjure some mysti
 
 Years later, I still replay Justin's early-Mahvel-era matches. If he did that, what else might be possible that few believe in?
 
-Incidentally, in the decade-plus and tens of thousands of matches I have experienced as a player and spectator, Justin Wong is the only player I have ever seen to attempt&mdash;let alone pull off&mdash;the same-side overhead mixup from the Evo 2013 clip linked above. It's extremely risky&mdash;certain death if anticipated. He did it twice as far as I know: once then against Flocker, and once more [here](https://youtu.be/ojYshX0FOBg?si=KqFPASucShQap0gn&t=95) in 2022 against Chris G, nearly 10 years later. Chris G is another Evo champion and multi-time finalist who is known for composure and defensive skill; Chris G blocks everything. The absurdness of attempting that mixup, twice, against these two titan-like players, including in the final rounds of the world's largest tournament, waiting a decade in-between, and it actually succeeding both times, is hilariously epic.
+Incidentally, in the decade-plus and tens of thousands of matches I have experienced as a player and spectator, Justin Wong is the only player I have ever seen to attempt&mdash;let alone pull off&mdash;the same-side overhead mixup from the Evo 2013 clip linked above. It's extremely risky&mdash;certain death if anticipated. He attempted it 3 times ever as far as I know: once then against Flocker, once [here](https://youtu.be/AxgynFdWy4Q?si=50YKTzjw02LvB9Fu&t=98) in 2016 against Jibrill, and once more [here](https://youtu.be/ojYshX0FOBg?si=KqFPASucShQap0gn&t=95) in 2022 against Chris G. Chris G and Jibrill later claimed Evo championships themselves, and are considered some of the strongest players of all time, demonstrating elite competitive composure and defensive skill. The absurdness of attempting that mixup against these titan-level players, including in the final rounds of the world's largest tournament, waiting years in-between, and it succeeding every time, is supremely epic.
 
 ### Tim Ferriss
 

@@ -5,10 +5,6 @@ hide_lastmod = true
 draft = false
 +++
 
-(in the voice of Dr. Evil)
-
-Welcome to my underground lair!
-
-<br>
-
-Enjoy some disorganized thoughts and compilations.
+-   [Email](mailto:julianlindsaykaufman@gmail.com)
+-   [GitHub](https://www.github.com/julianlk522)
+-   [LinkedIn](https://www.linkedin.com/in/julian-lindsay-kaufman-b73292303/)

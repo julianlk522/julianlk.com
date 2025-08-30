@@ -159,7 +159,7 @@ rankings:
       url: 'https://en.wikipedia.org/wiki/James_Brown'
     - name: 'pickled cabbage'
       score: 7.7
-    - name: 'Ron Jarzombek (mixed acts)'
+    - name: 'Ron Jarzombek (music, mixed acts)'
       score: 9.3
       url: 'http://www.ronjarzombek.com/index.html'
     - name: 'early mornings'
@@ -173,7 +173,7 @@ rankings:
       score: 7.4
       url: 'https://discord.com/'
     - name: 'IFC Yipes commentary'
-      score: 9.6
+      score: 9
       url: 'https://www.youtube.com/watch?v=nxmmT9kJB9U'
     - name: 'An Endless Sporadic'
       score: 8.9
@@ -187,7 +187,7 @@ rankings:
     - name: 'ragdoll physics'
       score: 8.2
       url: 'https://www.newgrounds.com/portal/view/218014'
-    - name: 'Mark Lettieri'
+    - name: 'Mark Lettieri (music)'
       score: 8.8
       url: 'https://www.marklettieri.com/bio'
     - name: 'TED Talks'

@@ -32,8 +32,4 @@ url = "/"
         name = 'About'
         pageRef = '/about'
         weight = '20'
-    [[menus.main]]
-        name = 'Contact'
-        pageRef = '/contact'
-        weight = '30'
     
