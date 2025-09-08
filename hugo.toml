@@ -17,8 +17,6 @@ enableGitInfo = true
 description = "Thoughts and compilations"
 listDataFormat = '2 Jan 2006'
 
-homeIntroContent = "JLK"
-
 [[params.menu]]
 name = "home"
 url = "/"

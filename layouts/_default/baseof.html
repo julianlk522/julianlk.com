@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}">
 	<head>
-		<title>
-			{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title
-			}}
-		</title>
+		<title>{{ .Title | title }} | {{ .Site.Title }}</title>
 		<link rel="canonical" href="{{ .Site.BaseURL }}" />
 		<link
 			rel="alternate"
