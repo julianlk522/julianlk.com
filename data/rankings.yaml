@@ -246,7 +246,7 @@ rankings:
       score: 8.4
       url: 'https://www.schwab.com/trading/thinkorswim'
     - name: 'claude.ai'
-      score: 9.9
+      score: 9.8
       url: 'https://claude.ai/'
     - name: 'ultimate frisbee'
       score: 7.8
@@ -285,8 +285,6 @@ rankings:
     - name: 'chess'
       score: 7.9
       url: 'https://www.chess.com'
-    - name: 'confusion'
-      score: 4
     - name: 'anxiety'
       score: 2.5
     - name: 'pride'
@@ -364,7 +362,7 @@ rankings:
       score: 7.2
       url: 'https://app.diagrams.net/'
     - name: 'podcasts'
-      score: 9.1
+      score: 9
       url: 'https://fitm.online/search?cats=podcasts'
     - name: 'Google Docs'
       score: 7.5
@@ -472,7 +470,7 @@ rankings:
       score: 1
       url: 'https://unsplash.com/photos/smiling-baby-lying-forward-on-pink-textile-uFCkcE6GI40'
     - name: 'moving (homes)'
-      score: 4
+      score: 2.9
     - name: 'LEGOs'
       score: 7.6
       url: 'https://www.lego.com/'
@@ -627,7 +625,7 @@ rankings:
       score: 8.5
       url: https://en.wikipedia.org/wiki/Laser
     - name: 'Bradford pear trees'
-      score: 2.5
+      score: 2
       url: 'https://plants.ces.ncsu.edu/plants/pyrus-calleryana/'
     - name: 'palm trees'
       score: 8
@@ -635,7 +633,7 @@ rankings:
     - name: 'DMV (office)'
       score: 1
     - name: 'hold music'
-      score: 2
+      score: 2.4
     - name: 'iPhone'
       score: 8.6
       url: 'https://www.apple.com/iphone/'
@@ -716,3 +714,18 @@ rankings:
     - name: 'Stumbling on Happiness by Daniel Gilbert'
       score: 8.6
       url: 'https://en.wikipedia.org/wiki/Stumbling_on_Happiness'
+    - name: 'Pixar movies'
+      score: 9.3
+      url: 'https://en.wikipedia.org/wiki/The_Incredibles'
+    - name: 'bubble wrap'
+      score: 7.5
+      url: 'https://en.wikipedia.org/wiki/Bubble_wrap'
+    - name: 'perfectly "peeling" a hard-boiled egg'
+      score: 7.2
+      url: 'https://youtu.be/PN2gYHJNT3Y'
+    - name: 'Nerf guns'
+      score: 7.5
+      url: 'https://en.wikipedia.org/wiki/Nerf'
+    - name: 'troubleshooting printer problems'
+      score: 'literal hell on earth'
+    
