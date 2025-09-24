@@ -11,7 +11,7 @@ rankings:
     - name: 'TD Ameritrade'
       score: 6.6
     - name: 'Venetian Snares'
-      score: 8.3
+      score: 8.5
       url: 'https://venetiansnares.bandcamp.com/album/meathole'
     - name: 'water'
       score: 10
@@ -62,7 +62,7 @@ rankings:
       score: 9.6
       url: 'https://www.youtube.com/'
     - name: 'Necrophagist'
-      score: 9.2
+      score: 9.1
       url: 'https://en.wikipedia.org/wiki/Necrophagist'
     - name: 'Meshuggah'
       score: 7.7
@@ -108,7 +108,7 @@ rankings:
       url: 'https://neovim.io/'
     - name: 'photography'
       score: 6
-    - name: 'Austin Powers'
+    - name: 'Austin Powers (series)'
       score: 9.6
       url: 'https://en.wikipedia.org/wiki/Austin_Powers'
     - name: 'Greek yogurt'
@@ -200,7 +200,7 @@ rankings:
       score: 7.8
       url: 'https://www.shadertoy.com/'
     - name: 'Khan Academy'
-      score: 8.7
+      score: 7.5
       url: 'https://www.khanacademy.org/'
     - name: 'allergies'
       score: 0
@@ -219,7 +219,7 @@ rankings:
       score: 9
       url: 'https://en.wikipedia.org/wiki/Bakarwadi'
     - name: 'Pendulum'
-      score: 8.5
+      score: 8.3
       url: 'https://www.youtube.com/watch?v=931PQwTA79k'
     - name: "DnB that isn't Pendulum"
       score: 7.5
@@ -234,7 +234,7 @@ rankings:
       score: 8.7
       url: 'https://www.youtube.com/watch?v=ng4Dce-mZRg'
     - name: 'fire'
-      score: 8.3
+      score: 8.7
     - name: 'VersaClimber machines'
       score: 8.6
       url: 'https://www.espn.com/nba/story/_/id/19389249/nba-cavs-favor-machine-training-edge'
@@ -392,7 +392,7 @@ rankings:
     - name: 'pizza'
       score: 7.4
     - name: '3Blue1Brown'
-      score: 8.9
+      score: 9.1
       url: 'https://www.3blue1brown.com/'
     - name: 'ginger ale'
       score: 7.8
@@ -527,7 +527,7 @@ rankings:
       score: 7
       url: 'https://en.wikipedia.org/wiki/Outliers_(book)'
     - name: 'The Righteous Mind by Jonathan Haidt'
-      score: 9
+      score: 8.9
       url: 'https://jonathanhaidt.com/'
     - name: 'Anything You Want by Derek Sivers'
       score: 9
@@ -536,7 +536,7 @@ rankings:
       score: 8
       url: 'https://en.wikipedia.org/wiki/The_Paradox_of_Choice'
     - name: 'video game glitches'
-      score: 8.9
+      score: 9
       url: 'https://www.youtube.com/watch?v=DOR-XL_N9HE'
     - name: 'gongs'
       score: 8.1
@@ -571,7 +571,7 @@ rankings:
       score: 7.5
     - name: 'Praise the Sun'
       score: 8.9
-      url: 'https://www.reddit.com/r/darksouls/comments/1l1gfm6/praise_the_sun/'
+      url: 'https://en.wikipedia.org/wiki/Solaire_of_Astora'
     - name: 'elementary school'
       score: 8
       url: 'https://en.wikipedia.org/wiki/Elementary_schools_in_the_United_States'
@@ -700,7 +700,7 @@ rankings:
       score: 8.7
       url: 'https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki'
     - name: 'Spelunky'
-      score: 8.5
+      score: 8.3
       url: 'https://www.spelunkyworld.com/'
     - name: 'Spelunky 2'
       score: 7.5
@@ -712,7 +712,7 @@ rankings:
       score: 8
       url: 'https://toolsoftitans.com/'
     - name: 'Stumbling on Happiness by Daniel Gilbert'
-      score: 8.6
+      score: 8.4
       url: 'https://en.wikipedia.org/wiki/Stumbling_on_Happiness'
     - name: 'Pixar movies'
       score: 9.3
@@ -728,4 +728,13 @@ rankings:
       url: 'https://en.wikipedia.org/wiki/Nerf'
     - name: 'troubleshooting printer problems'
       score: 'literal hell on earth'
-    
+    - name: 'lava lamps'
+      score: 8.1 
+      url: 'https://www.youtube.com/watch?v=u6Y2oxV2TrI&t=67s'
+    - name: 'tamarind'
+      score: 8.3
+      url: 'https://en.wikipedia.org/wiki/Tamarind'
+    - name: 'absurdity (in moderation)'
+      score: 9.2
+      url: 'https://www.youtube.com/watch?v=fzJrH_DR6SY&t=427s'
+
