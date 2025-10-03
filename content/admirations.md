@@ -1,16 +1,16 @@
 +++
-title = 'Idols'
+title = 'Admirations'
 date = 2024-08-09T16:06:20-04:00
 draft = false
 +++
 
-This is an open letter of gratitude to some people whom I admire. They have significantly influenced my core values and dreams.
+This is an open letter of gratitude to some great people who have significantly influenced my core values and dreams.
 
-My goal is both to give thanks and to shed light on their insane stories, providing a few of the many remarkable details.
+This is both to give thanks and to shed light on a few of the many remarkable details from these these individuals' stories.
 
 ### Ron Jarzombek
 
-[Ron Jarzombek](http://www.ronjarzombek.com/) is easily one of the most creative and dedicated musicians I know of. He's an elite, diabolical mad scientist, and a prolific inspirer and teacher.
+[Ron Jarzombek](http://www.ronjarzombek.com/) is easily one of the most creative and dedicated musicians I know of. He's an elite, diabolical mad scientist, inspiring visionary, and teacher.
 
 One fun thing that separates Ron from other guitarists is his knack for scoring songs to film. _The Animation of Entomology_, for example, is [entirely scored to horror films](https://www.reddit.com/r/progmetal/comments/18n8k99/ive_reconstructed_blotted_science_the_animation/). It also manages to use _bugs_ as the main agent of horror rather than the standard, cliched gory metal stuff, _and_ it's a complete technical rollercoaster. Quite the album! The themes of Ron's music are not thematically limited to horror either. I was lucky to discover [The Cereal Mouse](https://www.youtube.com/watch?v=RztR4E12dGU) as a kid because someone made a [Tap Tap Reloaded track](https://www.youtube.com/watch?v=woP3CtkvBkI) for it. It's scored to Charlotte's Web and sounds nothing like the bug metal. Still thoroughly adorned with nuanced technical wizardry, but more giddy and goofy than dark and creepy this time. It strikes an impossible balance of unpredictable yet perfectly coherent. Pretty much only Ron can write music like that.
 
@@ -70,7 +70,7 @@ Incidentally, in the decade-plus and tens of thousands of matches I have experie
 
 ### Tim Ferriss
 
-[Tim Ferriss](https://tim.blog/) does many things, but I am most grateful for his work on _The Tim Ferriss Show_. Like [Annie Rauwerda]({{< ref "/idols#annie-rauwerda-depths-of-wikipedia">}}), Tim is one of the best at hunting for potential _unknown unknowns_ in our crazy, complex world's infinitely broad catalogue of striking features and possibilities, and curating them into fun, valuable snack packets. His podcasts are typically interviews/conversations and have involved a far-reaching lineup of guests over the years. It has by far the highest-quality average episode of the podcasts I've tried.
+[Tim Ferriss](https://tim.blog/) does many things, but I am most grateful for his work on _The Tim Ferriss Show_. Like [Annie Rauwerda]({{< ref "/admirations#annie-rauwerda-depths-of-wikipedia">}}), Tim is one of the best at hunting for potential _unknown unknowns_ in our crazy, complex world's infinitely broad catalogue of striking features and possibilities, and curating them into fun, valuable snack packets. His podcasts are typically interviews/conversations and have involved a far-reaching lineup of guests over the years. It has by far the highest-quality average episode of the podcasts I've tried.
 
 What makes the podcast so good? A fine blend of unusual and thought-provoking subject matter, great questions (often the same or variations of each other&mdash;because they work well), focused conversions with few detours, a willingness to congratulate and empower rivals (the opposite is a red flag indicating selfish ulterior motives), and a refreshing sincerity seldom found in other shows.
 

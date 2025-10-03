@@ -18,4 +18,4 @@ My #2 goal is to make general information as accessible and precise as it can be
 
 <br>
 
-<b>For a better sense of who I am, consider reading [Rankings](../rankings/) or [Idols](../idols/)</b>
+<b>For a better sense of who I am, consider reading [Rankings](../rankings/) or [Admirations](../admirations/)</b>
