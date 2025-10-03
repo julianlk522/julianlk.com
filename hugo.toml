@@ -27,7 +27,7 @@ url = "/"
         pageRef = '/'
         weight = '10'
     [[menus.main]]
-        name = 'About'
-        pageRef = '/about'
+        name = 'Contact'
+        pageRef = '/contact'
         weight = '20'
     

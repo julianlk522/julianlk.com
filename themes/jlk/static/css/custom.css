@@ -26,7 +26,7 @@ img {
 
 h1 {
 	font-size: 2rem;
-	margin-bottom: 0;
+	margin-bottom: 1rem;
 }
 
 p#last-updated {
@@ -37,6 +37,10 @@ p#last-updated {
 
 h2 {
 	font-size: 1.5rem;
+}
+
+h2#page-list {
+	margin-top: 1rem;
 }
 
 h6 {

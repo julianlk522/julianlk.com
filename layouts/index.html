@@ -1,6 +1,34 @@
 {{ define "title" }}{{ "Julian Lindsay-Kaufman" }}{{ end }} {{ define "main" }}
 
-<h2>Pages</h2>
+<img 
+	src="/lil-jlk.JPG" 
+	title="Julian baby pic" 
+	alt="Julian baby pic"
+	width='150' 
+	style='float: left; margin-right: 2rem;'
+/>
+
+<p style='margin-top: 0;'>I like to learn about the world and cool things people have done.</p>
+
+<p>My particular interests are volatile so I aim to specialize in generalizing.</p>
+
+<br>
+
+<p>My #1 goal is, through no specific means, to contribute to the exchange of exciting, inspiring ideas.</p>
+
+<p>My #2 goal is to make general information as accessible and precise as it can be for whoever wants it.</p>
+
+<br>
+
+<p>
+	<b>
+		For a better sense of who I am, consider reading <a href="/rankings">Rankings</a> or <a href="/admirations">Admirations</a>.
+	</b>
+</p>
+
+<br>
+
+<h2 id="page-list">Pages</h2>
 <ul>
 	{{- $mainMenuPageLinks := slice }} {{- range .Site.Menus.main }} {{-
 	$mainMenuPageLinks = $mainMenuPageLinks | append .URL }} {{- end }} {{-
@@ -13,7 +41,5 @@
 	</li>
 	{{- end }} {{- end }}
 </ul>
-
-<hr>
 
 {{ .Content }} {{ end }}
